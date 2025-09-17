@@ -34,7 +34,7 @@ def description():
 
 
 def version():
-    return 'Version 8.5.0 - Infinity'
+    return 'Student version (fork 8.5.0)'
 
 
 def icon():
