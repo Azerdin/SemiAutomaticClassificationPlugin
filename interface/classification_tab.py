@@ -393,7 +393,7 @@ def run_classifier(
     cfg.ui_utils.add_progress_bar()
     # classification
     if preview_point is None:
-        bandset = bandset_number
+        bandset = deepcopy(bandset_x)
         finish_sound = True
         smtp = str(__name__)
     # classification preview
@@ -492,6 +492,47 @@ def run_classifier(
             load_classifier = cfg.classifier_preview
     # run classification
     try:
+        # import debugpy
+
+        # # ustawienie portu, np. 5678
+        # debugpy.listen(("localhost", 5678))
+
+        # # wstrzymanie wtyczki do momentu podłączenia debuggera
+        # print("Waiting for debugger to attach…")
+        # debugpy.wait_for_client()
+
+        # # faktyczny breakpoint
+        # debugpy.breakpoint()
+        print('Running classification...')
+        print("input_bands:", bandset)
+        print("output_path:", output_path)
+        print("spectral_signatures:", dir(signature_catalog))
+        print("macroclass:", macroclass)
+        print("algorithm_name:", classifier_name)
+        print("bandset_catalog:", dir(cfg.bandset_catalog))
+        print("threshold:", threshold)
+        print("signature_raster:", signature_raster)
+        print("cross_validation:", cross_validation)
+        print("input_normalization:", input_normalization)
+        print("load_classifier:", load_classifier)
+        print("class_weight:", class_weight)
+        print("find_best_estimator:", find_best_estimator)
+        print("rf_max_features:", rf_max_features)
+        print("rf_number_trees:", rf_number_trees)
+        print("rf_min_samples_split:", rf_min_samples_split)
+        print("svm_c:", svm_c)
+        print("svm_gamma:", svm_gamma)
+        print("svm_kernel:", svm_kernel)
+        print("mlp_training_portion:", mlp_training_portion)
+        print("mlp_alpha:", mlp_alpha)
+        print("mlp_learning_rate_init:", mlp_learning_rate_init)
+        print("mlp_max_iter:", mlp_max_iter)
+        print("mlp_batch_size:", mlp_batch_size)
+        print("mlp_activation:", mlp_activation)
+        print("mlp_hidden_layer_sizes:", mlp_hidden_layer_sizes)
+        print("classification_confidence:", classification_confidence)
+        print("only_fit:", only_fit)
+        print("save_classifier:", save_classifier)
         output = cfg.rs.band_classification(
             input_bands=bandset, output_path=output_path,
             spectral_signatures=signature_catalog,
@@ -513,6 +554,7 @@ def run_classifier(
             classification_confidence=classification_confidence,
             only_fit=only_fit, save_classifier=save_classifier
         )
+        print('output:', output)
     except Exception as err:
         cfg.logger.log.error(str(err))
         output = None
