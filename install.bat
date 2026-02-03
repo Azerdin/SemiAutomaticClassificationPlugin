@@ -1,21 +1,26 @@
-@ECHO OFF
+@echo off
 
-if "%1"=="" (
-    echo "Missing parameter with disk name"
+if "%~1"=="" (
+    echo Missing disk letter
     exit /b 1
 )
 
-if "%2"=="" (
-    echo "Missing parameter with user name"
+if "%~2"=="" (
+    echo Missing user name
     exit /b 1
 )
 
-set "pluginPath=%1:\Users\%2\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins"
+set "DRIVE=%~1"
+set "USER=%~2"
 
-if exist "%pluginPath%" (
-    rmdir /s /q "%pluginPath%"
+set "DEST=%DRIVE%:\Users\%USER%\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\SemiAutomaticClassificationPlugin"
+
+if exist "%DEST%" (
+    rmdir /s /q "%DEST%"
 )
 
-xcopy /E /I /Y "%CD%\.." "%pluginPath%"
+mkdir "%DEST%"
+
+robocopy "%cd%" "%DEST%" /E /R:2 /W:1
 
 exit /b 0
