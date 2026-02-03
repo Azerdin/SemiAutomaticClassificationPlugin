@@ -10,7 +10,7 @@ if "%2"=="" (
     exit /b 1
 )
 
-set "pluginPath=%1\Users\%2\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins"
+set "pluginPath=%1:\Users\%2\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins"
 
 if exist "%pluginPath%" (
     rmdir /s /q "%pluginPath%"
