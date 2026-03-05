@@ -29,6 +29,14 @@ from qgis.core import (
     QgsCoordinateReferenceSystem
 )
 
+from pathlib import Path
+
+def load_geopackage_to_memory_layer(gpkg_path):
+    src_layer = QgsVectorLayer(gpkg_path, Path(gpkg_path).name, 'ogr')
+    if not src_layer.isValid():
+        return None
+    return src_layer.materialize(QgsFeatureRequest())
+
 cfg = __import__(str(__name__).split('.')[0] + '.core.config', fromlist=[''])
 
 

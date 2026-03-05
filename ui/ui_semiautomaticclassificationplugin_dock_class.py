@@ -446,6 +446,17 @@ class Ui_DockClass(object):
         self.button_Save_ROI.setIconSize(QtCore.QSize(22, 22))
         self.button_Save_ROI.setObjectName("button_Save_ROI")
         self.horizontalLayout.addWidget(self.button_Save_ROI)
+
+        # self.button_Save_ROI_And_Remove_Outliers = QtWidgets.QToolButton(self.tab_2)
+        # self.button_Save_ROI_And_Remove_Outliers = QtWidgets.QToolButton(self.tab_2)
+        # self.button_Save_ROI_And_Remove_Outliers.setStyleSheet("margin: 0px;padding: 0px;")
+        # icon21 = QtGui.QIcon()
+        # icon21.addPixmap(QtGui.QPixmap(":/plugins/semiautomaticclassificationplugin/icons/semiautomaticclassificationplugin_save_roi.svg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        # self.button_Save_ROI_And_Remove_Outliers.setIcon(icon21)
+        # self.button_Save_ROI_And_Remove_Outliers.setIconSize(QtCore.QSize(22, 22))
+        # self.button_Save_ROI_And_Remove_Outliers.setObjectName("button_Save_ROI")
+        # self.horizontalLayout.addWidget(self.button_Save_ROI_And_Remove_Outliers)
+
         self.verticalLayout_2.addLayout(self.horizontalLayout)
         self.gridLayout_7.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
         icon22 = QtGui.QIcon()

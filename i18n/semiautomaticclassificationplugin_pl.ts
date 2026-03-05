@@ -4110,6 +4110,11 @@ size</source>
         <translation>Stwórz poligon OT</translation>
     </message>
     <message>
+        <location filename="../interface/input_interface.py" line="438"/>
+        <source>Remove outliers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../interface/input_interface.py" line="446"/>
         <source>Activate ROI pointer</source>
         <translation>Aktywuj wskaźnik OT</translation>

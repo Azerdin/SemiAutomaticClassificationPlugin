@@ -24,15 +24,14 @@
 import numpy as np
 from osgeo import gdal, ogr, osr
 
-cfg = __import__(str(__name__).split('.')[0] + '.core.config', fromlist=[''])
+cfg = __import__(str(__name__).split(".")[0] + ".core.config", fromlist=[""])
 
 """ GDAL functions """
 
 
 # read a block of band as array
 def read_array_block(
-        gdal_band, start_column, start_row, block_columns, block_rows,
-        calc_data_type=None
+    gdal_band, start_column, start_row, block_columns, block_rows, calc_data_type=None
 ):
     if calc_data_type is None:
         calc_data_type = np.float32
@@ -51,9 +50,9 @@ def read_array_block(
     scale = np.asarray(scale).astype(calc_data_type)
     try:
         array = np.asarray(
-            gdal_band.ReadAsArray(
-                start_column, start_row, block_columns, block_rows
-            ) * scale + offset
+            gdal_band.ReadAsArray(start_column, start_row, block_columns, block_rows)
+            * scale
+            + offset
         ).astype(calc_data_type)
     except Exception as err:
         str(err)
@@ -76,8 +75,12 @@ def read_raster(raster_path):
         if scale < 1 or scale > 1:
             calc_data_type = np.float32
     r_array = read_array_block(
-        gdal_band=band, start_column=0, start_row=0, block_columns=x_count,
-        block_rows=y_count, calc_data_type=calc_data_type
+        gdal_band=band,
+        start_column=0,
+        start_row=0,
+        block_columns=x_count,
+        block_rows=y_count,
+        calc_data_type=calc_data_type,
     )
     return r_array
 
@@ -107,7 +110,7 @@ def get_crs_gdal(path):
             try:
                 # check projections
                 crs = opened_vector.GetProjection()
-                crs = crs.replace(' ', '')
+                crs = crs.replace(" ", "")
                 if len(crs) == 0:
                     crs = None
             except Exception as err:
@@ -120,7 +123,7 @@ def get_crs_gdal(path):
         proj = layer.GetSpatialRef()
         try:
             crs = proj.ExportToWkt()
-            crs = crs.replace(' ', '')
+            crs = crs.replace(" ", "")
             if len(crs) == 0:
                 crs = None
         except Exception as err:
@@ -148,35 +151,12 @@ def compare_crs(first_crs, second_crs):
 
 # Get GDAL version
 def get_gdal_version():
-    v = gdal.VersionInfo('RELEASE_NAME').split('.')
+    v = gdal.VersionInfo("RELEASE_NAME").split(".")
     return v
 
 
 # create a polygon shapefile with OGR
-def create_empty_shapefile_ogr(
-        crs_wkt, output_path, vector_format='ESRI Shapefile'
-):
-    try:
-        crs_wkt = str(crs_wkt.toWkt())
-    except Exception as err:
-        str(err)
-    driver = ogr.GetDriverByName(vector_format)
-    _source = driver.CreateDataSource(output_path)
-    spatial_reference = osr.SpatialReference()
-    spatial_reference.ImportFromWkt(crs_wkt)
-    name = cfg.rs.files_directories.file_name(output_path)
-    _layer = _source.CreateLayer(
-        name, spatial_reference, ogr.wkbMultiPolygon
-    )
-    field = ogr.FieldDefn(cfg.empty_field_name, ogr.OFTInteger)
-    _layer.CreateField(field)
-    _layer = None
-    _source = None
-    cfg.logger.log.debug('create_vector_ogr: %s' % output_path)
-
-
-# create a polygon gpkg with OGR
-def create_vector_ogr(crs_wkt, output_path, vector_format='GPKG'):
+def create_empty_shapefile_ogr(crs_wkt, output_path, vector_format="ESRI Shapefile"):
     try:
         crs_wkt = str(crs_wkt.toWkt())
     except Exception as err:
@@ -191,7 +171,26 @@ def create_vector_ogr(crs_wkt, output_path, vector_format='GPKG'):
     _layer.CreateField(field)
     _layer = None
     _source = None
-    cfg.logger.log.debug('create_vector_ogr: %s' % output_path)
+    cfg.logger.log.debug("create_vector_ogr: %s" % output_path)
+
+
+# create a polygon gpkg with OGR
+def create_vector_ogr(crs_wkt, output_path, vector_format="GPKG"):
+    try:
+        crs_wkt = str(crs_wkt.toWkt())
+    except Exception as err:
+        str(err)
+    driver = ogr.GetDriverByName(vector_format)
+    _source = driver.CreateDataSource(output_path)
+    spatial_reference = osr.SpatialReference()
+    spatial_reference.ImportFromWkt(crs_wkt)
+    name = cfg.rs.files_directories.file_name(output_path)
+    _layer = _source.CreateLayer(name, spatial_reference, ogr.wkbMultiPolygon)
+    field = ogr.FieldDefn(cfg.empty_field_name, ogr.OFTInteger)
+    _layer.CreateField(field)
+    _layer = None
+    _source = None
+    cfg.logger.log.debug("create_vector_ogr: %s" % output_path)
 
 
 # Get field names of a vector
@@ -199,8 +198,9 @@ def vector_fields(path):
     _s = ogr.Open(path)
     _layer = _s.GetLayer()
     definition = _layer.GetLayerDefn()
-    fields = [definition.GetFieldDefn(i).GetName() for i in
-              range(definition.GetFieldCount())]
+    fields = [
+        definition.GetFieldDefn(i).GetName() for i in range(definition.GetFieldCount())
+    ]
     _layer = None
     _s = None
     return fields
@@ -224,9 +224,51 @@ def get_polygon_from_vector(vector_path, output, attribute_filter=None):
         return False
     # attribute filter
     _v_layer.SetAttributeFilter(attribute_filter)
-    d = ogr.GetDriverByName('GPKG')
+    d = ogr.GetDriverByName("GPKG")
     _d_s = d.CreateDataSource(output)
-    _d_s.CopyLayer(_v_layer, _v_layer.GetName(), ['OVERWRITE=YES'])
+    _d_s.CopyLayer(_v_layer, _v_layer.GetName(), ["OVERWRITE=YES"])
     _v_layer = None
     _d_s = None
     return output
+
+
+def warp_to_memory(raster_in, roi_gpkg, nodata_value=0):
+    warp_options = gdal.WarpOptions(
+        format="MEM", cutlineDSName=roi_gpkg, cropToCutline=True, dstNodata=nodata_value
+    )
+
+    return gdal.Warp("", raster_in, options=warp_options)
+
+
+def create_mask_dataset(mask_array, geotransform, projection):
+
+    ysize, xsize = mask_array.shape
+
+    mem_driver = gdal.GetDriverByName("MEM")
+
+    ds = mem_driver.Create("", xsize, ysize, 1, gdal.GDT_Byte)
+
+    ds.SetGeoTransform(geotransform)
+    ds.SetProjection(projection)
+
+    band = ds.GetRasterBand(1)
+    band.WriteArray(mask_array)
+
+    return ds, band
+
+
+def polygonize_mask(mask_band, projection, output_gpkg):
+
+    driver = ogr.GetDriverByName("GPKG")
+    out_vector = driver.CreateDataSource(output_gpkg)
+
+    srs = osr.SpatialReference()
+    srs.ImportFromWkt(projection)
+
+    layer = out_vector.CreateLayer("filtered_roi", srs=srs)
+
+    layer.CreateField(ogr.FieldDefn("value", ogr.OFTInteger))
+
+    gdal.Polygonize(mask_band, mask_band, layer, 0)
+
+    out_vector = None

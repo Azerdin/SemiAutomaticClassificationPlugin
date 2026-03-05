@@ -442,6 +442,14 @@ def load_working_toolbar():
             'semiautomaticclassificationplugin', 'Create a ROI polygon'
             )
     )
+    # remove outliers
+    cfg.removeROIOutliers_Button = add_toolbar_action(
+        cfg.remove_outliers_use_case.remove_outliers_drawing_roi,
+        'semiautomaticclassificationplugin_manual_ROI.svg',
+        QApplication.translate(
+            'semiautomaticclassificationplugin', 'Remove outliers'
+            )
+    )
     # pointer button
     cfg.pointerButton = add_toolbar_action(
         cfg.scp_dock.pointer_region_growing_roi_active,
