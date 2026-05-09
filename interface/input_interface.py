@@ -445,7 +445,7 @@ def load_working_toolbar():
     # remove outliers
     cfg.removeROIOutliers_Button = add_toolbar_action(
         cfg.remove_outliers_use_case.remove_outliers_drawing_roi,
-        'semiautomaticclassificationplugin_manual_ROI.svg',
+        'semiautomaticclassificationplugin_remove_outliers_roi_tool.svg',
         QApplication.translate(
             'semiautomaticclassificationplugin', 'Remove outliers'
             )

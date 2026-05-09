@@ -31,6 +31,7 @@ from qgis.core import (
 
 from pathlib import Path
 
+# Loads a GeoPackage file as a QGIS in-memory vector layer; returns None if the file is invalid.
 def load_geopackage_to_memory_layer(gpkg_path):
     src_layer = QgsVectorLayer(gpkg_path, Path(gpkg_path).name, 'ogr')
     if not src_layer.isValid():

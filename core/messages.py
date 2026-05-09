@@ -355,3 +355,61 @@ def msg_war_8():
             'No tool selected'
             )
     )
+    
+
+def msg_war_outliers_no_training():
+    # noinspection PyTypeChecker
+    msg_bar_warning(
+        QApplication.translate(
+            'semiautomaticclassificationplugin', 'No training input loaded'
+            )
+        )
+
+
+def msg_war_outliers_no_selection():
+    # noinspection PyTypeChecker
+    msg_bar_warning(
+        QApplication.translate(
+            'semiautomaticclassificationplugin',
+            'No ROI features selected. Select one or more ROI items in the '
+            'signature list first'
+            )
+        )
+
+
+def msg_war_outliers_pipeline_empty():
+    # noinspection PyTypeChecker
+    msg_bar_warning(
+        QApplication.translate(
+            'semiautomaticclassificationplugin', 'Pipeline is empty'
+            )
+        )
+
+
+def msg_war_outliers_vote_threshold():
+    # noinspection PyTypeChecker
+    msg_bar_warning(
+        QApplication.translate(
+            'semiautomaticclassificationplugin',
+            'Vote threshold cannot be greater than the number of methods '
+            'in the pipeline'
+            )
+        )
+
+
+def msg_err_outliers_pipeline_failed(err=''):
+    # noinspection PyTypeChecker
+    msg_bar_error(
+        QApplication.translate(
+            'semiautomaticclassificationplugin', 'Pipeline failed'
+            ) + ': ' + str(err)
+        )
+
+
+def msg_err_outliers_catalog_failed(err=''):
+    # noinspection PyTypeChecker
+    msg_bar_error(
+        QApplication.translate(
+            'semiautomaticclassificationplugin', 'Outlier removal failed'
+            ) + ': ' + str(err)
+        )

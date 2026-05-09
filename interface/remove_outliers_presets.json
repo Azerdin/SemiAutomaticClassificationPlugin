@@ -1,0 +1,153 @@
+[
+  {
+    "name": "MAD (szybki)",
+    "description": "Median Absolute Deviation – szybki, jednopasmowy, band-by-band",
+    "steps": [
+      {"method": "MAD", "params": {"threshold": 3.5}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "IQR (odporny)",
+    "description": "Interquartile Range – odporny na wartości ekstremalne, band-by-band",
+    "steps": [
+      {"method": "IQR", "params": {"factor": 1.5}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Percentile (1%–99%)",
+    "description": "Usuwa dolny i górny 1% pikseli per pasmo",
+    "steps": [
+      {"method": "Percentile", "params": {"lower_pct": 0.01, "upper_pct": 0.99}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Band Z-score",
+    "description": "Standardowy próg Z-score per pasmo",
+    "steps": [
+      {"method": "Band Z-score", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Mahalanobis (wielowymiarowy)",
+    "description": "Odległość Mahalanobisa – uwzględnia korelacje między pasmami",
+    "steps": [
+      {"method": "Mahalanobis", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Robust Mahalanobis",
+    "description": "Mahalanobis z odpornym estymatorem kowariancji (MinCovDet)",
+    "steps": [
+      {"method": "Robust Mahalanobis", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Hotelling T² (α=0.05)",
+    "description": "Test Hotellinga z progiem wyznaczonym z rozkładu F – statystycznie uzasadniony zamiast arbitralnego threshold",
+    "steps": [
+      {"method": "HotellingT2", "params": {"alpha": 0.05}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "GMM (2 komponenty)",
+    "description": "Gaussian Mixture Models – lepszy od Elliptic Envelope dla niejednorodnych klas (np. lasy mieszane)",
+    "steps": [
+      {"method": "GMM", "params": {"n_components": 2, "contamination": 0.01}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Isolation Forest",
+    "description": "Detekcja anomalii metodą uczenia maszynowego",
+    "steps": [
+      {"method": "IsolationForest", "params": {"contamination": 0.01}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "LOF",
+    "description": "Local Outlier Factor – detekcja oparta na gęstości lokalnej",
+    "steps": [
+      {"method": "LOF", "params": {"n_neighbors": 20, "contamination": 0.01}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Erosion (krawędzie ROI)",
+    "description": "Morfologiczna erozja maski ROI – usuwa piksele mieszane na krawędziach poligonu bez analizy spektralnej",
+    "steps": [
+      {"method": "Erosion", "params": {"iterations": 1}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Erosion → Robust Mahalanobis",
+    "description": "Najpierw usuń piksele mieszane z krawędzi ROI, następnie usuń outliersy spektralne",
+    "steps": [
+      {"method": "Erosion", "params": {"iterations": 1}},
+      {"method": "Robust Mahalanobis", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "IQR → MAD (sekwencyjny)",
+    "description": "Najpierw usuń grube błędy IQR, następnie doprecyzuj MAD",
+    "steps": [
+      {"method": "IQR", "params": {"factor": 1.5}},
+      {"method": "MAD", "params": {"threshold": 3.5}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Percentile → Mahalanobis",
+    "description": "Obetnij wartości ekstremalne, następnie usuń wielowymiarowe outliersy",
+    "steps": [
+      {"method": "Percentile", "params": {"lower_pct": 0.01, "upper_pct": 0.99}},
+      {"method": "Mahalanobis", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": false,
+    "vote_threshold": 1
+  },
+  {
+    "name": "Ensemble: IQR + MAD + Z-score (głosowanie 2/3)",
+    "description": "Głosowanie większościowe – piksel usuwany tylko jeśli wykryty przez co najmniej 2 z 3 metod",
+    "steps": [
+      {"method": "IQR", "params": {"factor": 1.5}},
+      {"method": "MAD", "params": {"threshold": 3.5}},
+      {"method": "Band Z-score", "params": {"threshold": 3.0}}
+    ],
+    "use_majority_voting": true,
+    "vote_threshold": 2
+  },
+  {
+    "name": "Ensemble: Mahalanobis + IsolationForest + LOF (głosowanie 2/3)",
+    "description": "Odporny ensemble wielowymiarowy z głosowaniem większościowym",
+    "steps": [
+      {"method": "Mahalanobis", "params": {"threshold": 3.0}},
+      {"method": "IsolationForest", "params": {"contamination": 0.01}},
+      {"method": "LOF", "params": {"n_neighbors": 20, "contamination": 0.01}}
+    ],
+    "use_majority_voting": true,
+    "vote_threshold": 2
+  }
+]

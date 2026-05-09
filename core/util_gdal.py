@@ -232,6 +232,7 @@ def get_polygon_from_vector(vector_path, output, attribute_filter=None):
     return output
 
 
+# Clips a raster to the ROI cutline and returns the result as an in-memory GDAL dataset.
 def warp_to_memory(raster_in, roi_gpkg, nodata_value=0):
     warp_options = gdal.WarpOptions(
         format="MEM", cutlineDSName=roi_gpkg, cropToCutline=True, dstNodata=nodata_value
@@ -240,6 +241,7 @@ def warp_to_memory(raster_in, roi_gpkg, nodata_value=0):
     return gdal.Warp("", raster_in, options=warp_options)
 
 
+# Creates a single-band in-memory GDAL dataset from a 2D uint8 array with the given geotransform and projection.
 def create_mask_dataset(mask_array, geotransform, projection):
 
     ysize, xsize = mask_array.shape
@@ -257,6 +259,16 @@ def create_mask_dataset(mask_array, geotransform, projection):
     return ds, band
 
 
+# Builds a multi-band VRT from band_paths and clips it to the ROI; returns an in-memory GDAL dataset.
+def warp_multiband_to_memory(band_paths, roi_gpkg, nodata_value=0):
+    if len(band_paths) == 1:
+        return warp_to_memory(band_paths[0], roi_gpkg, nodata_value)
+    vrt_path = cfg.rs.configurations.temp.temporary_file_path(name_suffix=".vrt")
+    gdal.BuildVRT(vrt_path, list(band_paths), separate=True)
+    return warp_to_memory(vrt_path, roi_gpkg, nodata_value)
+
+
+# Converts non-zero pixels in mask_band to vector polygons and writes them to a GeoPackage.
 def polygonize_mask(mask_band, projection, output_gpkg):
 
     driver = ogr.GetDriverByName("GPKG")

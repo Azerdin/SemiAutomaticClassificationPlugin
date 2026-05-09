@@ -1595,6 +1595,18 @@ def context_menu(event):
                                'Merge items')
     )
     add_menu_item(
+        menu, cfg.remove_outliers_use_case.remove_outliers_selected_signatures,
+        'semiautomaticclassificationplugin_remove_outliers_tool.svg',
+        QApplication.translate('semiautomaticclassificationplugin',
+                               'Remove outliers')
+    )
+    add_menu_item(
+        menu, cfg.remove_outliers_use_case.remove_outliers_all_signatures,
+        'semiautomaticclassificationplugin_remove_outliers_all_tool.svg',
+        QApplication.translate('semiautomaticclassificationplugin',
+                               'Remove outliers (all ROIs)')
+    )
+    add_menu_item(
         menu, calculate_signatures,
         'semiautomaticclassificationplugin_add_sign_tool.svg',
         QApplication.translate('semiautomaticclassificationplugin',
