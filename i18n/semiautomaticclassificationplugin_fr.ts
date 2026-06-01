@@ -3932,7 +3932,7 @@ size</source>
     <message>
         <location filename="../interface/input_interface.py" line="438"/>
         <source>Remove outliers</source>
-        <translation type="unfinished"></translation>
+        <translation>Remove outliers</translation>
     </message>
     <message>
         <location filename="../interface/input_interface.py" line="446"/>
@@ -5043,6 +5043,286 @@ size</source>
         <location filename="../interface/raster_zonal_stats_tab.py" line="78"/>
         <source>Save output</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="90"/>
+        <source>Pipeline Builder</source>
+        <translation>Pipeline Builder</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="101"/>
+        <source>Predefined pipeline:</source>
+        <translation>Predefined pipeline:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="113"/>
+        <source>— select preset —</source>
+        <translation>— select preset —</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="130"/>
+        <source>Load</source>
+        <translation>Load</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="159"/>
+        <source>Pipeline</source>
+        <translation>Pipeline</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="169"/>
+        <source>Add</source>
+        <translation>Add</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="174"/>
+        <source>Remove</source>
+        <translation>Remove</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="185"/>
+        <source>Use majority voting</source>
+        <translation>Use majority voting</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="199"/>
+        <source>Vote threshold:</source>
+        <translation>Vote threshold:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="211"/>
+        <source>Parameters</source>
+        <translation>Parameters</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="224"/>
+        <source>Run pipeline</source>
+        <translation>Run pipeline</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="293"/>
+        <source>Add method</source>
+        <translation>Add method</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="294"/>
+        <source>Method:</source>
+        <translation>Method:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="384"/>
+        <source>Outlier Removal Report</source>
+        <translation>Outlier Removal Report</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="398"/>
+        <source>Show chart</source>
+        <translation>Show chart</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="410"/>
+        <source>Close</source>
+        <translation>Close</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="423"/>
+        <source>No report data available</source>
+        <translation>No report data available</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="435"/>
+        <source>No steps executed</source>
+        <translation>No steps executed</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="447"/>
+        <source>Outlier Removal Report – Current ROI</source>
+        <translation>Outlier Removal Report – Current ROI</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="458"/>
+        <source>Total pixels (raster):</source>
+        <translation>Total pixels (raster):</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="470"/>
+        <source>Valid pixels:</source>
+        <translation>Valid pixels:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="478"/>
+        <source>Total removed:</source>
+        <translation>Total removed:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="487"/>
+        <source>No ROIs were processed</source>
+        <translation>No ROIs were processed</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="501"/>
+        <source>ROIs processed:</source>
+        <translation>ROIs processed:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="571"/>
+        <source>ROI</source>
+        <translation>ROI</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="591"/>
+        <source>Removed:</source>
+        <translation>Removed:</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="615"/>
+        <source>Step</source>
+        <translation>Step</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="616"/>
+        <source>Method</source>
+        <translation>Method</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="619"/>
+        <source>Removed&amp;nbsp;this&amp;nbsp;step</source>
+        <translation>Removed&amp;nbsp;this&amp;nbsp;step</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="623"/>
+        <source>Cumul.&amp;nbsp;removed</source>
+        <translation>Cumul.&amp;nbsp;removed</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="626"/>
+        <source>Cumul.&amp;nbsp;%</source>
+        <translation>Cumul.&amp;nbsp;%</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="651"/>
+        <source>Outlier Removal Charts</source>
+        <translation>Outlier Removal Charts</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="662"/>
+        <source>matplotlib is not available</source>
+        <translation>matplotlib is not available</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="685"/>
+        <source>Current ROI</source>
+        <translation>Current ROI</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="694"/>
+        <source>Summary</source>
+        <translation>Summary</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="720"/>
+        <source>No steps</source>
+        <translation>No steps</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="740"/>
+        <source>Removed pixels (this step)</source>
+        <translation>Removed pixels (this step)</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="754"/>
+        <source>Valid pixels</source>
+        <translation>Valid pixels</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="791"/>
+        <source>Remaining</source>
+        <translation>Remaining</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="801"/>
+        <source>Removed</source>
+        <translation>Removed</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="814"/>
+        <source>Pixels</source>
+        <translation>Pixels</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers_dialog.py" line="819"/>
+        <source>Summary — removed per ROI</source>
+        <translation>Summary — removed per ROI</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="360"/>
+        <source>No training input loaded</source>
+        <translation>No training input loaded</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="369"/>
+        <source>No ROI features selected. Select one or more ROI items in the signature list first</source>
+        <translation>No ROI features selected. Select one or more ROI items in the signature list first</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="380"/>
+        <source>Pipeline is empty</source>
+        <translation>Pipeline is empty</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="389"/>
+        <source>Vote threshold cannot be greater than the number of methods in the pipeline</source>
+        <translation>Vote threshold cannot be greater than the number of methods in the pipeline</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="400"/>
+        <source>Pipeline failed</source>
+        <translation>Pipeline failed</translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="409"/>
+        <source>Outlier removal failed</source>
+        <translation>Outlier removal failed</translation>
+    </message>
+    <message>
+        <location filename="../interface/scp_dock.py" line="1604"/>
+        <source>Remove outliers (all ROIs)</source>
+        <translation>Remove outliers (all ROIs)</translation>
+    </message>
+    <message>
+        <location filename="../ui/ui_semiautomaticclassificationplugin.py" line="8035"/>
+        <source>Remove outliers from signatures before classification</source>
+        <translation>Remove outliers from signatures before classification</translation>
+    </message>
+    <message>
+        <location filename="../ui/ui_semiautomaticclassificationplugin.py" line="8034"/>
+        <source>Remove outliers from signatures before classification (temporary, non-destructive)</source>
+        <translation>Remove outliers from signatures before classification (temporary, non-destructive)</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers.py" line="705"/>
+        <source>Recalculating signature %d/%d</source>
+        <translation>Recalculating signature %d/%d</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers.py" line="605"/>
+        <source>Removing outliers: ROI %d/%d</source>
+        <translation>Removing outliers: ROI %d/%d</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers.py" line="874"/>
+        <source>Clipping raster to ROI...</source>
+        <translation>Clipping raster to ROI...</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers.py" line="881"/>
+        <source>Running outlier pipeline...</source>
+        <translation>Running outlier pipeline...</translation>
+    </message>
+    <message>
+        <location filename="../interface/remove_outliers.py" line="901"/>
+        <source>Polygonizing result...</source>
+        <translation>Polygonizing result...</translation>
     </message>
 </context>
 </TS>

@@ -1,4 +1,3 @@
-
 import argparse
 import csv
 import itertools
@@ -43,7 +42,7 @@ except ImportError:
 
 try:
     from scipy.ndimage import binary_erosion
-    from scipy.stats import f as f_dist
+    from scipy.stats import chi2, f as f_dist
 except ImportError:
     sys.exit("ERROR: scipy not found. Install it with: pip install scipy")
 
@@ -55,6 +54,16 @@ except ImportError:
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 log = logging.getLogger("benchmark")
+
+_RANDOM_SEED = 42
+
+
+def _mahalanobis_cutoff(threshold, alpha, df):
+    if alpha is not None:
+        return float(chi2.ppf(1.0 - float(alpha), df))
+    if threshold is None:
+        threshold = 3.0
+    return float(threshold) ** 2
 
 
 _DEFAULT_PARAMS = {
@@ -360,47 +369,55 @@ def _iqr(stack, valid_mask, factor=1.5):
     return ~outlier_mask & valid_mask
 
 
-def _mahalanobis(stack, valid_mask, threshold=3.0):
+def _mahalanobis(stack, valid_mask, threshold=None, alpha=None):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
     if pts.shape[0] < pts.shape[1] + 2:
         return valid_mask
     try:
         cov = EmpiricalCovariance().fit(pts)
         md = cov.mahalanobis(pts)
-    except Exception:
+    except Exception as err:
+        log.warning("Mahalanobis failed: %s", err)
         return valid_mask
+    cutoff = _mahalanobis_cutoff(threshold, alpha, df=pts.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
-    new_mask[valid_mask] = md <= threshold**2
+    new_mask[valid_mask] = md <= cutoff
     return new_mask
 
 
-def _robust_mahalanobis(stack, valid_mask, threshold=3.0):
+def _robust_mahalanobis(stack, valid_mask, threshold=None, alpha=None):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
     if pts.shape[0] < pts.shape[1] + 10:
         return valid_mask
     try:
-        cov = MinCovDet(random_state=42).fit(pts)
+        cov = MinCovDet(random_state=_RANDOM_SEED).fit(pts)
         md = cov.mahalanobis(pts)
-    except Exception:
+    except Exception as err:
+        log.warning("Robust Mahalanobis failed: %s", err)
         return valid_mask
+    cutoff = _mahalanobis_cutoff(threshold, alpha, df=pts.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
-    new_mask[valid_mask] = md <= threshold**2
+    new_mask[valid_mask] = md <= cutoff
     return new_mask
 
 
-def _pca(stack, valid_mask, n_components=3, threshold=3.0):
+def _pca(stack, valid_mask, n_components=3, threshold=None, alpha=None):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
     n_comp = min(n_components, pts.shape[1], pts.shape[0])
     if n_comp < 1:
         return valid_mask
     try:
-        data_pca = PCA(n_components=n_comp, random_state=42).fit_transform(pts)
-        cov = MinCovDet(random_state=42).fit(data_pca)
+        data_pca = PCA(n_components=n_comp, random_state=_RANDOM_SEED).fit_transform(
+            pts
+        )
+        cov = MinCovDet(random_state=_RANDOM_SEED).fit(data_pca)
         md = cov.mahalanobis(data_pca)
-    except Exception:
+    except Exception as err:
+        log.warning("PCA Mahalanobis failed: %s", err)
         return valid_mask
+    cutoff = _mahalanobis_cutoff(threshold, alpha, df=data_pca.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
-    new_mask[valid_mask] = md <= threshold**2
+    new_mask[valid_mask] = md <= cutoff
     return new_mask
 
 
@@ -428,15 +445,18 @@ def _isolation_forest(stack, valid_mask, contamination=0.01):
         return valid_mask
     try:
         sample_size = 10000
-        sample = (
-            pts[np.random.choice(n, sample_size, replace=False)]
-            if n > sample_size
-            else pts
+        if n > sample_size:
+            rng = np.random.default_rng(_RANDOM_SEED)
+            sample = pts[rng.choice(n, sample_size, replace=False)]
+        else:
+            sample = pts
+        clf = IsolationForest(
+            contamination=contamination, random_state=_RANDOM_SEED, n_jobs=-1
         )
-        clf = IsolationForest(contamination=contamination, random_state=42, n_jobs=-1)
         clf.fit(sample)
         pred = clf.predict(pts)
-    except Exception:
+    except Exception as err:
+        log.warning("IsolationForest failed: %s", err)
         return valid_mask
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
@@ -483,9 +503,10 @@ def _elliptic_envelope(stack, valid_mask, contamination=0.01):
         return valid_mask
     try:
         pred = EllipticEnvelope(
-            contamination=contamination, random_state=42
+            contamination=contamination, random_state=_RANDOM_SEED
         ).fit_predict(pts)
-    except Exception:
+    except Exception as err:
+        log.warning("EllipticEnvelope failed: %s", err)
         return valid_mask
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
@@ -515,12 +536,15 @@ def _gmm(stack, valid_mask, n_components=2, contamination=0.01):
         return valid_mask
     try:
         gmm = GaussianMixture(
-            n_components=n_components, covariance_type="full", random_state=42
+            n_components=n_components,
+            covariance_type="full",
+            random_state=_RANDOM_SEED,
         )
         gmm.fit(pts)
         log_lik = gmm.score_samples(pts)
         thr = np.quantile(log_lik, contamination)
-    except Exception:
+    except Exception as err:
+        log.warning("GMM failed: %s", err)
         return valid_mask
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = log_lik >= thr
@@ -601,7 +625,11 @@ def run_pipeline(ds, steps, nodata=None, use_majority_voting=False, vote_thresho
     if stack.ndim == 2:
         stack = stack[np.newaxis]
     if nodata is not None:
-        stack[stack == nodata] = np.nan
+        try:
+            nodata = float(nodata)
+            stack[np.isclose(stack, nodata, equal_nan=False)] = np.nan
+        except (TypeError, ValueError):
+            stack[stack == nodata] = np.nan
 
     total_raster_px = int(stack.shape[1] * stack.shape[2])
     original_valid = np.all(~np.isnan(stack), axis=0)
@@ -703,7 +731,11 @@ def _apply_removal_to_catalog(catalog, band_paths, steps, use_voting, vote_thres
         if stack.ndim == 2:
             stack = stack[np.newaxis]
         if nodata is not None:
-            stack[stack == nodata] = np.nan
+            try:
+                nodata = float(nodata)
+                stack[np.isclose(stack, nodata, equal_nan=False)] = np.nan
+            except (TypeError, ValueError):
+                stack[stack == nodata] = np.nan
 
         try:
             mask, pipeline_report = run_pipeline(
@@ -1368,10 +1400,17 @@ def _worker_init(image_path, scpx_path, rs_n_processes, rs_ram):
 
 def _run_one_config(task):
     (
-        label, steps, use_voting, vote_threshold,
-        reference_path, ref_field,
-        algorithms, train_sig_ids, macroclass,
-        class_dir_str, accuracy_dir_str,
+        label,
+        steps,
+        use_voting,
+        vote_threshold,
+        reference_path,
+        ref_field,
+        algorithms,
+        train_sig_ids,
+        macroclass,
+        class_dir_str,
+        accuracy_dir_str,
     ) = task
 
     rs = _g_rs
@@ -1382,9 +1421,13 @@ def _run_one_config(task):
     if rs is None:
         return [
             {
-                "label": label, "algorithm": algo,
-                "oa": None, "kappa": None, "total_removed": None,
-                "time_s": 0.0, "error": "worker not initialized",
+                "label": label,
+                "algorithm": algo,
+                "oa": None,
+                "kappa": None,
+                "total_removed": None,
+                "time_s": 0.0,
+                "error": "worker not initialized",
             }
             for algo in algorithms
         ]
@@ -1399,7 +1442,12 @@ def _run_one_config(task):
     try:
         if steps:
             catalog, total_removed = _build_cleaned_catalog(
-                rs, scpx_path, bandset, steps, use_voting, vote_threshold,
+                rs,
+                scpx_path,
+                bandset,
+                steps,
+                use_voting,
+                vote_threshold,
                 train_sig_ids=train_sig_ids,
             )
         else:
@@ -1408,11 +1456,17 @@ def _run_one_config(task):
                 _filter_catalog_to_train(catalog, train_sig_ids)
     except Exception as err:
         for algorithm in algorithms:
-            results.append({
-                "label": label, "algorithm": algorithm,
-                "oa": None, "kappa": None, "total_removed": None,
-                "time_s": round(time.time() - t0, 1), "error": str(err),
-            })
+            results.append(
+                {
+                    "label": label,
+                    "algorithm": algorithm,
+                    "oa": None,
+                    "kappa": None,
+                    "total_removed": None,
+                    "time_s": round(time.time() - t0, 1),
+                    "error": str(err),
+                }
+            )
         return results
 
     for algorithm in algorithms:
@@ -1424,22 +1478,35 @@ def _run_one_config(task):
         if os.path.exists(class_path):
             os.remove(class_path)
         try:
-            output = _classify(rs, bandset_catalog, catalog, class_path, algorithm, macroclass)
+            output = _classify(
+                rs, bandset_catalog, catalog, class_path, algorithm, macroclass
+            )
         except Exception as err:
-            results.append({
-                "label": label, "algorithm": algorithm,
-                "oa": None, "kappa": None, "total_removed": total_removed,
-                "time_s": round(time.time() - t0_algo, 1), "error": str(err),
-            })
+            results.append(
+                {
+                    "label": label,
+                    "algorithm": algorithm,
+                    "oa": None,
+                    "kappa": None,
+                    "total_removed": total_removed,
+                    "time_s": round(time.time() - t0_algo, 1),
+                    "error": str(err),
+                }
+            )
             continue
 
         if output is None or not output.check:
-            results.append({
-                "label": label, "algorithm": algorithm,
-                "oa": None, "kappa": None, "total_removed": total_removed,
-                "time_s": round(time.time() - t0_algo, 1),
-                "error": "classification check=False",
-            })
+            results.append(
+                {
+                    "label": label,
+                    "algorithm": algorithm,
+                    "oa": None,
+                    "kappa": None,
+                    "total_removed": total_removed,
+                    "time_s": round(time.time() - t0_algo, 1),
+                    "error": "classification check=False",
+                }
+            )
             continue
 
         actual_class_path = class_path
@@ -1449,25 +1516,38 @@ def _run_one_config(task):
         except (IndexError, TypeError):
             pass
         if not os.path.exists(actual_class_path):
-            results.append({
-                "label": label, "algorithm": algorithm,
-                "oa": None, "kappa": None, "total_removed": total_removed,
-                "time_s": round(time.time() - t0_algo, 1),
-                "error": "output file not found",
-            })
+            results.append(
+                {
+                    "label": label,
+                    "algorithm": algorithm,
+                    "oa": None,
+                    "kappa": None,
+                    "total_removed": total_removed,
+                    "time_s": round(time.time() - t0_algo, 1),
+                    "error": "output file not found",
+                }
+            )
             continue
 
         acc_path = str(accuracy_dir / ("%s.tif" % file_key))
         if os.path.exists(acc_path):
             os.remove(acc_path)
         try:
-            acc_output = _assess(rs, actual_class_path, reference_path, acc_path, ref_field)
+            acc_output = _assess(
+                rs, actual_class_path, reference_path, acc_path, ref_field
+            )
         except Exception as err:
-            results.append({
-                "label": label, "algorithm": algorithm,
-                "oa": None, "kappa": None, "total_removed": total_removed,
-                "time_s": round(time.time() - t0_algo, 1), "error": str(err),
-            })
+            results.append(
+                {
+                    "label": label,
+                    "algorithm": algorithm,
+                    "oa": None,
+                    "kappa": None,
+                    "total_removed": total_removed,
+                    "time_s": round(time.time() - t0_algo, 1),
+                    "error": str(err),
+                }
+            )
             continue
 
         oa = kappa = None
@@ -1476,13 +1556,17 @@ def _run_one_config(task):
             if table_path and Path(table_path).exists():
                 oa, kappa = _parse_oa_kappa(table_path)
 
-        results.append({
-            "label": label, "algorithm": algorithm,
-            "oa": oa, "kappa": kappa,
-            "total_removed": total_removed,
-            "time_s": round(time.time() - t0_algo, 1),
-            "error": "",
-        })
+        results.append(
+            {
+                "label": label,
+                "algorithm": algorithm,
+                "oa": oa,
+                "kappa": kappa,
+                "total_removed": total_removed,
+                "time_s": round(time.time() - t0_algo, 1),
+                "error": "",
+            }
+        )
 
     return results
 
@@ -1704,10 +1788,17 @@ def main():
 
     tasks = [
         (
-            label, steps, use_voting, vote_threshold,
-            reference_path, ref_field,
-            algorithms, train_sig_ids, args.macroclass,
-            str(class_dir), str(accuracy_dir),
+            label,
+            steps,
+            use_voting,
+            vote_threshold,
+            reference_path,
+            ref_field,
+            algorithms,
+            train_sig_ids,
+            args.macroclass,
+            str(class_dir),
+            str(accuracy_dir),
         )
         for label, steps, use_voting, vote_threshold in configs
     ]

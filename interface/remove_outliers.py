@@ -1,7 +1,8 @@
 import numpy as np
 from osgeo import ogr
+from PyQt5.QtWidgets import QApplication
 from scipy.ndimage import binary_erosion
-from scipy.stats import f as f_dist
+from scipy.stats import chi2, f as f_dist
 from sklearn.covariance import MinCovDet, EllipticEnvelope, EmpiricalCovariance
 from sklearn.decomposition import PCA
 from sklearn.ensemble import IsolationForest
@@ -11,6 +12,22 @@ from sklearn.svm import OneClassSVM
 from sklearn.preprocessing import StandardScaler, RobustScaler
 
 cfg = __import__(str(__name__).split(".")[0] + ".core.config", fromlist=[""])
+
+_RANDOM_SEED = 42
+
+
+def _log_error(msg):
+    try:
+        cfg.logger.log.error(msg)
+    except Exception:
+        pass
+
+
+def _log_info(msg):
+    try:
+        cfg.logger.log.info(msg)
+    except Exception:
+        pass
 
 
 def run_pipeline(
@@ -26,7 +43,11 @@ def run_pipeline(
         stack = stack[np.newaxis, ...]
 
     if nodata_value is not None:
-        stack[stack == nodata_value] = np.nan
+        try:
+            nodata_value = float(nodata_value)
+            stack[np.isclose(stack, nodata_value, equal_nan=False)] = np.nan
+        except (TypeError, ValueError):
+            stack[stack == nodata_value] = np.nan
 
     total_raster_pixels = int(stack.shape[1] * stack.shape[2])
     original_valid_mask = np.all(~np.isnan(stack), axis=0)
@@ -52,7 +73,7 @@ def run_pipeline(
             }
         )
 
-        print(f"MajorityVoting | removed: {removed} px ({removed_pct:.2f}%)")
+        _log_info("MajorityVoting | removed: %d px (%.2f%%)" % (removed, removed_pct))
 
         return (
             stack,
@@ -91,7 +112,7 @@ def run_pipeline(
             }
         )
 
-        print(f"{method_name} | removed: {removed} px ({removed_pct:.2f}%)")
+        _log_info("%s | removed: %d px (%.2f%%)" % (method_name, removed, removed_pct))
 
     return (
         stack,
@@ -162,13 +183,24 @@ def mad_filter_stack(stack, threshold=3.5):
 
 def erosion_filter(stack, iterations=1):
     valid_mask = np.all(~np.isnan(stack), axis=0)
+    no_change = (
+        stack.copy(),
+        valid_mask,
+        np.zeros(valid_mask.shape, dtype=np.float32),
+    )
+
     try:
         eroded = binary_erosion(valid_mask, iterations=iterations)
-    except Exception:
-        return stack.copy(), valid_mask, np.zeros(valid_mask.shape, dtype=np.float32)
+    except Exception as err:
+        _log_error("erosion_filter failed: %s — no pixels removed" % err)
+        return no_change
 
     if not np.any(eroded):
-        return stack.copy(), valid_mask, np.zeros(valid_mask.shape, dtype=np.float32)
+        _log_info(
+            "erosion_filter (iterations=%d) erased entire ROI — kept original mask"
+            % iterations
+        )
+        return no_change
 
     final_mask = valid_mask & eroded
     filtered_stack = np.where(final_mask[None, :, :], stack, np.nan)
@@ -189,12 +221,19 @@ def remove_multivariate_outliers(stack, method="isolationforest", **kwargs):
     data_scaled, _ = scale_data(data_valid, scaler=scaler_name)
 
     if method == "mahalanobis":
-        threshold = kwargs.get("threshold", 3.0)
-        mask_valid, scores = mahalanobis_filter(data_scaled, threshold)
+        mask_valid, scores = mahalanobis_filter(
+            data_scaled,
+            threshold=kwargs.get("threshold"),
+            alpha=kwargs.get("alpha"),
+        )
 
     elif method == "robustmahalanobis":
-        threshold = kwargs.get("threshold", 3.0)
-        mask_valid, scores = mahalanobis_filter(data_scaled, threshold, robust=True)
+        mask_valid, scores = mahalanobis_filter(
+            data_scaled,
+            threshold=kwargs.get("threshold"),
+            alpha=kwargs.get("alpha"),
+            robust=True,
+        )
 
     elif method == "bandzscore":
         threshold = kwargs.get("threshold", 3.0)
@@ -211,8 +250,12 @@ def remove_multivariate_outliers(stack, method="isolationforest", **kwargs):
 
     elif method == "pca":
         n_components = kwargs.get("n_components", min(bands, data_valid.shape[0], 5))
-        threshold = kwargs.get("threshold", 3.0)
-        mask_valid, scores = pca_filter(data_scaled, n_components, threshold)
+        mask_valid, scores = pca_filter(
+            data_scaled,
+            n_components,
+            threshold=kwargs.get("threshold"),
+            alpha=kwargs.get("alpha"),
+        )
 
     elif method == "pcareconstruction":
         n_components = kwargs.get("n_components", min(bands, max(2, bands // 2)))
@@ -271,23 +314,33 @@ def remove_multivariate_outliers(stack, method="isolationforest", **kwargs):
     return cleaned_stack, full_mask, scores
 
 
-def mahalanobis_filter(data, threshold, robust=False):
+def _mahalanobis_cutoff(threshold, alpha, df):
+    if alpha is not None:
+        return float(chi2.ppf(1.0 - float(alpha), df))
+    if threshold is None:
+        threshold = 3.0
+    return float(threshold) ** 2
+
+
+def mahalanobis_filter(data, threshold=None, alpha=None, robust=False):
     cov = (
-        MinCovDet(random_state=42).fit(data)
+        MinCovDet(random_state=_RANDOM_SEED).fit(data)
         if robust
         else EmpiricalCovariance().fit(data)
     )
     md = cov.mahalanobis(data)
-    mask = md <= threshold**2
+    cutoff = _mahalanobis_cutoff(threshold, alpha, df=data.shape[1])
+    mask = md <= cutoff
     return mask, md
 
 
-def pca_filter(data, n_components, threshold):
-    pca = PCA(n_components=n_components, random_state=42)
+def pca_filter(data, n_components, threshold=None, alpha=None):
+    pca = PCA(n_components=n_components, random_state=_RANDOM_SEED)
     data_pca = pca.fit_transform(data)
-    cov = MinCovDet(random_state=42).fit(data_pca)
+    cov = MinCovDet(random_state=_RANDOM_SEED).fit(data_pca)
     md = cov.mahalanobis(data_pca)
-    mask = md <= threshold**2
+    cutoff = _mahalanobis_cutoff(threshold, alpha, df=data_pca.shape[1])
+    mask = md <= cutoff
     return mask, md
 
 
@@ -352,12 +405,15 @@ def isolation_forest_filter(data, contamination, sample_size=10000):
     n = data.shape[0]
 
     if n > sample_size:
-        idx = np.random.choice(n, sample_size, replace=False)
+        rng = np.random.default_rng(_RANDOM_SEED)
+        idx = rng.choice(n, sample_size, replace=False)
         sample = data[idx]
     else:
         sample = data
 
-    clf = IsolationForest(contamination=contamination, random_state=42, n_jobs=-1)
+    clf = IsolationForest(
+        contamination=contamination, random_state=_RANDOM_SEED, n_jobs=-1
+    )
     clf.fit(sample)
 
     pred = clf.predict(data)
@@ -401,7 +457,7 @@ def knn_filter(data, n_neighbors=5, contamination=0.01):
 
 
 def elliptic_filter(data, contamination=0.01):
-    clf = EllipticEnvelope(contamination=contamination, random_state=42)
+    clf = EllipticEnvelope(contamination=contamination, random_state=_RANDOM_SEED)
     pred = clf.fit_predict(data)
     scores = -clf.decision_function(data)
     return pred == 1, scores
@@ -410,14 +466,16 @@ def elliptic_filter(data, contamination=0.01):
 def hotelling_t2_filter(data, alpha=0.05):
     n, p = data.shape
     if n <= p + 1:
+        _log_error("hotelling_t2_filter: n=%d <= p+1=%d — kept all pixels" % (n, p + 1))
         return np.ones(n, dtype=bool), np.zeros(n)
     try:
         cov = EmpiricalCovariance().fit(data)
-        t2 = cov.mahalanobis(data)  # squared Mahalanobis = T^2 statistic
+        t2 = cov.mahalanobis(data)
         f_crit = f_dist.ppf(1.0 - alpha, p, n - p)
         t2_crit = p * (n - 1) / (n - p) * f_crit
         mask = t2 <= t2_crit
-    except Exception:
+    except Exception as err:
+        _log_error("hotelling_t2_filter failed: %s — kept all pixels" % err)
         return np.ones(n, dtype=bool), np.zeros(n)
     return mask, t2
 
@@ -425,14 +483,17 @@ def hotelling_t2_filter(data, alpha=0.05):
 def gmm_filter(data, n_components=2, contamination=0.01):
     try:
         gmm = GaussianMixture(
-            n_components=n_components, covariance_type="full", random_state=42
+            n_components=n_components,
+            covariance_type="full",
+            random_state=_RANDOM_SEED,
         )
         gmm.fit(data)
         log_lik = gmm.score_samples(data)
         thr = np.quantile(log_lik, contamination)
         mask = log_lik >= thr
         scores = -log_lik
-    except Exception:
+    except Exception as err:
+        _log_error("gmm_filter failed: %s — kept all pixels" % err)
         return np.ones(data.shape[0], dtype=bool), np.zeros(data.shape[0])
     return mask, scores
 
@@ -479,187 +540,6 @@ def ensemble_outlier_mask(stack, methods_config, vote_threshold=2):
     cleaned_stack = np.where(final_mask[None, :, :], stack, np.nan)
 
     return cleaned_stack, final_mask, votes
-
-
-def run_pipeline_on_signature(
-    data,
-    pipeline_steps,
-    use_majority_voting=False,
-    vote_threshold=2,
-):
-    if data.ndim != 2:
-        raise ValueError("Signature sample matrix must be 2D [n_pixels, bands]")
-
-    valid_mask = ~np.isnan(data).any(axis=1)
-    if np.sum(valid_mask) < 10:
-        raise ValueError("Too few valid samples in signature")
-
-    if use_majority_voting:
-        cleaned, mask_final = ensemble_outlier_mask_signature(
-            data[valid_mask], pipeline_steps, vote_threshold=vote_threshold
-        )
-
-        full_mask = np.zeros(len(data), dtype=bool)
-        inlier_idx = np.where(valid_mask)[0]
-        full_mask[inlier_idx[mask_final]] = True
-
-        removed = int(np.sum(valid_mask & ~full_mask))
-        total = int(np.sum(valid_mask))
-        report = [
-            {
-                "step": 1,
-                "method": "MajorityVoting",
-                "removed_pixels": removed,
-                "removed_percent": float(100.0 * removed / total if total > 0 else 0.0),
-                "vote_threshold": int(vote_threshold),
-            }
-        ]
-        return data[full_mask], full_mask, report
-
-    mask_final = valid_mask.copy()
-    current_data = data[valid_mask]
-    report = []
-
-    for step_id, (method_name, kwargs) in enumerate(pipeline_steps, start=1):
-        method_key = normalize_method_name(method_name)
-
-        if method_key == "mad":
-            _, current_mask = mad_filter_signature(current_data, **kwargs)
-        elif method_key == "erosion":
-            # Spatial erosion has no meaning for a flat signature matrix — skip.
-            current_mask = np.ones(len(current_data), dtype=bool)
-        else:
-            _, current_mask = remove_multivariate_outliers_signature(
-                current_data, method=method_key, **kwargs
-            )
-
-        inlier_indices = np.where(mask_final)[0]
-        mask_final[inlier_indices[~current_mask]] = False
-        current_data = current_data[current_mask]
-
-        removed = int(np.sum(valid_mask & ~mask_final))
-        total = int(np.sum(valid_mask))
-        report.append(
-            {
-                "step": step_id,
-                "method": method_name,
-                "removed_pixels": removed,
-                "removed_percent": float(100.0 * removed / total if total > 0 else 0.0),
-            }
-        )
-
-    return data[mask_final], mask_final, report
-
-
-def mad_filter_signature(data, threshold=3.5):
-    median = np.nanmedian(data, axis=0, keepdims=True)
-    mad = np.nanmedian(np.abs(data - median), axis=0, keepdims=True)
-    mad = np.where(mad == 0, 1.0, mad)
-
-    modified_z = 0.6745 * (data - median) / mad
-    outlier_mask = np.any(np.abs(modified_z) > threshold, axis=1)
-    final_mask = ~outlier_mask
-    filtered = data[final_mask]
-    return filtered, final_mask
-
-
-def remove_multivariate_outliers_signature(data, method="isolationforest", **kwargs):
-    data_T = np.asarray(data, dtype=np.float32)
-    if data_T.ndim != 2:
-        raise ValueError("Signature data must be 2D [n_pixels, bands]")
-
-    scaler_name = kwargs.get("scaler", "standard")
-    data_scaled, _ = scale_data(data_T, scaler=scaler_name)
-    method = normalize_method_name(method)
-
-    if method == "mahalanobis":
-        mask_valid, _ = mahalanobis_filter(data_scaled, kwargs.get("threshold", 3.0))
-    elif method == "robustmahalanobis":
-        mask_valid, _ = mahalanobis_filter(
-            data_scaled, kwargs.get("threshold", 3.0), robust=True
-        )
-    elif method == "bandzscore":
-        mask_valid, _ = band_zscore_filter(data_T, kwargs.get("threshold", 3.0))
-    elif method == "percentile":
-        mask_valid, _ = percentile_filter(
-            data_T, kwargs.get("lower_pct", 0.01), kwargs.get("upper_pct", 0.99)
-        )
-    elif method == "iqr":
-        mask_valid, _ = iqr_filter(data_T, kwargs.get("factor", 1.5))
-    elif method == "pca":
-        n_components = kwargs.get(
-            "n_components", min(data_T.shape[1], data_T.shape[0], 5)
-        )
-        mask_valid, _ = pca_filter(
-            data_scaled, n_components, kwargs.get("threshold", 3.0)
-        )
-    elif method == "pcareconstruction":
-        n_components = kwargs.get(
-            "n_components", min(data_T.shape[1], max(2, data_T.shape[1] // 2))
-        )
-        mask_valid, _ = pca_reconstruction_filter(
-            data_scaled, n_components, kwargs.get("contamination", 0.01)
-        )
-    elif method == "isolationforest":
-        mask_valid, _ = isolation_forest_filter(
-            data_scaled,
-            kwargs.get("contamination", 0.01),
-            kwargs.get("sample_size", 10000),
-        )
-    elif method == "lof":
-        n_neighbors = min(kwargs.get("n_neighbors", 20), data_T.shape[0] - 1)
-        mask_valid, _ = lof_filter(
-            data_scaled, n_neighbors, kwargs.get("contamination", 0.01)
-        )
-    elif method == "oneclasssvm":
-        mask_valid, _ = one_class_svm_filter(
-            data_scaled,
-            kwargs.get("nu", 0.01),
-            kwargs.get("gamma", "scale"),
-            kwargs.get("kernel", "rbf"),
-        )
-    elif method == "knn":
-        n_neighbors = min(kwargs.get("n_neighbors", 5), data_T.shape[0] - 1)
-        mask_valid, _ = knn_filter(
-            data_scaled, n_neighbors, kwargs.get("contamination", 0.01)
-        )
-    elif method in ("elliptic", "ellipticenvelope"):
-        mask_valid, _ = elliptic_filter(data_scaled, kwargs.get("contamination", 0.01))
-    elif method == "hotellingt2":
-        mask_valid, _ = hotelling_t2_filter(data_scaled, kwargs.get("alpha", 0.05))
-    elif method == "gmm":
-        n_components = kwargs.get("n_components", 2)
-        mask_valid, _ = gmm_filter(
-            data_scaled, n_components, kwargs.get("contamination", 0.01)
-        )
-    elif method == "sam":
-        mask_valid, _ = sam_filter(
-            data_T, kwargs.get("contamination", 0.01), kwargs.get("reference", None)
-        )
-    else:
-        raise ValueError(f"Unknown method: {method}")
-
-    return data_T[mask_valid], mask_valid
-
-
-def ensemble_outlier_mask_signature(data, methods_config, vote_threshold=2):
-    masks = []
-    for method_name, kwargs in methods_config:
-        method_key = normalize_method_name(method_name)
-        if method_key == "mad":
-            _, mask = mad_filter_signature(data, **kwargs)
-        elif method_key == "erosion":
-            mask = np.ones(len(data), dtype=bool)
-        else:
-            _, mask = remove_multivariate_outliers_signature(
-                data, method=method_key, **kwargs
-            )
-        masks.append(mask.astype(np.uint8))
-
-    masks = np.stack(masks, axis=0)
-    votes = np.sum(masks, axis=0)
-    final_mask = votes >= vote_threshold
-    return data[final_mask], final_mask
 
 
 def _process_catalog_features(
@@ -712,7 +592,11 @@ def _process_catalog_features(
         step = int((i + 1) * 80 / max(total, 1))
         cfg.ui_utils.update_bar(
             step,
-            "Removing outliers: ROI %d/%d" % (i + 1, total),
+            QApplication.translate(
+                "semiautomaticclassificationplugin",
+                "Removing outliers: ROI %d/%d",
+            )
+            % (i + 1, total),
             percentage=step,
         )
         roi_tmp = cfg.rs.configurations.temp.temporary_file_path(name_suffix=".gpkg")
@@ -726,9 +610,7 @@ def _process_catalog_features(
 
         ds_raster = cfg.util_gdal.warp_multiband_to_memory(band_paths, roi_tmp)
         if ds_raster is None:
-            cfg.logger.log.error(
-                "warp_multiband_to_memory returned None for sig_id=%s" % sig_id
-            )
+            _log_error("warp_multiband_to_memory returned None for sig_id=%s" % sig_id)
             continue
 
         try:
@@ -742,7 +624,7 @@ def _process_catalog_features(
             valid_pixels = pipeline_report["valid_pixels"]
             total_raster_pixels = pipeline_report["total_raster_pixels"]
         except ValueError as err:
-            cfg.logger.log.error("run_pipeline skipped sig_id=%s: %s" % (sig_id, err))
+            _log_error("run_pipeline skipped sig_id=%s: %s" % (sig_id, err))
             continue
 
         mask_ds, mask_band = cfg.util_gdal.create_mask_dataset(
@@ -765,9 +647,7 @@ def _process_catalog_features(
         out_ds = None
 
         if union_geom is None:
-            cfg.logger.log.error(
-                "Polygonize produced no geometry for sig_id=%s" % sig_id
-            )
+            _log_error("Polygonize produced no geometry for sig_id=%s" % sig_id)
             continue
 
         geo_ds = ogr.Open(geometry_file, 1)
@@ -798,7 +678,7 @@ def _process_catalog_features(
         )
         modified_sig_ids.append(sig_id)
 
-        print(
+        _log_info(
             "Outliers removed | sig=%s | removed=%d px (%.2f%%)"
             % (sig_id, removed, report[-1]["removed_percent"])
         )
@@ -806,44 +686,53 @@ def _process_catalog_features(
     return modified_sig_ids, report
 
 
-def _recalculate_signatures_silent(new_catalog, modified_sig_ids):
+def _recalculate_modified_signatures(new_catalog, modified_sig_ids, warn_missing):
     total = len(modified_sig_ids)
     for idx, sig_id in enumerate(modified_sig_ids):
         step = 80 + int((idx + 1) * 20 / max(total, 1))
         cfg.ui_utils.update_bar(
             step,
-            "Recalculating signature %d/%d" % (idx + 1, total),
+            QApplication.translate(
+                "semiautomaticclassificationplugin",
+                "Recalculating signature %d/%d",
+            )
+            % (idx + 1, total),
             percentage=step,
         )
         tbl = new_catalog.table
         row_mask = tbl["signature_id"] == sig_id
         if not row_mask.any():
+            if warn_missing:
+                _log_error(
+                    "sig_id %s not found in table, skipping recalculation" % sig_id
+                )
             continue
 
         row = tbl[row_mask]
-        macroclass_id = row["macroclass_id"][0]
-        class_id = row["class_id"][0]
-        class_name = row["class_name"][0]
-        color = row["color"][0]
-        macroclass_name = new_catalog.macroclasses.get(
-            macroclass_id, str(macroclass_id)
-        )
-
         try:
             new_catalog.merge_signatures_by_id(
                 signature_id_list=[sig_id],
                 calculate_signature=True,
-                macroclass_id=macroclass_id,
-                class_id=class_id,
-                macroclass_name=macroclass_name,
-                class_name=class_name,
-                color_string=color,
+                macroclass_id=row["macroclass_id"][0],
+                class_id=row["class_id"][0],
+                macroclass_name=new_catalog.macroclasses.get(
+                    row["macroclass_id"][0], str(row["macroclass_id"][0])
+                ),
+                class_name=row["class_name"][0],
+                color_string=row["color"][0],
             )
             new_catalog.remove_signature_by_id(sig_id)
         except Exception as err:
-            cfg.logger.log.error(
-                "Signature recalculation failed for %s: %s" % (sig_id, err)
-            )
+            _log_error("Signature recalculation failed for %s: %s" % (sig_id, err))
+
+
+def _reload_training_catalog(new_catalog):
+    cfg.scp_training.set_signature_catalog(new_catalog)
+    cfg.scp_training.roi_signature_table_tree()
+    cfg.dock_class_dlg.ui.undo_save_Button.setEnabled(True)
+    cfg.dock_class_dlg.ui.redo_save_Button.setEnabled(False)
+    if cfg.project_registry[cfg.reg_save_training_input_check] == 2:
+        cfg.scp_training.save_signature_catalog()
 
 
 def build_cleaned_catalog_copy(
@@ -864,61 +753,13 @@ def build_cleaned_catalog_copy(
             vote_threshold,
         )
 
-        _recalculate_signatures_silent(new_catalog, modified_sig_ids)
+        _recalculate_modified_signatures(
+            new_catalog, modified_sig_ids, warn_missing=False
+        )
 
         return new_catalog, report
     finally:
         cfg.ui_utils.remove_progress_bar(sound=False)
-
-
-def _recalculate_signatures_and_reload(new_catalog, modified_sig_ids):
-    total = len(modified_sig_ids)
-    for idx, sig_id in enumerate(modified_sig_ids):
-        step = 80 + int((idx + 1) * 20 / max(total, 1))
-        cfg.ui_utils.update_bar(
-            step,
-            "Recalculating signature %d/%d" % (idx + 1, total),
-            percentage=step,
-        )
-        tbl = new_catalog.table
-        row_mask = tbl["signature_id"] == sig_id
-        if not row_mask.any():
-            cfg.logger.log.error(
-                "sig_id %s not found in table, skipping recalculation" % sig_id
-            )
-            continue
-
-        row = tbl[row_mask]
-        macroclass_id = row["macroclass_id"][0]
-        class_id = row["class_id"][0]
-        class_name = row["class_name"][0]
-        color = row["color"][0]
-        macroclass_name = new_catalog.macroclasses.get(
-            macroclass_id, str(macroclass_id)
-        )
-
-        try:
-            new_catalog.merge_signatures_by_id(
-                signature_id_list=[sig_id],
-                calculate_signature=True,
-                macroclass_id=macroclass_id,
-                class_id=class_id,
-                macroclass_name=macroclass_name,
-                class_name=class_name,
-                color_string=color,
-            )
-            new_catalog.remove_signature_by_id(sig_id)
-        except Exception as err:
-            cfg.logger.log.error(
-                "Signature recalculation failed for %s: %s" % (sig_id, err)
-            )
-
-    cfg.scp_training.set_signature_catalog(new_catalog)
-    cfg.scp_training.roi_signature_table_tree()
-    cfg.dock_class_dlg.ui.undo_save_Button.setEnabled(True)
-    cfg.dock_class_dlg.ui.redo_save_Button.setEnabled(False)
-    if cfg.project_registry[cfg.reg_save_training_input_check] == 2:
-        cfg.scp_training.save_signature_catalog()
 
 
 def remove_outliers_all_signatures(
@@ -942,7 +783,10 @@ def remove_outliers_all_signatures(
             vote_threshold,
         )
 
-        _recalculate_signatures_and_reload(new_catalog, modified_sig_ids)
+        _recalculate_modified_signatures(
+            new_catalog, modified_sig_ids, warn_missing=True
+        )
+        _reload_training_catalog(new_catalog)
         return report
     finally:
         cfg.ui_utils.remove_progress_bar(sound=False)
@@ -972,7 +816,10 @@ def remove_outliers_selected_signatures(
             vote_threshold,
         )
 
-        _recalculate_signatures_and_reload(new_catalog, modified_sig_ids)
+        _recalculate_modified_signatures(
+            new_catalog, modified_sig_ids, warn_missing=True
+        )
+        _reload_training_catalog(new_catalog)
         return report
     finally:
         cfg.ui_utils.remove_progress_bar(sound=False)
@@ -1003,7 +850,10 @@ def remove_outliers_by_class(
             vote_threshold,
         )
 
-        _recalculate_signatures_and_reload(new_catalog, modified_sig_ids)
+        _recalculate_modified_signatures(
+            new_catalog, modified_sig_ids, warn_missing=True
+        )
+        _reload_training_catalog(new_catalog)
         return report
     finally:
         cfg.ui_utils.remove_progress_bar(sound=False)
@@ -1026,10 +876,22 @@ def remove_outliers_drawing_roi(
         roi_tmp = cfg.rs.configurations.temp.temporary_file_path(name_suffix=".gpkg")
         cfg.util_qgis.save_memory_layer_to_geopackage(cfg.temporary_roi, roi_tmp)
 
-        cfg.ui_utils.update_bar(20, "Clipping raster to ROI...", percentage=20)
+        cfg.ui_utils.update_bar(
+            20,
+            QApplication.translate(
+                "semiautomaticclassificationplugin", "Clipping raster to ROI..."
+            ),
+            percentage=20,
+        )
         ds = util_gdal.warp_multiband_to_memory(band_paths, roi_tmp)
 
-        cfg.ui_utils.update_bar(50, "Running outlier pipeline...", percentage=50)
+        cfg.ui_utils.update_bar(
+            50,
+            QApplication.translate(
+                "semiautomaticclassificationplugin", "Running outlier pipeline..."
+            ),
+            percentage=50,
+        )
         stack, mask, report = run_pipeline(
             ds,
             pipeline_steps,
@@ -1037,7 +899,13 @@ def remove_outliers_drawing_roi(
             vote_threshold=vote_threshold,
         )
 
-        cfg.ui_utils.update_bar(80, "Polygonizing result...", percentage=80)
+        cfg.ui_utils.update_bar(
+            80,
+            QApplication.translate(
+                "semiautomaticclassificationplugin", "Polygonizing result..."
+            ),
+            percentage=80,
+        )
         _mask_ds, mask_band = util_gdal.create_mask_dataset(
             mask.astype(np.uint8), ds.GetGeoTransform(), ds.GetProjection()
         )
@@ -1058,7 +926,7 @@ def remove_outliers_drawing_roi(
             out_ds = None
 
         if union_geom is None:
-            cfg.logger.log.error("Polygonize produced no geometry for drawn ROI")
+            _log_error("Polygonize produced no geometry for drawn ROI")
             return stack, mask, report
 
         ogr_driver = ogr.GetDriverByName("GPKG")

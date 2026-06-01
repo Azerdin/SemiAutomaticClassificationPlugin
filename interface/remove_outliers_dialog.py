@@ -49,6 +49,11 @@ except Exception:
 
 cfg = __import__(str(__name__).split(".")[0] + ".core.config", fromlist=[""])
 
+
+def _tr(message):
+    return QApplication.translate("semiautomaticclassificationplugin", message)
+
+
 METHODS = {
     "MAD": {"threshold": 3.5},
     "Band Z-score": {"threshold": 3.0},
@@ -69,6 +74,25 @@ METHODS = {
     "Erosion": {"iterations": 1},
 }
 
+_INT_PARAM_NAMES = {"n_components", "n_neighbors", "iterations", "sample_size"}
+
+_FLOAT_PARAM_RANGES = {
+    "contamination": (0.005, 4, 0.0, 0.5),
+    "alpha": (0.005, 4, 0.0, 1.0),
+    "nu": (0.005, 4, 0.0, 1.0),
+    "lower_pct": (0.005, 4, 0.0, 1.0),
+    "upper_pct": (0.005, 4, 0.0, 1.0),
+    "threshold": (0.1, 3, 0.0, 100.0),
+    "factor": (0.1, 3, 0.0, 100.0),
+}
+
+_INT_PARAM_RANGES = {
+    "n_components": (1, 999),
+    "n_neighbors": (2, 9999),
+    "iterations": (1, 99),
+    "sample_size": (100, 1000000),
+}
+
 
 _EROSION_METHOD = "Erosion"
 
@@ -77,6 +101,23 @@ def _preset_contains_erosion(preset):
     return any(
         step.get("method") == _EROSION_METHOD for step in preset.get("steps", [])
     )
+
+
+def _coerce_params(method, raw_params):
+    defaults = METHODS.get(method, {})
+    out = dict(defaults)
+    for key, val in raw_params.items():
+        if key in _INT_PARAM_NAMES:
+            try:
+                out[key] = int(val)
+            except (TypeError, ValueError):
+                continue
+        else:
+            try:
+                out[key] = float(val)
+            except (TypeError, ValueError):
+                continue
+    return out
 
 
 class PipelineDialog(QDialog):
@@ -114,7 +155,8 @@ class PipelineDialog(QDialog):
         for preset in self._presets:
             if self._signature_mode and _preset_contains_erosion(preset):
                 continue
-            self.preset_combo.addItem(preset["name"], preset)
+            display = _tr(preset["name"]) if preset.get("name") else ""
+            self.preset_combo.addItem(display, preset)
         self.preset_combo.currentIndexChanged.connect(self._on_preset_changed)
 
         btn_load_preset = QPushButton(
@@ -208,7 +250,8 @@ class PipelineDialog(QDialog):
         if preset is None:
             self.preset_description.setText("")
         else:
-            self.preset_description.setText(preset.get("description", ""))
+            desc = preset.get("description", "")
+            self.preset_description.setText(_tr(desc) if desc else "")
 
     def _apply_preset(self):
         preset = self.preset_combo.currentData()
@@ -221,7 +264,9 @@ class PipelineDialog(QDialog):
 
         for step in preset.get("steps", []):
             method = step["method"]
-            params = step.get("params", METHODS.get(method, {}).copy())
+            if method not in METHODS:
+                continue
+            params = _coerce_params(method, step.get("params") or {})
             item = QListWidgetItem(method)
             item.setData(Qt.UserRole, params)
             self.pipeline_list.addItem(item)
@@ -251,7 +296,7 @@ class PipelineDialog(QDialog):
             return
 
         item = QListWidgetItem(method)
-        item.setData(Qt.UserRole, METHODS[method].copy())
+        item.setData(Qt.UserRole, _coerce_params(method, METHODS[method]))
         self.pipeline_list.addItem(item)
         self.update_vote_threshold_limit()
 
@@ -270,20 +315,25 @@ class PipelineDialog(QDialog):
         self.current_item = item
         self.clear_params()
 
-        params = item.data(Qt.UserRole)
+        params = item.data(Qt.UserRole) or {}
         self.param_widgets = {}
 
         for key, val in params.items():
 
-            if isinstance(val, int):
+            if key in _INT_PARAM_NAMES:
                 widget = QSpinBox()
-                widget.setMaximum(999999)
-                widget.setValue(val)
+                lo, hi = _INT_PARAM_RANGES.get(key, (0, 999999))
+                widget.setRange(lo, hi)
+                widget.setValue(int(val))
             else:
                 widget = QDoubleSpinBox()
-                widget.setDecimals(6)
-                widget.setSingleStep(0.1)
-                widget.setValue(val)
+                step, decimals, lo, hi = _FLOAT_PARAM_RANGES.get(
+                    key, (0.1, 6, 0.0, 1.0e9)
+                )
+                widget.setDecimals(decimals)
+                widget.setRange(lo, hi)
+                widget.setSingleStep(step)
+                widget.setValue(float(val))
 
             widget.valueChanged.connect(self.update_params)
 
@@ -297,7 +347,8 @@ class PipelineDialog(QDialog):
 
         params = {}
         for key, widget in self.param_widgets.items():
-            params[key] = widget.value()
+            value = widget.value()
+            params[key] = int(value) if key in _INT_PARAM_NAMES else float(value)
 
         self.current_item.setData(Qt.UserRole, params)
 
@@ -306,12 +357,11 @@ class PipelineDialog(QDialog):
         self.update_vote_threshold_limit()
 
     def update_vote_threshold_limit(self):
-        count = self.pipeline_list.count()
-        if count < 1:
-            count = 1
+        count = max(self.pipeline_list.count(), 1)
         self.vote_threshold_widget.setRange(1, count)
         if self.vote_threshold_widget.value() > count:
             self.vote_threshold_widget.setValue(count)
+        self.vote_threshold_widget.setEnabled(self.vote_checkbox.isChecked())
 
     def get_pipeline(self):
 
