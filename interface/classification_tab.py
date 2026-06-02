@@ -152,8 +152,36 @@ def apply_class_symbology(classification_raster, macroclass):
 
 
 # perform classification
+def _run_classifier_with_cleaned_catalog():
+    config = cfg.remove_outliers_use_case.get_pipeline_config()
+    if config is None:
+        return False
+
+    pipeline_steps, use_majority_voting, vote_threshold = config
+    try:
+        temp_catalog, _report = cfg.remove_outliers.build_cleaned_catalog_copy(
+            pipeline_steps, use_majority_voting, vote_threshold
+        )
+    except Exception as err:
+        cfg.mx.msg_err_outliers_catalog_failed(err)
+        return False
+
+    original_catalog = cfg.scp_training.signature_catalog
+    try:
+        cfg.scp_training.signature_catalog = temp_catalog
+        run_classifier()
+    finally:
+        cfg.scp_training.signature_catalog = original_catalog
+    return True
+
+
 def run_classification_action():
-    run_classifier()
+    if (cfg.dialog.ui.remove_outliers_before_classification_checkBox.isChecked() is True
+            and cfg.scp_training is not None
+            and cfg.scp_training.signature_catalog is not None):
+        _run_classifier_with_cleaned_catalog()
+    else:
+        run_classifier()
 
 
 # perform classification

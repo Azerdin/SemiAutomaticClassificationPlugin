@@ -20,7 +20,6 @@
 # along with SemiAutomaticClassificationPlugin.
 # If not, see <https://www.gnu.org/licenses/>.
 
-
 from copy import deepcopy
 from datetime import datetime, timedelta
 import shutil
@@ -195,6 +194,7 @@ class TrainingVectorLayer:
             cfg.dock_class_dlg.ui.button_Save_ROI.setEnabled(False)
             cfg.dock_class_dlg.ui.undo_save_Button.setEnabled(False)
             cfg.dock_class_dlg.ui.redo_save_Button.setEnabled(False)
+            cfg.removeROIOutliers_Button.setEnabled(False)
         # reset
         # noinspection PySimplifyBooleanCheck
         if signature_catalog is False:
@@ -1714,6 +1714,18 @@ def context_menu(event):
                                'Merge items')
     )
     add_menu_item(
+        menu, cfg.remove_outliers_use_case.remove_outliers_selected_signatures,
+        'semiautomaticclassificationplugin_remove_outliers_tool.svg',
+        QApplication.translate('semiautomaticclassificationplugin',
+                               'Remove outliers')
+    )
+    add_menu_item(
+        menu, cfg.remove_outliers_use_case.remove_outliers_all_signatures,
+        'semiautomaticclassificationplugin_remove_outliers_all_tool.svg',
+        QApplication.translate('semiautomaticclassificationplugin',
+                               'Remove outliers (all ROIs)')
+    )
+    add_menu_item(
         menu, calculate_signatures,
         'semiautomaticclassificationplugin_add_sign_tool.svg',
         QApplication.translate('semiautomaticclassificationplugin',
@@ -2177,6 +2189,9 @@ def clear_scp_dock_rubber():
 
 """ Training input functions """
 
+# def remove_outliers_and_save_roi_to_training():
+#     cfg.remove_outliers_dialog.PipelineDialog().exec_()
+#     print('remove_outliers_and_save_roi_to_training')
 
 # Save last ROI to training
 def save_roi_to_training(bandset_number=None):
@@ -2388,6 +2403,7 @@ def right_click_manual(point):
                 .isChecked()):
             temporary_roi_spectral_signature()
         cfg.dock_class_dlg.ui.button_Save_ROI.setEnabled(True)
+        cfg.removeROIOutliers_Button.setEnabled(True)
     return None
 
 
@@ -2584,6 +2600,7 @@ def create_region_growing_roi(point, bandset_number=None):
             if button.isChecked():
                 temporary_roi_spectral_signature(bandset_number=bandset_number)
             cfg.dock_class_dlg.ui.button_Save_ROI.setEnabled(True)
+            cfg.removeROIOutliers_Button.setEnabled(True)
             cfg.redo_ROI_Button.setEnabled(True)
         cfg.ui_utils.remove_progress_bar(sound=False)
     return None

@@ -4784,6 +4784,11 @@ size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../interface/input_interface.py" line="438"/>
+        <source>Remove outliers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../interface/input_interface.py" line="544"/>
         <source>Activate ROI pointer</source>
         <translation type="unfinished"></translation>
@@ -4986,6 +4991,11 @@ size</source>
     <message>
         <location filename="../interface/input_interface.py" line="1043"/>
         <source>SCP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core/messages.py" line="128"/>
+        <source>Test results</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
