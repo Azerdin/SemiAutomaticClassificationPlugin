@@ -232,8 +232,40 @@ def get_polygon_from_vector(vector_path, output, attribute_filter=None):
     return output
 
 
+# Repairs invalid polygon geometries in a cutline GeoPackage in place. gdalwarp
+# rejects self-touching ("bowtie") cutlines with "Cutline polygon is invalid";
+# MakeValid only splits the corner touches, so the clipped pixels are unchanged.
+def ensure_valid_cutline(roi_gpkg):
+    try:
+        ds = ogr.Open(roi_gpkg, 1)
+    except Exception:
+        return
+    if ds is None:
+        return
+    try:
+        layer = ds.GetLayer()
+        for feat in layer:
+            geom = feat.GetGeometryRef()
+            if geom is None or geom.IsValid():
+                continue
+            fixed = None
+            try:
+                fixed = geom.MakeValid()
+            except Exception:
+                fixed = None
+            if fixed is None or fixed.IsEmpty():
+                fixed = geom.Buffer(0)
+            if fixed is not None and not fixed.IsEmpty() and fixed.IsValid():
+                feat.SetGeometry(fixed)
+                layer.SetFeature(feat)
+        ds.FlushCache()
+    finally:
+        ds = None
+
+
 # Clips a raster to the ROI cutline and returns the result as an in-memory GDAL dataset.
 def warp_to_memory(raster_in, roi_gpkg, nodata_value=0):
+    ensure_valid_cutline(roi_gpkg)
     warp_options = gdal.WarpOptions(
         format="MEM", cutlineDSName=roi_gpkg, cropToCutline=True, dstNodata=nodata_value
     )

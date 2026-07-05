@@ -59,11 +59,13 @@ METHODS = {
     "Band Z-score": {"threshold": 3.0},
     "Percentile": {"lower_pct": 0.01, "upper_pct": 0.99},
     "IQR": {"factor": 1.5},
-    "Mahalanobis": {"threshold": 3.0},
-    "Robust Mahalanobis": {"threshold": 3.0},
+    "Mahalanobis": {"alpha": 0.025},
+    "Robust Mahalanobis": {"alpha": 0.025},
     "HotellingT2": {"alpha": 0.05},
-    "PCA Mahalanobis": {"n_components": 3, "threshold": 3.0},
-    "PCA Reconstruction": {"n_components": 3, "contamination": 0.01},
+    "PCA Mahalanobis": {"variance_ratio": 0.95, "n_components": 3, "alpha": 0.025},
+    "PCA Reconstruction": {
+        "variance_ratio": 0.95, "n_components": 3, "contamination": 0.01,
+    },
     "GMM": {"n_components": 2, "contamination": 0.01},
     "EllipticEnvelope": {"contamination": 0.01},
     "IsolationForest": {"contamination": 0.01},
@@ -84,6 +86,9 @@ _FLOAT_PARAM_RANGES = {
     "upper_pct": (0.005, 4, 0.0, 1.0),
     "threshold": (0.1, 3, 0.0, 100.0),
     "factor": (0.1, 3, 0.0, 100.0),
+    # 0 < variance_ratio < 1 → PCA dobiera tyle składowych, by osiągnąć ten
+    # ułamek wariancji; variance_ratio = 0 → użyj stałej liczby n_components
+    "variance_ratio": (0.01, 2, 0.0, 0.999),
 }
 
 _INT_PARAM_RANGES = {

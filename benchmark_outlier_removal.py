@@ -151,6 +151,16 @@ _PL_FIELDNAMES = [
     "Blad",
 ]
 
+_PL_PER_CLASS_FIELDNAMES = [
+    "Lp.",
+    "Metoda",
+    "Algorytm",
+    "Klasa",
+    "PA_%",
+    "UA_%",
+    "Kappa_hat",
+]
+
 _DIR_CLASSIFICATIONS = "classifications"
 _DIR_ACCURACY = "accuracy"
 _DIR_CSV_PER_ALGO = "csv_per_algorytm"
@@ -158,6 +168,7 @@ _DIR_CHARTS_PER_ALGO = "wykresy_per_algorytm"
 
 _FILE_TEST_REFERENCE = "test_reference.gpkg"
 _FILE_SUMMARY_CSV = "wyniki_zbiorcze.csv"
+_FILE_PER_CLASS_CSV = "wyniki_per_klasa.csv"
 _FILE_CSV_PER_ALGO = "wyniki_%s.csv"
 
 _CHART_HEATMAP = "wykres_mapa_ciepla.png"
@@ -231,7 +242,35 @@ def _shp_to_gpkg(shp_path):
     return tmp_path
 
 
+# Repairs invalid polygon geometries in a cutline GeoPackage in place. gdalwarp
+# rejects self-touching ("bowtie") cutlines with "Cutline polygon is invalid";
+# MakeValid only splits the corner touches, so the clipped pixels are unchanged.
+def _ensure_valid_cutline(roi_gpkg):
+    ds = ogr.Open(roi_gpkg, 1)
+    if ds is None:
+        return
+    try:
+        layer = ds.GetLayer()
+        for feat in layer:
+            geom = feat.GetGeometryRef()
+            if geom is None or geom.IsValid():
+                continue
+            try:
+                fixed = geom.MakeValid()
+            except Exception:
+                fixed = None
+            if fixed is None or fixed.IsEmpty():
+                fixed = geom.Buffer(0)
+            if fixed is not None and not fixed.IsEmpty() and fixed.IsValid():
+                feat.SetGeometry(fixed)
+                layer.SetFeature(feat)
+        ds.FlushCache()
+    finally:
+        ds = None
+
+
 def _warp_to_memory(raster_path, roi_gpkg, nodata=0):
+    _ensure_valid_cutline(roi_gpkg)
     opts = gdal.WarpOptions(
         format="MEM", cutlineDSName=roi_gpkg, cropToCutline=True, dstNodata=nodata
     )
@@ -262,6 +301,23 @@ def _create_mask_dataset(mask_array, geotransform, projection):
     return ds, band
 
 
+# Returns a valid version of a polygon geometry (mirrors _make_valid_geometry in
+# the plugin's interface/remove_outliers.py). MakeValid only splits self-touching
+# corners, so the rasterized pixel set is unchanged.
+def _make_valid_geom(geom):
+    if geom is None or geom.IsValid():
+        return geom
+    try:
+        fixed = geom.MakeValid()
+    except Exception:
+        fixed = None
+    if fixed is None or fixed.IsEmpty():
+        fixed = geom.Buffer(0)
+    if fixed is not None and not fixed.IsEmpty() and fixed.IsValid():
+        return fixed
+    return geom
+
+
 def _update_roi_geometry(geometry_file, sig_id, clean_mask, geotransform, projection):
     clean_uint8 = clean_mask.astype(np.uint8)
     ds_mask, mask_band = _create_mask_dataset(clean_uint8, geotransform, projection)
@@ -280,19 +336,23 @@ def _update_roi_geometry(geometry_file, sig_id, clean_mask, geotransform, projec
 
     tmp_ds = ogr.Open(tmp_gpkg)
     tmp_layer = tmp_ds.GetLayer()
-    multi = ogr.Geometry(ogr.wkbMultiPolygon)
+    # Łączenie poligonów przez Union (rozpuszcza wspólne krawędzie) + MakeValid,
+    # identycznie jak wtyczka SCP (interface/remove_outliers.py). Daje ten sam
+    # zbiór pikseli co AddGeometry, ale poprawną geometrię ROI dla klasyfikacji.
+    union_geom = None
     for feat in tmp_layer:
         g = feat.GetGeometryRef()
         if g is not None:
-            multi.AddGeometry(g.Clone())
+            union_geom = g.Clone() if union_geom is None else union_geom.Union(g)
     tmp_ds = None
     try:
         os.remove(tmp_gpkg)
     except OSError:
         pass
 
-    if multi.GetGeometryCount() == 0:
+    if union_geom is None:
         return
+    union_geom = _make_valid_geom(union_geom)
 
     ds_geom = ogr.Open(geometry_file, 1)
     if ds_geom is None:
@@ -301,7 +361,7 @@ def _update_roi_geometry(geometry_file, sig_id, clean_mask, geotransform, projec
     layer.ResetReading()
     for feat in layer:
         if feat.GetField("roi_id") == sig_id:
-            feat.SetGeometry(multi)
+            feat.SetGeometry(union_geom)
             layer.SetFeature(feat)
             break
     ds_geom.FlushCache()
@@ -309,19 +369,15 @@ def _update_roi_geometry(geometry_file, sig_id, clean_mask, geotransform, projec
 
 
 def _mad(stack, valid_mask, threshold=3.5):
-    outlier_mask = np.zeros(valid_mask.shape, dtype=bool)
-    for b in range(stack.shape[0]):
-        band = stack[b]
-        vals = band[valid_mask]
-        if len(vals) < 3:
-            continue
-        median = np.nanmedian(vals)
-        mad = np.nanmedian(np.abs(vals - median))
-        if mad == 0:
-            continue
-        modified_z = 0.6745 * (band - median) / mad
-        outlier_mask |= (np.abs(modified_z) > threshold) & valid_mask
-    return ~outlier_mask & valid_mask
+    # Zgodne 1:1 z mad_filter_stack we wtyczce (interface/remove_outliers.py):
+    # mediana/MAD liczone per pasmo po całym stacku (nanmedian), a MAD==0 daje
+    # mianownik 1 (a nie pominięcie pasma).
+    median = np.nanmedian(stack, axis=(1, 2), keepdims=True)
+    mad = np.nanmedian(np.abs(stack - median), axis=(1, 2), keepdims=True)
+    mad = np.where(mad == 0, 1, mad)
+    modified_z = 0.6745 * (stack - median) / mad
+    outlier_mask = np.any(np.abs(modified_z) > threshold, axis=0)
+    return valid_mask & (~outlier_mask)
 
 
 def _band_zscore(stack, valid_mask, threshold=3.0):
@@ -362,7 +418,7 @@ def _iqr(stack, valid_mask, factor=1.5):
         q1, q3 = np.nanpercentile(vals, 25), np.nanpercentile(vals, 75)
         iqr = q3 - q1
         if iqr == 0:
-            continue
+            iqr = 1.0  # mianownik bezpieczny, zgodnie z iqr_filter we wtyczce
         outlier_mask |= (
             (band < q1 - factor * iqr) | (band > q3 + factor * iqr)
         ) & valid_mask
@@ -387,8 +443,6 @@ def _mahalanobis(stack, valid_mask, threshold=None, alpha=None):
 
 def _robust_mahalanobis(stack, valid_mask, threshold=None, alpha=None):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
-    if pts.shape[0] < pts.shape[1] + 10:
-        return valid_mask
     try:
         cov = MinCovDet(random_state=_RANDOM_SEED).fit(pts)
         md = cov.mahalanobis(pts)
@@ -499,8 +553,6 @@ def _knn(stack, valid_mask, n_neighbors=5, contamination=0.01):
 
 def _elliptic_envelope(stack, valid_mask, contamination=0.01):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
-    if pts.shape[0] < pts.shape[1] + 5:
-        return valid_mask
     try:
         pred = EllipticEnvelope(
             contamination=contamination, random_state=_RANDOM_SEED
@@ -643,6 +695,10 @@ def run_pipeline(ds, steps, nodata=None, use_majority_voting=False, vote_thresho
             fn = _METHOD_FN.get(method)
             if fn is None:
                 continue
+            if method not in ("MAD", "Erosion") and int(
+                np.sum(original_valid)
+            ) < max(10, stack.shape[0] + 2):
+                raise ValueError("Too few valid pixels in ROI")
             m = fn(stack, original_valid, **params)
             vote_counts += (~m & original_valid).astype(np.int32)
         mask_final = original_valid & (vote_counts < vote_threshold)
@@ -660,6 +716,13 @@ def run_pipeline(ds, steps, nodata=None, use_majority_voting=False, vote_thresho
             fn = _METHOD_FN.get(method)
             if fn is None:
                 continue
+            # Zgodnie z wtyczką (remove_multivariate_outliers): każda metoda poza
+            # MAD i Erosion wymaga min. max(10, pasma+2) ważnych pikseli; inaczej
+            # ROI jest pomijane (ValueError łapany w _apply_removal_to_catalog).
+            if method not in ("MAD", "Erosion") and int(
+                np.sum(mask_final)
+            ) < max(10, stack.shape[0] + 2):
+                raise ValueError("Too few valid pixels in ROI")
             mask_final = fn(stack, mask_final, **params)
             removed = int(np.sum(original_valid & ~mask_final))
             pct = 100.0 * removed / valid_px if valid_px else 0.0
@@ -889,6 +952,13 @@ def _build_cleaned_catalog(
 
 
 def _classify(rs, bandset_catalog, catalog, out_path, algorithm, macroclass):
+    # Hiperparametry ustawione 1:1 z domyślnymi wartościami interfejsu wtyczki
+    # SCP (run_classifier w interface/classification_tab.py). Bez nich
+    # band_classification używa domyślnych remotior_sensus, które różnią się od
+    # wtyczki: Random Forest (100 vs 10 drzew, min_samples_split None vs 2),
+    # MLP (alpha 0.0001 vs 0.01, batch_size liczony vs "auto") oraz
+    # cross_validation (True vs False). Pozostałe parametry pokrywają się z
+    # domyślnymi wtyczki i są podane jawnie dla pełnej zgodności.
     return rs.band_classification(
         input_bands=bandset_catalog.get(1),
         output_path=out_path,
@@ -896,6 +966,29 @@ def _classify(rs, bandset_catalog, catalog, out_path, algorithm, macroclass):
         macroclass=macroclass,
         algorithm_name=algorithm,
         bandset_catalog=bandset_catalog,
+        threshold=False,
+        signature_raster=False,
+        cross_validation=False,
+        input_normalization=None,
+        class_weight=None,
+        find_best_estimator=False,
+        # Random Forest
+        rf_number_trees=10,
+        rf_min_samples_split=2,
+        rf_max_features=None,
+        # Support Vector Machine
+        svm_c=1.0,
+        svm_gamma="scale",
+        svm_kernel="rbf",
+        # Multi-Layer Perceptron
+        mlp_training_portion=0.9,
+        mlp_hidden_layer_sizes=[100],
+        mlp_alpha=0.01,
+        mlp_learning_rate_init=0.001,
+        mlp_max_iter=200,
+        mlp_batch_size="auto",
+        mlp_activation="relu",
+        classification_confidence=False,
     )
 
 
@@ -909,17 +1002,57 @@ def _assess(rs, classification_path, reference_path, out_path, ref_field):
     )
 
 
-def _parse_oa_kappa(table_path):
+def _parse_accuracy(table_path):
+    """Parsuje tabelę błędów cross_classification: OA, Kappa (globalne) oraz
+    PA [%], UA [%] i Kappa hat dla każdej klasy. Zwraca (oa, kappa, per_class),
+    gdzie per_class to lista dictów {class, pa, ua, kappa_hat}."""
+
+    def _to_float(token):
+        try:
+            v = float(token)
+        except (TypeError, ValueError):
+            return None
+        return None if v != v else v  # odrzuć NaN
+
     oa = kappa = None
+    classes = pa_vals = ua_vals = kappa_vals = None
     with open(table_path, "r", encoding="utf-8") as f:
-        for line in f:
+        for raw in f:
+            line = raw.rstrip("\n")
             m = re.search(r"Overall accuracy \[%\] = ([0-9.]+)", line)
             if m:
                 oa = float(m.group(1))
+                continue
             m = re.search(r"Kappa hat classification = ([0-9.]+)", line)
             if m:
                 kappa = float(m.group(1))
-    return oa, kappa
+                continue
+            if line.startswith("V_Classified,"):
+                classes = [
+                    t for t in line.split(",")[1:] if t and t != "Total"
+                ]
+            elif line.startswith("PA [%],"):
+                pa_vals = line.split(",")[1:]
+            elif line.startswith("UA [%],"):
+                ua_vals = line.split(",")[1:]
+            elif line.startswith("Kappa hat,"):
+                kappa_vals = line.split(",")[1:]
+
+    per_class = []
+    for i, cls in enumerate(classes or []):
+        per_class.append(
+            {
+                "class": cls,
+                "pa": _to_float(pa_vals[i]) if pa_vals and i < len(pa_vals) else None,
+                "ua": _to_float(ua_vals[i]) if ua_vals and i < len(ua_vals) else None,
+                "kappa_hat": (
+                    _to_float(kappa_vals[i])
+                    if kappa_vals and i < len(kappa_vals)
+                    else None
+                ),
+            }
+        )
+    return oa, kappa, per_class
 
 
 def _params_label(params):
@@ -969,6 +1102,34 @@ def _write_polish_csv(path, valid_rows, invalid_rows):
             writer.writerow(_to_pl_row(rank, row))
         for row in invalid_rows:
             writer.writerow(_to_pl_row("—", row))
+
+
+def _fmt_metric(value):
+    return ("%.4f" % value) if value is not None else ""
+
+
+def _write_per_class_csv(path, valid_rows):
+    """Zapisuje PA [%], UA [%] i Kappa hat dla każdej klasy, dla każdej
+    konfiguracji (metoda × algorytm)."""
+    with open(path, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=_PL_PER_CLASS_FIELDNAMES)
+        writer.writeheader()
+        for rank, row in enumerate(valid_rows, 1):
+            metoda = (
+                "Poziom bazowy" if row["label"] == "Baseline" else row["label"]
+            )
+            for pc in row.get("per_class") or []:
+                writer.writerow(
+                    {
+                        "Lp.": rank,
+                        "Metoda": metoda,
+                        "Algorytm": row.get("algorithm", ""),
+                        "Klasa": pc.get("class", ""),
+                        "PA_%": _fmt_metric(pc.get("pa")),
+                        "UA_%": _fmt_metric(pc.get("ua")),
+                        "Kappa_hat": _fmt_metric(pc.get("kappa_hat")),
+                    }
+                )
 
 
 def _generate_charts(results, algorithms, out_dir):
@@ -1551,10 +1712,11 @@ def _run_one_config(task):
             continue
 
         oa = kappa = None
+        per_class = []
         if acc_output.check:
             _, table_path = acc_output.paths
             if table_path and Path(table_path).exists():
-                oa, kappa = _parse_oa_kappa(table_path)
+                oa, kappa, per_class = _parse_accuracy(table_path)
 
         results.append(
             {
@@ -1562,6 +1724,7 @@ def _run_one_config(task):
                 "algorithm": algorithm,
                 "oa": oa,
                 "kappa": kappa,
+                "per_class": per_class,
                 "total_removed": total_removed,
                 "time_s": round(time.time() - t0_algo, 1),
                 "error": "",
@@ -1860,6 +2023,10 @@ def main():
     _write_polish_csv(summary_path, valid, invalid)
     print("Saved: %s" % summary_path)
 
+    per_class_path = out_dir / _FILE_PER_CLASS_CSV
+    _write_per_class_csv(per_class_path, valid)
+    print("Per-class accuracy: %s" % per_class_path)
+
     csv_dir = out_dir / _DIR_CSV_PER_ALGO
     csv_dir.mkdir(exist_ok=True)
     for algo in algorithms:
@@ -1913,6 +2080,35 @@ def main():
         print("  ... and %d more in %s" % (len(valid) - 20, summary_path))
     if invalid:
         print("  %d configs failed (see 'Blad' column in CSV)" % len(invalid))
+
+    # per-class accuracy breakdown for the best configuration
+    best = next((r for r in valid if r.get("per_class")), None)
+    if best is not None:
+        best_label = (
+            "Baseline" if best["label"] == "Baseline" else best["label"]
+        )
+        print("\n" + "=" * 82)
+        print(
+            "PER-CLASS ACCURACY  (best config: %s / %s)"
+            % (best_label[:40], best["algorithm"])
+        )
+        print("-" * 82)
+        print(
+            "%-20s %12s %12s %14s"
+            % ("Class", "PA [%]", "UA [%]", "Kappa hat")
+        )
+        print("-" * 82)
+        for pc in best["per_class"]:
+            print(
+                "%-20s %12s %12s %14s"
+                % (
+                    str(pc["class"])[:20],
+                    _fmt_metric(pc["pa"]) or "-",
+                    _fmt_metric(pc["ua"]) or "-",
+                    _fmt_metric(pc["kappa_hat"]) or "-",
+                )
+            )
+        print("  Full per-class table (all configs): %s" % per_class_path)
 
     print("\nGenerating charts ...")
     _generate_charts(results, algorithms, out_dir)

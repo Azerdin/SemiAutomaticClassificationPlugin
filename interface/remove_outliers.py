@@ -30,6 +30,27 @@ def _log_info(msg):
         pass
 
 
+# Returns a valid version of a polygon geometry. Polygonizing an outlier mask and
+# unioning the pixel polygons can produce self-touching ("bowtie") geometry that
+# GDAL rejects as a cutline ("Cutline polygon is invalid"). MakeValid only splits
+# the corner touches, so the selected pixels (the training sample) are unchanged.
+def _make_valid_geometry(geom, context=""):
+    if geom is None or geom.IsValid():
+        return geom
+    fixed = None
+    try:
+        fixed = geom.MakeValid()
+    except Exception as err:
+        _log_error("MakeValid failed%s: %s" % (context, err))
+    if fixed is None or fixed.IsEmpty():
+        fixed = geom.Buffer(0)
+    if fixed is not None and not fixed.IsEmpty() and fixed.IsValid():
+        _log_info("Repaired invalid ROI geometry%s" % context)
+        return fixed
+    _log_error("Could not repair ROI geometry%s — using original" % context)
+    return geom
+
+
 def run_pipeline(
     ds, pipeline_steps, nodata_value=None, use_majority_voting=False, vote_threshold=2
 ):
@@ -255,13 +276,15 @@ def remove_multivariate_outliers(stack, method="isolationforest", **kwargs):
             n_components,
             threshold=kwargs.get("threshold"),
             alpha=kwargs.get("alpha"),
+            variance_ratio=kwargs.get("variance_ratio"),
         )
 
     elif method == "pcareconstruction":
         n_components = kwargs.get("n_components", min(bands, max(2, bands // 2)))
         contamination = kwargs.get("contamination", 0.01)
         mask_valid, scores = pca_reconstruction_filter(
-            data_scaled, n_components, contamination
+            data_scaled, n_components, contamination,
+            variance_ratio=kwargs.get("variance_ratio"),
         )
 
     elif method == "isolationforest":
@@ -334,8 +357,18 @@ def mahalanobis_filter(data, threshold=None, alpha=None, robust=False):
     return mask, md
 
 
-def pca_filter(data, n_components, threshold=None, alpha=None):
-    pca = PCA(n_components=n_components, random_state=_RANDOM_SEED)
+def _resolve_pca_components(n_components, variance_ratio, n_features):
+    """Liczba składowych PCA: jeśli variance_ratio ∈ (0,1) — zwraca ten ułamek
+    (sklearn dobierze tyle składowych, by osiągnąć dany % wariancji); w przeciwnym
+    razie stała liczba składowych przycięta do liczby cech."""
+    if variance_ratio is not None and 0.0 < float(variance_ratio) < 1.0:
+        return float(variance_ratio)
+    return max(1, min(int(n_components), n_features))
+
+
+def pca_filter(data, n_components, threshold=None, alpha=None, variance_ratio=None):
+    n_comp = _resolve_pca_components(n_components, variance_ratio, data.shape[1])
+    pca = PCA(n_components=n_comp, random_state=_RANDOM_SEED)
     data_pca = pca.fit_transform(data)
     cov = MinCovDet(random_state=_RANDOM_SEED).fit(data_pca)
     md = cov.mahalanobis(data_pca)
@@ -344,8 +377,9 @@ def pca_filter(data, n_components, threshold=None, alpha=None):
     return mask, md
 
 
-def pca_reconstruction_filter(data, n_components, contamination):
-    pca = PCA(n_components=n_components, random_state=42)
+def pca_reconstruction_filter(data, n_components, contamination, variance_ratio=None):
+    n_comp = _resolve_pca_components(n_components, variance_ratio, data.shape[1])
+    pca = PCA(n_components=n_comp, random_state=42)
     X_pca = pca.fit_transform(data)
     X_rec = pca.inverse_transform(X_pca)
     rec_error = np.linalg.norm(data - X_rec, axis=1)
@@ -599,6 +633,7 @@ def _process_catalog_features(
             % (i + 1, total),
             percentage=step,
         )
+        geom = _make_valid_geometry(geom, context=" (input ROI sig_id=%s)" % sig_id)
         roi_tmp = cfg.rs.configurations.temp.temporary_file_path(name_suffix=".gpkg")
         roi_ds = ogr_driver.CreateDataSource(roi_tmp)
         roi_layer = roi_ds.CreateLayer("roi", srs=srs, geom_type=ogr.wkbMultiPolygon)
@@ -649,6 +684,10 @@ def _process_catalog_features(
         if union_geom is None:
             _log_error("Polygonize produced no geometry for sig_id=%s" % sig_id)
             continue
+
+        union_geom = _make_valid_geometry(
+            union_geom, context=" for sig_id=%s" % sig_id
+        )
 
         geo_ds = ogr.Open(geometry_file, 1)
         if geo_ds is not None:
@@ -928,6 +967,8 @@ def remove_outliers_drawing_roi(
         if union_geom is None:
             _log_error("Polygonize produced no geometry for drawn ROI")
             return stack, mask, report
+
+        union_geom = _make_valid_geometry(union_geom, context=" for drawn ROI")
 
         ogr_driver = ogr.GetDriverByName("GPKG")
         merged_gpkg = cfg.rs.configurations.temp.temporary_file_path(
