@@ -71,11 +71,13 @@ _DEFAULT_PARAMS = {
     "Band Z-score": {"threshold": 3.0},
     "Percentile": {"lower_pct": 0.01, "upper_pct": 0.99},
     "IQR": {"factor": 1.5},
-    "Mahalanobis": {"threshold": 3.0},
-    "Robust Mahalanobis": {"threshold": 3.0},
+    "Mahalanobis": {"alpha": 0.025},
+    "Robust Mahalanobis": {"alpha": 0.025},
     "HotellingT2": {"alpha": 0.05},
-    "PCA": {"n_components": 3, "threshold": 3.0},
-    "PCA Reconstruction": {"n_components": 3, "contamination": 0.01},
+    "PCA": {"variance_ratio": 0.95, "n_components": 3, "alpha": 0.025},
+    "PCA Reconstruction": {
+        "variance_ratio": 0.95, "n_components": 3, "contamination": 0.01,
+    },
     "GMM": {"n_components": 2, "contamination": 0.01},
     "EllipticEnvelope": {"contamination": 0.01},
     "IsolationForest": {"contamination": 0.01},
@@ -86,25 +88,29 @@ _DEFAULT_PARAMS = {
     "Erosion": {"iterations": 1},
 }
 
+# Grid-search obejmuje tylko parametry, dla których analiza wrażliwości ma sens:
+# priory (contamination/nu, poziom przycięcia percentyli), poziom istotności
+# alpha oraz parametry strukturalne (variance_ratio, liczba komponentów/sąsiadów).
+# Progi literaturowe (MAD 3.5, Band Z-score 3.0, IQR 1.5, Erosion 1) NIE są tu
+# wpisane — przy --grid-search pozostają na stałej wartości literaturowej
+# (fallback do _DEFAULT_PARAMS w _build_configs), bo odchodzenie od standardu
+# nie ma uzasadnienia. Skraca to też liczbę konfiguracji i czas.
 _PARAM_GRID = {
-    "MAD": [{"threshold": t} for t in [2.0, 2.5, 3.0, 3.5, 4.0]],
-    "Band Z-score": [{"threshold": t} for t in [2.0, 2.5, 3.0, 3.5, 4.0]],
     "Percentile": [
         {"lower_pct": lo, "upper_pct": hi}
         for lo, hi in [(0.005, 0.995), (0.01, 0.99), (0.02, 0.98), (0.05, 0.95)]
     ],
-    "IQR": [{"factor": f} for f in [1.0, 1.5, 2.0, 2.5, 3.0]],
-    "Mahalanobis": [{"threshold": t} for t in [2.0, 2.5, 3.0, 3.5, 4.0]],
-    "Robust Mahalanobis": [{"threshold": t} for t in [2.0, 2.5, 3.0, 3.5, 4.0]],
+    "Mahalanobis": [{"alpha": a} for a in [0.01, 0.025, 0.05]],
+    "Robust Mahalanobis": [{"alpha": a} for a in [0.01, 0.025, 0.05]],
     "HotellingT2": [{"alpha": a} for a in [0.01, 0.05, 0.10]],
     "PCA": [
-        {"n_components": n, "threshold": t}
-        for n in [2, 3, 5]
-        for t in [2.0, 2.5, 3.0, 3.5]
+        {"variance_ratio": v, "alpha": a}
+        for v in [0.90, 0.95, 0.99]
+        for a in [0.01, 0.025, 0.05]
     ],
     "PCA Reconstruction": [
-        {"n_components": n, "contamination": c}
-        for n in [2, 3, 5]
+        {"variance_ratio": v, "contamination": c}
+        for v in [0.90, 0.95, 0.99]
         for c in [0.005, 0.01, 0.02, 0.05]
     ],
     "GMM": [
@@ -126,7 +132,6 @@ _PARAM_GRID = {
     ],
     "OneClassSVM": [{"nu": nu} for nu in [0.005, 0.01, 0.02, 0.05]],
     "SAM": [{"contamination": c} for c in [0.005, 0.01, 0.02, 0.05]],
-    "Erosion": [{"iterations": i} for i in [1, 2, 3]],
 }
 
 ALL_METHODS = list(_DEFAULT_PARAMS.keys())
@@ -175,10 +180,12 @@ _CHART_HEATMAP = "wykres_mapa_ciepla.png"
 _CHART_DELTA_DA = "wykres_zmiana_da.png"
 _CHART_PIXELS_VS_DA = "wykres_piksele_vs_zmiana_da.png"
 _CHART_TOP_METHODS = "wykres_top_metod.png"
+_CHART_PER_CLASS = "wykres_per_klasa.png"
 
 _CHART_ALGO_DA = "wykres_%s_da.png"
 _CHART_ALGO_DELTA_DA = "wykres_%s_zmiana_da.png"
 _CHART_ALGO_PIXELS_DA = "wykres_%s_piksele_da.png"
+_CHART_ALGO_PER_CLASS = "wykres_%s_per_klasa.png"
 
 
 def _tmp(suffix=""):
@@ -433,8 +440,8 @@ def _mahalanobis(stack, valid_mask, threshold=None, alpha=None):
         cov = EmpiricalCovariance().fit(pts)
         md = cov.mahalanobis(pts)
     except Exception as err:
-        log.warning("Mahalanobis failed: %s", err)
-        return valid_mask
+        # Plugin (mahalanobis_filter) nie łapie wyjątku → ROI pomijane.
+        raise ValueError("Mahalanobis failed: %s" % err)
     cutoff = _mahalanobis_cutoff(threshold, alpha, df=pts.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = md <= cutoff
@@ -447,19 +454,28 @@ def _robust_mahalanobis(stack, valid_mask, threshold=None, alpha=None):
         cov = MinCovDet(random_state=_RANDOM_SEED).fit(pts)
         md = cov.mahalanobis(pts)
     except Exception as err:
-        log.warning("Robust Mahalanobis failed: %s", err)
-        return valid_mask
+        # Plugin (mahalanobis_filter robust=True) nie łapie wyjątku → ROI pomijane.
+        raise ValueError("Robust Mahalanobis failed: %s" % err)
     cutoff = _mahalanobis_cutoff(threshold, alpha, df=pts.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = md <= cutoff
     return new_mask
 
 
-def _pca(stack, valid_mask, n_components=3, threshold=None, alpha=None):
+def _resolve_pca_components(n_components, variance_ratio, n_features):
+    """variance_ratio ∈ (0,1) → ułamek wariancji (sklearn dobiera liczbę
+    składowych); w przeciwnym razie stała liczba składowych przycięta do cech."""
+    if variance_ratio is not None and 0.0 < float(variance_ratio) < 1.0:
+        return float(variance_ratio)
+    return max(1, min(int(n_components), n_features))
+
+
+def _pca(
+    stack, valid_mask, n_components=3, threshold=None, alpha=None,
+    variance_ratio=None,
+):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
-    n_comp = min(n_components, pts.shape[1], pts.shape[0])
-    if n_comp < 1:
-        return valid_mask
+    n_comp = _resolve_pca_components(n_components, variance_ratio, pts.shape[1])
     try:
         data_pca = PCA(n_components=n_comp, random_state=_RANDOM_SEED).fit_transform(
             pts
@@ -467,26 +483,26 @@ def _pca(stack, valid_mask, n_components=3, threshold=None, alpha=None):
         cov = MinCovDet(random_state=_RANDOM_SEED).fit(data_pca)
         md = cov.mahalanobis(data_pca)
     except Exception as err:
-        log.warning("PCA Mahalanobis failed: %s", err)
-        return valid_mask
+        # Plugin (pca_filter) nie łapie wyjątku → ROI pomijane.
+        raise ValueError("PCA Mahalanobis failed: %s" % err)
     cutoff = _mahalanobis_cutoff(threshold, alpha, df=data_pca.shape[1])
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = md <= cutoff
     return new_mask
 
 
-def _pca_reconstruction(stack, valid_mask, n_components=3, contamination=0.01):
+def _pca_reconstruction(
+    stack, valid_mask, n_components=3, contamination=0.01, variance_ratio=None,
+):
     pts = StandardScaler().fit_transform(stack[:, valid_mask].T)
-    n_comp = min(n_components, pts.shape[1], pts.shape[0])
-    if n_comp < 1:
-        return valid_mask
+    n_comp = _resolve_pca_components(n_components, variance_ratio, pts.shape[1])
     try:
         pca = PCA(n_components=n_comp, random_state=42)
         proj = pca.inverse_transform(pca.fit_transform(pts))
         errors = np.linalg.norm(pts - proj, axis=1)
         thresh = np.quantile(errors, 1.0 - contamination)
-    except Exception:
-        return valid_mask
+    except Exception as err:
+        raise ValueError("PCA Reconstruction failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = errors <= thresh
     return new_mask
@@ -510,8 +526,7 @@ def _isolation_forest(stack, valid_mask, contamination=0.01):
         clf.fit(sample)
         pred = clf.predict(pts)
     except Exception as err:
-        log.warning("IsolationForest failed: %s", err)
-        return valid_mask
+        raise ValueError("IsolationForest failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
     return new_mask
@@ -526,8 +541,8 @@ def _lof(stack, valid_mask, n_neighbors=20, contamination=0.01):
         pred = LocalOutlierFactor(
             n_neighbors=n_nb, contamination=contamination, n_jobs=-1
         ).fit_predict(pts)
-    except Exception:
-        return valid_mask
+    except Exception as err:
+        raise ValueError("LOF failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
     return new_mask
@@ -544,8 +559,8 @@ def _knn(stack, valid_mask, n_neighbors=5, contamination=0.01):
         dists, _ = nn.kneighbors(pts)
         scores = dists[:, -1]
         thresh = np.quantile(scores, 1.0 - contamination)
-    except Exception:
-        return valid_mask
+    except Exception as err:
+        raise ValueError("kNN failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = scores <= thresh
     return new_mask
@@ -558,8 +573,7 @@ def _elliptic_envelope(stack, valid_mask, contamination=0.01):
             contamination=contamination, random_state=_RANDOM_SEED
         ).fit_predict(pts)
     except Exception as err:
-        log.warning("EllipticEnvelope failed: %s", err)
-        return valid_mask
+        raise ValueError("EllipticEnvelope failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
     return new_mask
@@ -609,8 +623,8 @@ def _one_class_svm(stack, valid_mask, nu=0.01):
         return valid_mask
     try:
         pred = OneClassSVM(nu=nu, gamma="scale", kernel="rbf").fit_predict(pts)
-    except Exception:
-        return valid_mask
+    except Exception as err:
+        raise ValueError("OneClassSVM failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = pred == 1
     return new_mask
@@ -630,8 +644,8 @@ def _sam(stack, valid_mask, contamination=0.01):
         cos = (pts @ mean_vec) / (norms_pts.flatten() * norm_mean)
         angles = np.arccos(np.clip(cos, -1, 1))
         thresh = np.quantile(angles, 1.0 - contamination)
-    except Exception:
-        return valid_mask
+    except Exception as err:
+        raise ValueError("SAM failed: %s" % err)
     new_mask = np.zeros(valid_mask.shape, dtype=bool)
     new_mask[valid_mask] = angles <= thresh
     return new_mask
@@ -690,7 +704,10 @@ def run_pipeline(ds, steps, nodata=None, use_majority_voting=False, vote_thresho
     step_reports = []
 
     if use_majority_voting:
-        vote_counts = np.zeros(original_valid.shape, dtype=np.int32)
+        # Semantyka głosowania zgodna z wtyczką (ensemble_outlier_mask):
+        # liczone są głosy "inlier" (piksel zachowany przez metodę), a piksel
+        # zostaje, gdy zachowa go co najmniej vote_threshold metod.
+        keep_votes = np.zeros(original_valid.shape, dtype=np.int32)
         for method, params in steps:
             fn = _METHOD_FN.get(method)
             if fn is None:
@@ -700,8 +717,8 @@ def run_pipeline(ds, steps, nodata=None, use_majority_voting=False, vote_thresho
             ) < max(10, stack.shape[0] + 2):
                 raise ValueError("Too few valid pixels in ROI")
             m = fn(stack, original_valid, **params)
-            vote_counts += (~m & original_valid).astype(np.int32)
-        mask_final = original_valid & (vote_counts < vote_threshold)
+            keep_votes += (m & original_valid).astype(np.int32)
+        mask_final = original_valid & (keep_votes >= vote_threshold)
         removed = int(np.sum(original_valid & ~mask_final))
         step_reports.append(
             {
@@ -1408,6 +1425,85 @@ def _generate_charts(results, algorithms, out_dir):
         plt.close()
         print("  Top methods: %s" % path)
 
+    # ---- PA / UA / Kappa hat per class: best config vs baseline ----
+    def _per_class_chart(best_row, base_row, algo, path):
+        per_class = best_row["per_class"]
+        classes = [str(pc["class"]) for pc in per_class]
+        base_map = (
+            {str(pc["class"]): pc for pc in base_row["per_class"]}
+            if base_row
+            else {}
+        )
+
+        def _nan(v):
+            return float("nan") if v is None else v
+
+        x = np.arange(len(classes))
+        w = 0.38
+        panels = (
+            ("pa", "PA [%] (dokładność producenta)", (0, 100)),
+            ("ua", "UA [%] (dokładność użytkownika)", (0, 100)),
+            ("kappa_hat", "Kappa hat (per klasa)", (0, 1)),
+        )
+        fig, axes = plt.subplots(
+            1, 3, figsize=(max(13, len(classes) * 1.2 + 4), 5)
+        )
+        for ax, (key, title, ylim) in zip(axes, panels):
+            best_vals = [_nan(pc.get(key)) for pc in per_class]
+            if base_row:
+                base_vals = [
+                    _nan(base_map[c].get(key)) if c in base_map else float("nan")
+                    for c in classes
+                ]
+                ax.bar(
+                    x - w / 2, base_vals, w, label="Poziom bazowy",
+                    color="#9bb7d4",
+                )
+                ax.bar(
+                    x + w / 2, best_vals, w, label=best_row["label"][:24],
+                    color="#d48a6a",
+                )
+            else:
+                ax.bar(
+                    x, best_vals, w * 1.6, label=best_row["label"][:24],
+                    color="#d48a6a",
+                )
+            ax.set_title(title)
+            ax.set_xticks(x)
+            ax.set_xticklabels(classes)
+            ax.set_xlabel("Klasa")
+            ax.set_ylim(*ylim)
+            ax.grid(axis="y", alpha=0.3)
+            ax.legend(fontsize=8)
+        fig.suptitle("Dokładność per klasa — %s" % algo, fontsize=12)
+        plt.tight_layout()
+        plt.savefig(path, dpi=150, bbox_inches="tight")
+        plt.close()
+
+    def _baseline_per_class(rows, algo):
+        return next(
+            (
+                r
+                for r in rows
+                if r["label"] == "Baseline"
+                and r["algorithm"] == algo
+                and r.get("per_class")
+            ),
+            None,
+        )
+
+    best_pc = next(
+        (r for r in valid if r["label"] != "Baseline" and r.get("per_class")),
+        None,
+    )
+    if best_pc is not None:
+        path = str(out_dir / _CHART_PER_CLASS)
+        _per_class_chart(
+            best_pc, _baseline_per_class(valid, best_pc["algorithm"]),
+            best_pc["algorithm"], path,
+        )
+        print("  Per-class accuracy: %s" % path)
+
     per_algo_dir = out_dir / _DIR_CHARTS_PER_ALGO
     per_algo_dir.mkdir(exist_ok=True)
 
@@ -1425,6 +1521,18 @@ def _generate_charts(results, algorithms, out_dir):
         )
         if not non_base:
             continue
+
+        # per-class chart for this algorithm (best method vs baseline)
+        algo_best_pc = next((r for r in non_base if r.get("per_class")), None)
+        if algo_best_pc is not None:
+            pc_path = str(
+                per_algo_dir
+                / (_CHART_ALGO_PER_CLASS % re.sub(r"[^\w\-]", "_", algo))
+            )
+            _per_class_chart(
+                algo_best_pc, _baseline_per_class(algo_results, algo),
+                algo, pc_path,
+            )
 
         method_labels = [r["label"] for r in non_base]
         oas = [r["oa"] or 0 for r in non_base]
@@ -1548,11 +1656,16 @@ _g_rs = None
 _g_bandset_catalog = None
 _g_bandset = None
 _g_scpx_path = None
+_g_keep_classifications = False
 
 
-def _worker_init(image_path, scpx_path, rs_n_processes, rs_ram):
+def _worker_init(
+    image_path, scpx_path, rs_n_processes, rs_ram, keep_classifications=False
+):
     global _g_rs, _g_bandset_catalog, _g_bandset, _g_scpx_path
+    global _g_keep_classifications
     _g_scpx_path = scpx_path
+    _g_keep_classifications = keep_classifications
     _g_rs = remotior_sensus.Session(n_processes=rs_n_processes, available_ram=rs_ram)
     _g_bandset_catalog = _g_rs.bandset_catalog()
     _g_bandset_catalog.create_bandset(paths=image_path, bandset_number=1)
@@ -1718,6 +1831,16 @@ def _run_one_config(task):
             if table_path and Path(table_path).exists():
                 oa, kappa, per_class = _parse_accuracy(table_path)
 
+        # Rastry były potrzebne tylko do policzenia tabeli dokładności — po
+        # sparsowaniu liczb kasujemy je, żeby nie zapełnić dysku (zachowujemy
+        # tylko tabele i CSV). Włącz --keep-classifications, by je zostawić.
+        if not _g_keep_classifications:
+            for _p in (class_path, actual_class_path, acc_path):
+                try:
+                    os.remove(_p)
+                except OSError:
+                    pass
+
         results.append(
             {
                 "label": label,
@@ -1842,6 +1965,13 @@ def main():
     )
     parser.add_argument(
         "--verbose", action="store_true", help="Show detailed progress output"
+    )
+    parser.add_argument(
+        "--keep-classifications",
+        action="store_true",
+        help="Keep classification and accuracy rasters on disk. By default they "
+        "are deleted right after the accuracy table is computed (only the tables "
+        "and CSVs are kept), to avoid filling the disk on large runs.",
     )
 
     args = parser.parse_args()
@@ -1974,7 +2104,10 @@ def main():
     results = []
 
     if n_workers == 1:
-        _worker_init(args.image, args.signatures, args.n_processes, args.ram)
+        _worker_init(
+            args.image, args.signatures, args.n_processes, args.ram,
+            args.keep_classifications,
+        )
         for i, task in enumerate(tasks, 1):
             label = task[0]
             print("\n[%d/%d] %s" % (i, n_tasks, label))
@@ -1997,7 +2130,10 @@ def main():
         pool = _NoDaemonPool(
             processes=n_workers,
             initializer=_worker_init,
-            initargs=(args.image, args.signatures, worker_n_proc, worker_ram),
+            initargs=(
+                args.image, args.signatures, worker_n_proc, worker_ram,
+                args.keep_classifications,
+            ),
         )
         done = 0
         try:
