@@ -274,13 +274,12 @@ class TrainingVectorLayer:
         signature_catalog = deepcopy(self.signature_catalog)
         # copy geometry file to temporary file
         geometry_temp_path = (
-            cfg.rs.configurations.temp.temporary_file_path(
+            cfg.rs.configurations.temp.temporary_mem_path(
                 name_suffix='.gpkg'
             )
         )
-        cfg.rs.files_directories.copy_file(
-            signature_catalog.geometry_file, geometry_temp_path
-        )
+        raster_vector.gdal_copy_vector(
+            signature_catalog.geometry_file, geometry_temp_path)
         signature_catalog.geometry_file = geometry_temp_path
         return signature_catalog
 
@@ -432,6 +431,8 @@ class TrainingVectorLayer:
         self.vector = cfg.util_qgis.add_vector_layer(
             self.signature_catalog.geometry_file, cfg.scp_layer_name, 'ogr'
         )
+        self.vector.setReadOnly(True)
+        self.vector.setCustomProperty('semiautomaticclassificationplugin', 'roi')
         self.layer = project.addMapLayer(self.vector)
         table_config = self.layer.attributeTableConfig()
         try:

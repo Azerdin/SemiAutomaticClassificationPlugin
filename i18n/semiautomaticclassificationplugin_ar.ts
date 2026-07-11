@@ -4699,40 +4699,40 @@ size</source>
 <context>
     <name>semiautomaticclassificationplugin</name>
     <message>
-        <location filename="../interface/scp_dock.py" line="2779"/>
-        <location filename="../interface/scp_dock.py" line="2816"/>
+        <location filename="../interface/scp_dock.py" line="2780"/>
+        <location filename="../interface/scp_dock.py" line="2817"/>
         <source>Export SCP training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1373"/>
-        <location filename="../interface/scp_dock.py" line="1721"/>
+        <location filename="../interface/scp_dock.py" line="1374"/>
+        <location filename="../interface/scp_dock.py" line="1722"/>
         <source>Calculate signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1376"/>
+        <location filename="../interface/scp_dock.py" line="1377"/>
         <source>Calculate signatures for highlighted items?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1412"/>
+        <location filename="../interface/scp_dock.py" line="1413"/>
         <source>Merge signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1454"/>
+        <location filename="../interface/scp_dock.py" line="1455"/>
         <location filename="../spectral_signature/spectral_signature_plot.py" line="453"/>
         <source>Delete signatures</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1460"/>
+        <location filename="../interface/scp_dock.py" line="1461"/>
         <source>Are you sure you want to delete highlighted ROIs and signatures?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2271"/>
+        <location filename="../interface/scp_dock.py" line="2272"/>
         <source>Undo save ROI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5461,12 +5461,12 @@ size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1342"/>
+        <location filename="../interface/scp_dock.py" line="1343"/>
         <source>Remove training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1347"/>
+        <location filename="../interface/scp_dock.py" line="1348"/>
         <source>Are you sure you want to remove training input?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5491,102 +5491,102 @@ size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="651"/>
+        <location filename="../interface/scp_dock.py" line="652"/>
         <source>MC ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="655"/>
+        <location filename="../interface/scp_dock.py" line="656"/>
         <source>C ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="659"/>
+        <location filename="../interface/scp_dock.py" line="660"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="663"/>
+        <location filename="../interface/scp_dock.py" line="664"/>
         <source>Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="667"/>
+        <location filename="../interface/scp_dock.py" line="668"/>
         <source>Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1691"/>
+        <location filename="../interface/scp_dock.py" line="1692"/>
         <source>Clear selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1696"/>
+        <location filename="../interface/scp_dock.py" line="1697"/>
         <source>Collapse/expand all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1536"/>
+        <location filename="../interface/scp_dock.py" line="1537"/>
         <source>Change Macroclass ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1746"/>
+        <location filename="../interface/scp_dock.py" line="1747"/>
         <source>Properties</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1679"/>
+        <location filename="../interface/scp_dock.py" line="1680"/>
         <source>Zoom to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="645"/>
+        <location filename="../interface/scp_dock.py" line="646"/>
         <source>Class</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1685"/>
+        <location filename="../interface/scp_dock.py" line="1686"/>
         <source>Check/uncheck</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1703"/>
+        <location filename="../interface/scp_dock.py" line="1704"/>
         <source>Change MC ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1708"/>
+        <location filename="../interface/scp_dock.py" line="1709"/>
         <source>Change color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1715"/>
+        <location filename="../interface/scp_dock.py" line="1716"/>
         <source>Merge items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1727"/>
+        <location filename="../interface/scp_dock.py" line="1728"/>
         <source>Delete items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1734"/>
+        <location filename="../interface/scp_dock.py" line="1735"/>
         <source>Add to spectral plot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1740"/>
+        <location filename="../interface/scp_dock.py" line="1741"/>
         <source>Add to scatter plot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1752"/>
+        <location filename="../interface/scp_dock.py" line="1753"/>
         <source>Import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1757"/>
+        <location filename="../interface/scp_dock.py" line="1758"/>
         <source>Export</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5602,17 +5602,17 @@ size</source>
     </message>
     <message>
         <location filename="../interface/edit_raster_tab.py" line="190"/>
-        <location filename="../interface/scp_dock.py" line="2274"/>
+        <location filename="../interface/scp_dock.py" line="2275"/>
         <source>Are you sure you want to undo?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2289"/>
+        <location filename="../interface/scp_dock.py" line="2290"/>
         <source>Redo save ROI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2292"/>
+        <location filename="../interface/scp_dock.py" line="2293"/>
         <source>Are you sure you want to redo?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5655,9 +5655,9 @@ size</source>
     <message>
         <location filename="../semiautomaticclassificationplugin.py" line="2287"/>
         <location filename="../semiautomaticclassificationplugin.py" line="2293"/>
-        <location filename="../interface/scp_dock.py" line="345"/>
-        <location filename="../interface/scp_dock.py" line="2650"/>
-        <location filename="../interface/scp_dock.py" line="2754"/>
+        <location filename="../interface/scp_dock.py" line="344"/>
+        <location filename="../interface/scp_dock.py" line="2651"/>
+        <location filename="../interface/scp_dock.py" line="2755"/>
         <source> ROI &amp; Signature list</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5824,34 +5824,34 @@ size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1415"/>
+        <location filename="../interface/scp_dock.py" line="1416"/>
         <source>Merge highlighted signatures into</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="1541"/>
+        <location filename="../interface/scp_dock.py" line="1542"/>
         <source>Change the Macroclass ID for highlighted items to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2636"/>
+        <location filename="../interface/scp_dock.py" line="2637"/>
         <source>Create training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2652"/>
-        <location filename="../interface/scp_dock.py" line="2756"/>
+        <location filename="../interface/scp_dock.py" line="2653"/>
+        <location filename="../interface/scp_dock.py" line="2757"/>
         <source>band set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2678"/>
-        <location filename="../interface/scp_dock.py" line="2718"/>
+        <location filename="../interface/scp_dock.py" line="2679"/>
+        <location filename="../interface/scp_dock.py" line="2719"/>
         <source>Select a training input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/scp_dock.py" line="2871"/>
+        <location filename="../interface/scp_dock.py" line="2872"/>
         <source>Select a vector</source>
         <translation type="unfinished"></translation>
     </message>
