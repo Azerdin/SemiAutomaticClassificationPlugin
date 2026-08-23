@@ -151,13 +151,52 @@ def apply_class_symbology(classification_raster, macroclass):
 
 
 # perform classification
+def _run_classifier_with_cleaned_catalog(save_classifier=None):
+    config = cfg.remove_outliers_use_case.get_pipeline_config()
+    if config is None:
+        # user closed the pipeline dialog without running it
+        cfg.mx.msg_war_outliers_cancelled()
+        return False
+
+    pipeline_steps, use_majority_voting, vote_threshold, scope = config
+    try:
+        temp_catalog, _report = cfg.remove_outliers.build_cleaned_catalog_copy(
+            pipeline_steps, use_majority_voting, vote_threshold, scope=scope
+        )
+    except Exception as err:
+        cfg.mx.msg_err_outliers_catalog_failed(err)
+        return False
+
+    # cleaned copy is passed directly to the classifier; the active catalog
+    # in cfg.scp_training is never touched, so a project save during the run
+    # cannot persist the temporary catalog
+    return run_classifier(
+        save_classifier=save_classifier, signature_catalog=temp_catalog
+    )
+
+
+def _outliers_before_classification_enabled():
+    return (
+        cfg.dialog.ui.remove_outliers_before_classification_checkBox.isChecked()
+        is True
+        and cfg.scp_training is not None
+        and cfg.scp_training.signature_catalog is not None
+    )
+
+
 def run_classification_action():
-    run_classifier()
+    if _outliers_before_classification_enabled():
+        _run_classifier_with_cleaned_catalog()
+    else:
+        run_classifier()
 
 
 # save classifier
 def save_classifier_action():
-    output = run_classifier(save_classifier=True)
+    if _outliers_before_classification_enabled():
+        output = _run_classifier_with_cleaned_catalog(save_classifier=True)
+    else:
+        output = run_classifier(save_classifier=True)
     return output
 
 
@@ -165,7 +204,7 @@ def save_classifier_action():
 # noinspection PyTypeChecker
 def run_classifier(
         save_classifier=None, preview_point=None,
-        classification_confidence=None
+        classification_confidence=None, signature_catalog=None
 ):
     threshold = False
     signature_raster = False
@@ -235,15 +274,18 @@ def run_classifier(
             input_normalization = cfg.rs.configurations.z_score
         else:
             input_normalization = cfg.rs.configurations.linear_scaling
-    if cfg.scp_training is None:
-        cfg.mx.msg_war_5()
-        return False
-    if (cfg.scp_training.signature_catalog is None
-            or cfg.scp_training.signature_catalog is False):
-        cfg.mx.msg_war_5()
-        return False
-    else:
-        signature_catalog = cfg.scp_training.signature_catalog
+    # signature_catalog passed as argument (e.g. a temporarily cleaned copy)
+    # takes precedence over the active training catalog
+    if signature_catalog is None:
+        if cfg.scp_training is None:
+            cfg.mx.msg_war_5()
+            return False
+        if (cfg.scp_training.signature_catalog is None
+                or cfg.scp_training.signature_catalog is False):
+            cfg.mx.msg_war_5()
+            return False
+        else:
+            signature_catalog = cfg.scp_training.signature_catalog
     if save_classifier is True:
         only_fit = True
     else:
@@ -568,6 +610,10 @@ def create_preview(preview_point, classification_confidence=None):
     if point is False:
         cfg.mx.msg_war_3()
         return False
+    if _outliers_before_classification_enabled():
+        # preview trains on the raw catalog (cleaning the whole catalog per
+        # preview click would be too slow) — tell the user about the mismatch
+        cfg.mx.msg_war_outliers_preview_raw()
     cfg.preview_point = point
     output = run_classifier(
         preview_point=point,
