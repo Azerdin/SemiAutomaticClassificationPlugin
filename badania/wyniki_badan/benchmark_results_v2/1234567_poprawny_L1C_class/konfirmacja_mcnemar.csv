@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,minimum distance,PCA Mahalanobis,75.3247,76.3872,+1.0626,59,68,chi2 (poprawka na ciągłość),0.477775,1,nie,"C[7,1]: 56->7; C[5,1]: 5->3; C[5,2]: 15->4"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,maximum likelihood,HotellingT2,56.3164,59.0319,+2.7155,8,31,chi2 (poprawka na ciągłość),0.000426982,0.00213491,TAK,"C[7,1]: 117->105; C[5,1]: 68->80; C[5,2]: 24->23; C[3,1]: 92->85"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,spectral angle mapping,PCA Mahalanobis,76.8595,80.8737,+4.0142,45,79,chi2 (poprawka na ciągłość),0.00304174,0.012167,TAK,"C[7,1]: 75->30; C[5,2]: 10->1; C[3,1]: 1->0"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,random forest,PCA Reconstruction,48.5242,48.2881,-0.2361,16,14,chi2 (poprawka na ciągłość),0.855132,1,nie,"C[7,1]: 101->92; C[5,1]: 2->16; C[5,2]: 12->12; C[3,1]: 2->1"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,support vector machine,Percentile,78.7485,79.2208,+0.4723,11,15,chi2 (poprawka na ciągłość),0.556298,1,nie,"C[7,1]: 71->57; C[5,2]: 5->5"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,multi-layer perceptron,LOF,76.7414,80.8737,+4.1322,22,57,chi2 (poprawka na ciągłość),0.000130614,0.000783681,TAK,"C[7,1]: 60->33; C[5,2]: 18->6"

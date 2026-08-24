@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+124567_poprawny_L2A_roi,124567,poprawny,L2A,roi,random forest,Mahalanobis,74.7004,75.7656,+1.0652,2,10,dwumianowy,0.0385742,0.0385742,TAK,"C[7,1]: 74->70; C[5,1]: 1->1; C[5,2]: 16->15"

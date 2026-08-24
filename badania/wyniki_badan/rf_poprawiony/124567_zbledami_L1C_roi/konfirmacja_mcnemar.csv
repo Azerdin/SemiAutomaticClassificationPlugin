@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,random forest,IsolationForest,44.0746,52.8628,+8.7883,13,79,chi2 (poprawka na ciągłość),1.22936e-11,1.22936e-11,TAK,"C[7,1]: 162->61; C[5,1]: 154->98; C[5,2]: 33->23"

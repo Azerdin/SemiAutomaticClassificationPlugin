@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,minimum distance,PCA Mahalanobis,77.6298,79.2277,+1.5979,13,25,chi2 (poprawka na ciągłość),0.0743529,0.297412,nie,"C[7,1]: 55->59; C[5,2]: 19->13"
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,maximum likelihood,Percentile,60.4527,64.8469,+4.3941,15,48,chi2 (poprawka na ciągłość),5.53935e-05,0.000276967,TAK,"C[1,7]: 0->1; C[7,1]: 70->45; C[5,1]: 55->63; C[5,2]: 75->75"
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,spectral angle mapping,IQR,74.7004,75.7656,+1.0652,13,21,chi2 (poprawka na ciągłość),0.229949,0.312751,nie,"C[7,1]: 74->70; C[5,2]: 9->8"
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,random forest,IQR,77.0972,79.2277,+2.1305,48,64,chi2 (poprawka na ciągłość),0.156376,0.312751,nie,"C[1,7]: 4->0; C[7,1]: 61->46; C[5,1]: 7->10; C[5,2]: 32->44"
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,support vector machine,Percentile,82.4234,83.8881,+1.4647,11,22,chi2 (poprawka na ciągłość),0.0817228,0.297412,nie,"C[7,1]: 73->57; C[5,2]: 10->9"
+124567_zbledami_L2A_class,124567,zbledami,L2A,class,multi-layer perceptron,EllipticEnvelope,67.2437,79.2277,+11.9840,26,116,chi2 (poprawka na ciągłość),8.09823e-14,4.85894e-13,TAK,"C[1,7]: 0->5; C[7,1]: 95->22; C[5,1]: 2->0; C[5,2]: 30->28"

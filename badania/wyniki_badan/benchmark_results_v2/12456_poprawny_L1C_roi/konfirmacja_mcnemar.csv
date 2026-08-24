@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,minimum distance,IQR,83.8881,84.1545,+0.2663,2,4,dwumianowy,0.6875,1,nie,"C[5,1]: 5->6; C[5,2]: 15->12"
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,maximum likelihood,HotellingT2,74.0346,78.6951,+4.6605,51,86,chi2 (poprawka na ciągłość),0.00367469,0.0183735,TAK,"C[5,1]: 121->49; C[5,2]: 25->5"
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,spectral angle mapping,MAD,87.0839,86.9507,-0.1332,5,4,dwumianowy,1,1,nie,"C[5,2]: 10->8"
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,random forest,Erosion,51.3981,72.1704,+20.7723,6,162,chi2 (poprawka na ciągłość),5.86043e-33,3.51626e-32,TAK,"C[5,1]: 9->3; C[5,2]: 15->15"
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,support vector machine,PCA Reconstruction,90.5459,90.8123,+0.2663,0,2,dwumianowy,0.5,1,nie,"C[5,2]: 5->5"
+12456_poprawny_L1C_roi,12456,poprawny,L1C,roi,multi-layer perceptron,kNN,84.1545,86.8176,+2.6631,14,34,chi2 (poprawka na ciągłość),0.00609895,0.0243958,TAK,"C[5,2]: 12->24"

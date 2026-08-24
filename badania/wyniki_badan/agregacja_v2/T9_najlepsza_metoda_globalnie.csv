@@ -1,0 +1,18 @@
+﻿Metoda,Zwyciestwa,Udzial_%,sr_delta_pp,mediana_delta_pp,istotnych
+IQR,56,14.6,2.1,1.07,17
+PCA Mahalanobis,53,13.8,4.24,2.8,32
+Robust Mahalanobis,46,12.0,7.26,5.53,34
+MAD,30,7.8,4.03,1.06,12
+Percentile,22,5.7,3.12,2.95,16
+OneClassSVM,20,5.2,3.04,1.94,8
+Band Z-score,20,5.2,2.17,1.74,8
+Erosion,19,4.9,3.7,1.18,6
+LOF,18,4.7,1.0,0.06,3
+HotellingT2,17,4.4,3.18,2.72,9
+PCA Reconstruction,17,4.4,2.79,0.27,4
+Mahalanobis,15,3.9,2.49,1.33,5
+IsolationForest,13,3.4,4.45,2.24,7
+GMM,12,3.1,1.8,0.77,4
+EllipticEnvelope,10,2.6,3.23,2.65,5
+SAM,10,2.6,2.89,1.2,5
+kNN,6,1.6,1.0,0.87,1

@@ -1,0 +1,7 @@
+﻿Algorytm,OA_baz_poprawny,OA_baz_zbledami,Delta_zbl_minus_pop,zbl_lepszy,n
+support vector machine,84.26,87.61,3.35,14,16
+minimum distance,80.5,83.14,2.64,16,16
+spectral angle mapping,81.56,83.99,2.43,15,16
+random forest,66.44,67.91,1.47,9,16
+multi-layer perceptron,79.04,78.13,-0.91,7,16
+maximum likelihood,67.64,63.35,-4.29,6,16

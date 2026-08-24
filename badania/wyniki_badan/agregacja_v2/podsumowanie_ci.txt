@@ -1,0 +1,17 @@
+PRZEDZIAŁY UFNOŚCI I F1 MAKRO (poziom 95%)
+======================================================================
+źródło danych: wyniki_badan/benchmark_results_v2
+porównań (przebieg x algorytm): 384
+punktów referencyjnych w przebiegu: 847
+
+PRZYROST DOKŁADNOŚCI
+  średni przyrost:            +3.50 pp
+  przedział wyklucza zero:    219 z 384
+     w tym przyrosty:         219
+     w tym spadki:            0
+  średnia szerokość przedziału: 3.40 pp
+
+F1 MAKRO (kontrola dominacji klasy najliczniejszej)
+  porównań z macierzami:      384
+  średni przyrost F1 makro:   +3.02 pp
+  przyrost dodatni w:         348 z 384

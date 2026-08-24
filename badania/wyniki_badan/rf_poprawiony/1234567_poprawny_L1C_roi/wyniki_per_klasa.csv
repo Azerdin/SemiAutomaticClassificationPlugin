@@ -1,0 +1,127 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Lp.,Metoda,Algorytm,Klasa,PA_%,UA_%,F1_%
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,1,38.5802,89.2857,53.8793
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,2,73.6842,37.2340,49.4700
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,3,68.7500,94.2857,79.5181
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,4,96.2025,73.7864,83.5165
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,5,60.2410,50.5051,54.9451
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,1,PCA Mahalanobis,random forest,7,70.3704,35.6250,47.3029
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,1,27.7778,74.3802,40.4494
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,2,68.4211,45.1389,54.3933
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,5,45.7831,24.2038,31.6667
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,2,Robust Mahalanobis,random forest,7,70.3704,34.1317,45.9677
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,1,23.7654,75.4902,36.1502
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,2,66.3158,34.0541,45.0000
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,3,66.6667,96.9697,79.0123
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,4,94.9367,75.0000,83.7989
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,5,50.6024,34.7107,41.1765
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,3,IQR,random forest,7,72.8395,31.7204,44.1948
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,1,17.5926,69.5122,28.0788
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,2,72.6316,45.3947,55.8704
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,3,68.7500,94.2857,79.5181
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,4,97.4684,75.4902,85.0829
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,5,53.0120,24.8588,33.8462
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,4,Percentile,random forest,7,72.8395,33.3333,45.7364
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,1,16.6667,72.9730,27.1357
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,2,69.4737,43.4211,53.4413
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,3,69.7917,97.1014,81.2121
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,5,56.6265,25.1337,34.8148
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,5,OneClassSVM,random forest,7,72.8395,33.7143,46.0938
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,1,14.8148,73.8462,24.6787
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,2,70.5263,45.5782,55.3719
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,3,71.8750,97.1831,82.6347
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,5,60.2410,26.5957,36.9004
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,6,PCA Reconstruction,random forest,7,71.6049,31.3514,43.6090
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,1,14.1975,71.8750,23.7113
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,2,73.6842,43.4783,54.6875
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,3,69.7917,97.1014,81.2121
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,5,60.2410,26.1780,36.4964
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,7,IsolationForest,random forest,7,71.6049,33.7209,45.8498
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,1,15.4321,76.9231,25.7069
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,2,69.4737,28.5714,40.4908
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,3,65.6250,96.9231,78.2609
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,5,63.8554,44.9153,52.7363
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,8,MAD,random forest,7,70.3704,32.2034,44.1860
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,1,12.6543,77.3585,21.7507
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,2,70.5263,44.9664,54.9180
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,5,66.2651,25.8216,37.1622
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,9,EllipticEnvelope,random forest,7,71.6049,33.5260,45.6693
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,1,12.6543,74.5455,21.6359
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,2,71.5789,52.7132,60.7143
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,5,65.0602,23.3766,34.3949
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,10,GMM,random forest,7,71.6049,33.5260,45.6693
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,1,14.1975,69.6970,23.5897
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,2,72.6316,44.2308,54.9801
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,5,59.0361,25.0000,35.1254
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,11,Band Z-score,random forest,7,70.3704,33.5294,45.4183
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,1,13.2716,70.4918,22.3377
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,2,71.5789,50.7463,59.3886
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,5,60.2410,22.6244,32.8947
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,12,SAM,random forest,7,72.8395,34.1040,46.4567
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,1,15.1235,68.0556,24.7475
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,2,67.3684,40.5063,50.5929
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,3,71.8750,95.8333,82.1429
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,4,96.2025,73.7864,83.5165
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,5,57.8313,29.4479,39.0244
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,13,Poziom bazowy,random forest,7,70.3704,29.6875,41.7582
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,1,12.9630,71.1864,21.9321
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,2,73.6842,47.2973,57.6132
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,5,59.0361,23.1132,33.2203
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,14,kNN,random forest,7,72.8395,34.5029,46.8254
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,1,15.1235,65.3333,24.5614
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,2,58.9474,57.7320,58.3333
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,3,65.6250,96.9231,78.2609
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,4,97.4684,75.4902,85.0829
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,5,65.0602,23.4783,34.5048
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,15,Erosion,random forest,7,74.0741,31.4136,44.1176
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,1,12.3457,68.9655,20.9424
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,2,71.5789,42.5000,53.3333
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,3,69.7917,95.7143,80.7229
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,4,97.4684,74.0385,84.1530
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,5,57.8313,25.0000,34.9091
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,16,LOF,random forest,7,71.6049,32.9545,45.1362
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,1,12.9630,68.8525,21.8182
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,2,71.5789,50.0000,58.8745
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,5,55.4217,20.7207,30.1639
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,17,HotellingT2,random forest,7,71.6049,34.1176,46.2151
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,1,11.7284,66.6667,19.9475
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,2,73.6842,50.0000,59.5745
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,4,97.4684,74.7573,84.6154
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,5,55.4217,20.3540,29.7735
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_roi,1234567,poprawny,L1C,roi,18,Mahalanobis,random forest,7,71.6049,34.9398,46.9636

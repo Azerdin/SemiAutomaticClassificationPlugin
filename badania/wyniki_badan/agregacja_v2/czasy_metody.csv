@@ -1,0 +1,18 @@
+﻿Metoda,Narzut_mediana_s,Narzut_srednia_s,Narzut_mediana_%,Usuniete_px_mediana,n
+Robust Mahalanobis,-0.40,-4.00,-3.2,2245,384
+PCA Mahalanobis,-0.30,-3.75,-2.1,1891,384
+Band Z-score,-0.10,-0.83,-1.2,189,384
+IQR,-0.10,-1.99,-1.2,987,384
+MAD,-0.10,-2.09,-1.6,787,384
+LOF,0.00,-0.21,0.0,65,384
+Percentile,0.00,-0.84,0.0,546,384
+IsolationForest,0.00,-0.35,0.0,65,384
+EllipticEnvelope,0.00,-0.39,0.0,65,384
+PCA Reconstruction,0.00,-0.27,0.0,65,384
+GMM,0.00,-0.27,0.0,65,384
+HotellingT2,0.00,-1.09,0.0,424,384
+Mahalanobis,0.00,-1.02,0.0,403,384
+Erosion,0.00,-1.96,0.0,1845,384
+SAM,0.10,-0.30,0.9,65,384
+kNN,0.10,-0.31,0.3,65,384
+OneClassSVM,0.10,-0.51,0.7,278,384

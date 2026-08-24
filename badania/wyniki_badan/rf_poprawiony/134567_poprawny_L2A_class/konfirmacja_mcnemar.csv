@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,random forest,SAM,78.1582,79.3388,+1.1806,1,11,dwumianowy,0.00634766,0.00634766,TAK,"C[7,1]: 84->76; C[5,1]: 1->2; C[3,1]: 2->2"

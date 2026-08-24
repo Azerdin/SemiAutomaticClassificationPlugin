@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,minimum distance,PCA Mahalanobis,86.8176,91.0786,+4.2610,5,37,chi2 (poprawka na ciągłość),1.72351e-06,1.03411e-05,TAK,"C[5,1]: 7->7"
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,maximum likelihood,Percentile,79.6272,81.7577,+2.1305,1,17,dwumianowy,0.000144958,0.000579834,TAK,"C[5,1]: 93->78"
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,spectral angle mapping,PCA Mahalanobis,88.1491,90.8123,+2.6631,7,27,chi2 (poprawka na ciągłość),0.00112013,0.0033604,TAK,"C[5,1]: 2->2"
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,random forest,GMM,84.0213,86.4181,+2.3968,0,18,dwumianowy,7.62939e-06,3.8147e-05,TAK,"C[5,1]: 6->1"
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,support vector machine,PCA Mahalanobis,90.6791,93.4754,+2.7963,13,34,chi2 (poprawka na ciągłość),0.00353076,0.00706152,TAK,
+1456_poprawny_L2A_class,1456,poprawny,L2A,class,multi-layer perceptron,PCA Mahalanobis,86.4181,87.3502,+0.9321,26,33,chi2 (poprawka na ciągłość),0.434724,0.434724,nie,

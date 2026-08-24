@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,minimum distance,PCA Mahalanobis,76.8595,80.2834,+3.4238,15,44,chi2 (poprawka na ciągłość),0.000267091,0.000267091,TAK,"C[7,1]: 64->68; C[5,1]: 7->7"
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,maximum likelihood,Percentile,64.2267,67.8867,+3.6600,4,35,chi2 (poprawka na ciągłość),1.55648e-06,6.22591e-06,TAK,"C[7,1]: 122->84; C[5,1]: 73->85; C[3,1]: 32->35"
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,spectral angle mapping,Robust Mahalanobis,76.7414,81.2279,+4.4864,18,56,chi2 (poprawka na ciągłość),1.69904e-05,5.09713e-05,TAK,"C[7,1]: 83->47; C[5,1]: 2->0; C[3,1]: 0->1"
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,random forest,PCA Mahalanobis,67.1783,75.4427,+8.2645,45,115,chi2 (poprawka na ciągłość),4.89924e-08,2.93955e-07,TAK,"C[7,1]: 107->67; C[5,1]: 26->37; C[3,1]: 9->1"
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,support vector machine,IQR,77.9221,82.4085,+4.4864,5,43,chi2 (poprawka na ciągłość),9.26957e-08,4.63478e-07,TAK,"C[7,1]: 75->60; C[5,1]: 0->3; C[3,1]: 0->2"
+134567_poprawny_L2A_class,134567,poprawny,L2A,class,multi-layer perceptron,Percentile,71.1924,75.2066,+4.0142,18,52,chi2 (poprawka na ciągłość),8.00486e-05,0.000160097,TAK,"C[7,1]: 47->33; C[3,1]: 0->3"

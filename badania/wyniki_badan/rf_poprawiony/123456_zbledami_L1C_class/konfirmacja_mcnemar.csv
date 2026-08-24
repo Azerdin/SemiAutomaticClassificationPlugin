@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+123456_zbledami_L1C_class,123456,zbledami,L1C,class,random forest,EllipticEnvelope,71.9008,82.9988,+11.0980,12,106,chi2 (poprawka na ciągłość),1.11559e-17,1.11559e-17,TAK,"C[5,1]: 62->16; C[5,2]: 25->19; C[3,1]: 49->11"

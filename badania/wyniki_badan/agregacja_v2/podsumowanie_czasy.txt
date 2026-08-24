@@ -1,0 +1,17 @@
+CZAS PRZETWARZANIA
+======================================================================
+źródło danych: wyniki_badan/benchmark_results_v2
+pomiarów: 6912, łączny czas obliczeń: 32.5 h
+
+NARZUT MECHANIZMU (różnicowo względem poziomu bazowego)
+  mediana narzutu:   +0.00 s
+  średnia narzutu:   -1.19 s
+  zakres median metod: od -0.40 do +0.10 s
+
+CZAS KLASYFIKACJI (poziom bazowy, bez usuwania)
+  support vector machine   mediana   37.1 s
+  maximum likelihood       mediana   31.8 s
+  multi-layer perceptron   mediana   13.7 s
+  spectral angle mapping   mediana   10.8 s
+  minimum distance         mediana    8.1 s
+  random forest            mediana    6.0 s

@@ -1,0 +1,649 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Lp.,Metoda,Algorytm,Klasa,PA_%,UA_%,F1_%
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,1,81.7901,90.7534,86.0390
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,3,83.3333,96.3855,89.3855
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,5,84.2697,97.4026,90.3614
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,6,96.6292,97.7273,97.1751
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,1,Erosion,support vector machine,7,80.2469,46.7626,59.0909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,1,81.1728,94.9458,87.5208
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,4,93.6709,82.2222,87.5740
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,5,81.4607,97.3154,88.6850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,6,95.5056,95.5056,95.5056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,2,Percentile,support vector machine,7,82.7160,51.5385,63.5071
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,1,79.3210,94.8339,86.3866
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,4,94.9367,81.5217,87.7193
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,5,82.5843,97.3510,89.3617
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,3,LOF,support vector machine,7,80.2469,48.8722,60.7477
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,1,79.9383,94.5255,86.6221
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,5,82.0225,97.3333,89.0244
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,4,EllipticEnvelope,support vector machine,7,80.2469,49.2424,61.0329
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,1,79.9383,94.5255,86.6221
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,5,82.0225,97.3333,89.0244
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,5,IsolationForest,support vector machine,7,80.2469,49.2424,61.0329
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,1,79.9383,94.5255,86.6221
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,5,82.0225,97.3333,89.0244
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,6,kNN,support vector machine,7,80.2469,49.2424,61.0329
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,1,78.3951,94.7761,85.8108
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,3,88.5417,77.9817,82.9268
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,4,93.6709,80.4348,86.5497
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,5,82.0225,97.3333,89.0244
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,6,95.5056,95.5056,95.5056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,7,Poziom bazowy,support vector machine,7,82.7160,48.2014,60.9091
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,1,79.0123,94.1176,85.9060
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,3,88.5417,76.5766,82.1256
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,5,81.4607,97.3154,88.6850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,8,PCA Reconstruction,support vector machine,7,80.2469,47.7941,59.9078
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,1,79.9383,94.1818,86.4775
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,3,88.5417,76.5766,82.1256
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,4,93.6709,79.5699,86.0465
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,5,79.7753,97.2603,87.6543
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,6,95.5056,95.5056,95.5056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,9,SAM,support vector machine,7,80.2469,48.8722,60.7477
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,1,78.0864,94.4030,85.4730
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,5,81.4607,97.3154,88.6850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,6,95.5056,96.5909,96.0452
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,10,GMM,support vector machine,7,81.4815,47.4820,60.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,1,78.0864,94.7566,85.6176
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,3,88.5417,77.2727,82.5243
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,4,93.6709,81.3187,87.0588
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,5,81.4607,97.3154,88.6850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,6,95.5056,95.5056,95.5056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,11,OneClassSVM,support vector machine,7,80.2469,46.0993,58.5586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,1,78.7037,94.4444,85.8586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,3,88.5417,73.9130,80.5687
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,4,93.6709,80.4348,86.5497
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,5,81.4607,97.3154,88.6850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,6,93.2584,97.6471,95.4023
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,12,Band Z-score,support vector machine,7,80.2469,47.7941,59.9078
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,1,78.0864,93.7037,85.1852
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,3,87.5000,72.4138,79.2453
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,4,93.6709,78.7234,85.5491
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,5,80.3371,95.3333,87.1951
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,6,93.2584,98.8095,95.9538
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,13,IQR,support vector machine,7,76.5432,46.6165,57.9439
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,1,78.7037,91.0714,84.4371
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,3,83.3333,77.6699,80.4020
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,4,92.4051,76.8421,83.9080
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,5,81.4607,92.3567,86.5672
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,6,94.3820,98.8235,96.5517
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,14,Robust Mahalanobis,support vector machine,7,74.0741,47.2441,57.6923
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,1,75.9259,94.2529,84.1026
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,3,87.5000,71.7949,78.8732
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,4,94.9367,80.6452,87.2093
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,5,82.0225,96.6887,88.7538
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,6,89.8876,98.7654,94.1176
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,15,HotellingT2,support vector machine,7,80.2469,45.1389,57.7778
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,1,75.9259,94.2529,84.1026
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,3,87.5000,71.1864,78.5047
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,4,94.9367,80.6452,87.2093
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,5,81.4607,96.6667,88.4146
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,6,89.8876,98.7654,94.1176
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,16,Mahalanobis,support vector machine,7,80.2469,45.1389,57.7778
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,1,81.7901,95.6679,88.1864
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,3,83.3333,69.5652,75.8294
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,4,96.2025,68.4685,80.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,5,76.9663,86.1635,81.3056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,6,89.8876,93.0233,91.4286
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,17,IsolationForest,random forest,7,54.3210,44.4444,48.8889
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,1,80.2469,93.1900,86.2355
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,3,81.2500,75.7282,78.3920
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,4,96.2025,67.2566,79.1667
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,5,75.2809,83.2298,79.0560
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,6,95.5056,93.4066,94.4444
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,18,Percentile,random forest,7,56.7901,46.0000,50.8287
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,1,79.6296,83.2258,81.3880
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,3,81.2500,91.7647,86.1878
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,5,67.4157,86.9565,75.9494
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,19,Poziom bazowy,minimum distance,7,82.7160,50.0000,62.3256
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,1,79.3210,82.9032,81.0726
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,3,80.2083,92.7711,86.0335
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,5,67.4157,86.3309,75.7098
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,20,LOF,minimum distance,7,82.7160,49.6296,62.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,1,78.7037,82.5243,80.5687
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,3,80.2083,95.0617,87.0056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,4,89.8734,75.5319,82.0809
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,5,67.9775,86.4286,76.1006
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,21,Percentile,minimum distance,7,82.7160,49.2647,61.7512
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,1,79.3210,82.9032,81.0726
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,3,79.1667,91.5663,84.9162
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,4,89.8734,77.1739,83.0409
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,5,66.8539,85.6115,75.0789
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,22,GMM,minimum distance,7,83.9506,50.0000,62.6728
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,1,79.3210,82.6367,80.9449
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,3,80.2083,91.6667,85.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,5,66.8539,86.8613,75.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,23,IsolationForest,minimum distance,7,82.7160,49.6296,62.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,1,79.6296,82.6923,81.1321
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,3,79.1667,91.5663,84.9162
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,5,66.8539,86.2319,75.3165
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,24,PCA Reconstruction,minimum distance,7,82.7160,50.0000,62.3256
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,1,79.0123,82.5806,80.7571
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,3,80.2083,91.6667,85.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,5,66.8539,86.8613,75.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,25,SAM,minimum distance,7,82.7160,49.2647,61.7512
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,1,79.0123,82.5806,80.7571
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,3,80.2083,91.6667,85.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,5,66.8539,86.2319,75.3165
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,26,EllipticEnvelope,minimum distance,7,82.7160,49.6296,62.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,1,79.0123,82.5806,80.7571
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,3,80.2083,91.6667,85.5556
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,5,66.8539,86.2319,75.3165
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,27,OneClassSVM,minimum distance,7,82.7160,49.6296,62.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,1,77.7778,94.3820,85.2792
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,3,83.3333,72.0721,77.2947
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,4,94.9367,65.2174,77.3196
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,5,81.4607,87.8788,84.5481
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,6,88.7640,95.1807,91.8605
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,28,LOF,random forest,7,53.0864,40.5660,45.9893
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,1,79.6296,94.5055,86.4322
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,3,83.3333,70.7965,76.5550
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,4,94.9367,68.1818,79.3651
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,5,76.9663,85.0932,80.8260
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,6,89.8876,93.0233,91.4286
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,29,kNN,random forest,7,54.3210,42.3077,47.5676
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,1,79.0123,82.5806,80.7571
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,3,79.1667,91.5663,84.9162
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,4,89.8734,76.3441,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,5,66.8539,85.6115,75.0789
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,30,kNN,minimum distance,7,82.7160,49.6296,62.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,1,77.7778,82.0847,79.8732
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,3,77.0833,97.3684,86.0465
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,4,93.6709,77.8947,85.0575
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,5,68.5393,85.9155,76.2500
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,6,95.5056,97.7011,96.5909
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,31,Erosion,minimum distance,7,81.4815,47.1429,59.7285
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,1,79.9383,94.8718,86.7672
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,3,84.3750,70.4348,76.7773
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,4,96.2025,69.0909,80.4233
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,5,74.7191,85.8065,79.8799
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,6,89.8876,89.8876,89.8876
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,32,SAM,random forest,7,53.0864,40.9524,46.2366
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,1,78.0864,93.0147,84.8993
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,3,83.3333,71.4286,76.9231
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,4,96.2025,68.4685,80.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,5,75.2809,85.8974,80.2395
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,6,94.3820,97.6744,96.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,33,OneClassSVM,random forest,7,54.3210,40.0000,46.0733
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,1,79.6296,94.5055,86.4322
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,3,85.4167,68.9076,76.2791
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,4,96.2025,68.4685,80.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,5,73.0337,84.4156,78.3133
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,6,88.7640,96.3415,92.3977
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,34,EllipticEnvelope,random forest,7,54.3210,40.7407,46.5608
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,1,76.8519,83.5570,80.0643
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,3,75.0000,93.5065,83.2370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,4,91.1392,72.7273,80.8989
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,5,73.0337,87.8378,79.7546
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,35,PCA Mahalanobis,minimum distance,7,75.3086,43.8849,55.4545
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,1,76.5432,81.8482,79.1069
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,3,78.1250,96.1538,86.2069
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,4,89.8734,77.1739,83.0409
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,5,69.1011,84.2466,75.9259
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,36,Mahalanobis,minimum distance,7,82.7160,47.1831,60.0897
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,1,76.5432,81.8482,79.1069
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,3,77.0833,94.8718,85.0575
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,4,89.8734,77.1739,83.0409
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,5,68.5393,83.5616,75.3086
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,37,HotellingT2,minimum distance,7,82.7160,47.1831,60.0897
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,1,69.1358,92.5620,79.1519
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,3,84.3750,72.9730,78.2609
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,4,94.9367,75.7576,84.2697
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,5,79.7753,95.9459,87.1166
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,6,93.2584,98.8095,95.9538
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,38,MAD,support vector machine,7,75.3086,37.4233,50.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,1,74.6914,91.3208,82.1732
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,3,79.1667,73.0769,76.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,4,92.4051,69.5238,79.3478
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,5,73.5955,95.6204,83.1746
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,6,93.2584,98.8095,95.9538
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,39,PCA Mahalanobis,support vector machine,7,75.3086,40.1316,52.3605
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,1,74.6914,92.0152,82.4532
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,3,72.9167,82.3529,77.3481
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,4,84.8101,65.0485,73.6264
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,5,88.7640,89.7727,89.2655
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,6,91.0112,92.0455,91.5254
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,40,IsolationForest,multi-layer perceptron,7,59.2593,36.3636,45.0704
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,1,76.5432,82.1192,79.2332
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,3,78.1250,91.4634,84.2697
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,4,89.8734,77.1739,83.0409
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,5,67.4157,84.5070,75.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,41,Band Z-score,minimum distance,7,82.7160,46.8531,59.8214
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,1,74.3827,96.0159,83.8261
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,3,86.4583,72.1739,78.6730
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,4,96.2025,66.6667,78.7565
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,5,78.0899,89.1026,83.2335
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,6,89.8876,91.9540,90.9091
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,42,GMM,random forest,7,54.3210,35.4839,42.9268
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,1,75.9259,96.8504,85.1211
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,3,85.4167,72.5664,78.4689
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,4,96.2025,64.9573,77.5510
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,5,78.0899,86.8750,82.2485
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,6,89.8876,89.8876,89.8876
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,43,Poziom bazowy,random forest,7,49.3827,35.0877,41.0256
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,1,77.7778,93.6803,84.9916
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,3,86.4583,70.9402,77.9343
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,4,96.2025,67.2566,79.1667
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,5,73.5955,85.6209,79.1541
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,6,88.7640,96.3415,92.3977
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,44,Band Z-score,random forest,7,51.8519,37.1681,43.2990
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,1,75.6173,82.2148,78.7781
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,3,72.9167,98.5915,83.8323
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,4,91.1392,72.0000,80.4469
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,5,72.4719,83.7662,77.7108
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,45,Robust Mahalanobis,minimum distance,7,74.0741,43.4783,54.7945
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,1,76.5432,92.5373,83.7838
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,3,86.4583,69.7479,77.2093
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,4,97.4684,66.3793,78.9744
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,5,73.0337,84.4156,78.3133
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,6,86.5169,100.0000,92.7711
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,46,HotellingT2,random forest,7,55.5556,39.8230,46.3918
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,1,74.0741,91.6031,81.9113
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,3,76.0417,92.4051,83.4286
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,4,79.7468,63.0000,70.3911
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,5,84.2697,94.9367,89.2857
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,6,94.3820,92.3077,93.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,47,Mahalanobis,spectral angle mapping,7,60.4938,31.2102,41.1765
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,1,76.2346,91.4815,83.1650
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,4,81.0127,64.6465,71.9101
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,5,79.2135,94.6309,86.2385
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,6,95.5056,85.0000,89.9471
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,48,Poziom bazowy,spectral angle mapping,7,61.7284,33.1126,43.1034
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,1,75.0000,81.5436,78.1350
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,3,80.2083,95.0617,87.0056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,4,92.4051,70.8738,80.2198
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,5,69.1011,86.6197,76.8750
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,49,IQR,minimum distance,7,71.6049,42.3358,53.2110
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,1,75.0000,94.9219,83.7931
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,3,85.4167,67.7686,75.5760
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,4,93.6709,64.3478,76.2887
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,5,76.4045,87.7419,81.6817
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,6,88.7640,81.4433,84.9462
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,50,PCA Reconstruction,random forest,7,54.3210,42.7184,47.8261
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,1,74.0741,91.6031,81.9113
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,3,76.0417,92.4051,83.4286
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,4,79.7468,63.0000,70.3911
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,5,83.7079,94.9045,88.9552
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,6,94.3820,92.3077,93.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,51,HotellingT2,spectral angle mapping,7,60.4938,31.0127,41.0042
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,1,75.9259,91.4498,82.9680
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,4,78.4810,62.0000,69.2737
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,5,80.8989,94.7368,87.2727
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,6,95.5056,87.6289,91.3978
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,52,OneClassSVM,spectral angle mapping,7,60.4938,32.4503,42.2414
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,1,74.0741,81.9113,77.7958
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,3,78.1250,92.5926,84.7458
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,4,92.4051,73.0000,81.5642
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,5,70.2247,87.4126,77.8816
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,6,95.5056,98.8372,97.1429
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,53,MAD,minimum distance,7,74.0741,41.6667,53.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,1,90.4321,89.6024,90.0154
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,3,67.7083,92.8571,78.3133
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,4,92.4051,50.6944,65.4709
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,5,71.3483,90.0709,79.6238
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,6,96.6292,73.5043,83.4951
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,54,Erosion,multi-layer perceptron,7,16.0494,27.0833,20.1550
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,1,73.1481,91.5058,81.3036
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,3,73.9583,94.6667,83.0409
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,4,87.3418,62.1622,72.6316
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,5,83.7079,92.5466,87.9056
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,6,94.3820,92.3077,93.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,55,Robust Mahalanobis,spectral angle mapping,7,56.7901,30.6667,39.8268
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,1,73.4568,90.8397,81.2287
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,3,70.8333,94.4444,80.9524
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,4,88.6076,62.5000,73.2984
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,5,84.2697,93.7500,88.7574
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,6,94.3820,93.3333,93.8547
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,56,PCA Mahalanobis,spectral angle mapping,7,56.7901,30.4636,39.6552
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,1,75.9259,91.4498,82.9680
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,4,75.9494,61.8557,68.1818
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,5,80.3371,94.7020,86.9301
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,6,95.5056,86.7347,90.9091
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,57,PCA Reconstruction,spectral angle mapping,7,61.7284,32.4675,42.5532
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,1,75.9259,91.4498,82.9680
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,4,75.9494,60.6061,67.4157
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,5,80.8989,94.7368,87.2727
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,6,95.5056,87.6289,91.3978
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,58,GMM,spectral angle mapping,7,59.2593,31.5789,41.2017
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,1,72.5309,91.4397,80.8950
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,3,75.0000,93.5065,83.2370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,4,87.3418,61.0619,71.8750
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,5,83.1461,94.2675,88.3582
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,6,94.3820,92.3077,93.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,59,IQR,spectral angle mapping,7,56.7901,30.2632,39.4850
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,1,73.4568,91.5385,81.5068
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,4,79.7468,61.7647,69.6133
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,5,82.5843,95.4545,88.5542
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,6,95.5056,89.4737,92.3913
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,60,Band Z-score,spectral angle mapping,7,60.4938,31.0127,41.0042
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,1,73.7654,90.5303,81.2925
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,3,73.9583,93.4211,82.5581
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,4,83.5443,62.2642,71.3514
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,5,82.0225,96.0526,88.4848
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,6,95.5056,88.5417,91.8919
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,61,Erosion,spectral angle mapping,7,58.0247,30.7190,40.1709
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,1,75.3086,91.3858,82.5719
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,4,78.4810,63.2653,70.0565
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,5,79.7753,94.6667,86.5854
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,6,95.5056,85.8586,90.4255
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,62,kNN,spectral angle mapping,7,60.4938,31.6129,41.5254
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,1,78.0864,88.1533,82.8151
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,3,79.1667,82.6087,80.8511
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,4,97.4684,69.3694,81.0526
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,5,63.4831,81.8841,71.5190
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,6,97.7528,79.8165,87.8788
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,63,Erosion,random forest,7,59.2593,43.6364,50.2618
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,1,74.6914,91.3208,82.1732
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,4,78.4810,62.0000,69.2737
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,5,80.3371,95.3333,87.1951
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,6,95.5056,86.7347,90.9091
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,64,SAM,spectral angle mapping,7,59.2593,30.7692,40.5063
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,1,75.3086,91.3858,82.5719
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,4,75.9494,62.5000,68.5714
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,5,79.7753,94.6667,86.5854
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,6,94.3820,85.7143,89.8396
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,65,LOF,spectral angle mapping,7,61.7284,31.6456,41.8410
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,1,75.3086,91.3858,82.5719
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,4,75.9494,61.2245,67.7966
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,5,80.3371,94.7020,86.9301
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,6,94.3820,86.5979,90.3226
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,66,IsolationForest,spectral angle mapping,7,60.4938,31.4103,41.3502
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,1,75.0000,91.6981,82.5127
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,3,76.0417,92.4051,83.4286
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,4,78.4810,60.1942,68.1319
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,5,80.3371,94.0789,86.6667
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,6,94.3820,86.5979,90.3226
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,67,Percentile,spectral angle mapping,7,56.7901,30.4636,39.6552
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,1,75.0000,91.3534,82.3729
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,3,75.0000,92.3077,82.7586
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,4,75.9494,61.2245,67.7966
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,5,80.3371,94.7020,86.9301
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,6,94.3820,86.5979,90.3226
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,68,EllipticEnvelope,spectral angle mapping,7,60.4938,31.2102,41.1765
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,1,69.7531,90.4000,78.7456
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,3,75.0000,93.5065,83.2370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,4,83.5443,63.4615,72.1311
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,5,83.7079,94.3038,88.6905
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,6,94.3820,92.3077,93.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,69,MAD,spectral angle mapping,7,64.1975,31.1377,41.9355
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,1,76.8519,91.2088,83.4171
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,3,84.3750,58.6957,69.2308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,4,96.2025,66.0870,78.3505
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,5,63.4831,84.3284,72.4359
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,6,87.6404,100.0000,93.4132
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,70,IQR,random forest,7,60.4938,44.9541,51.5789
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,1,81.4815,88.2943,84.7512
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,3,82.2917,77.4510,79.7980
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,4,56.9620,59.2105,58.0645
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,5,61.2360,94.7826,74.4027
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,6,95.5056,86.7347,90.9091
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,71,PCA Mahalanobis,multi-layer perceptron,7,74.0741,38.2166,50.4202
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,1,75.9259,86.9258,81.0544
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,3,85.4167,65.0794,73.8739
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,4,97.4684,67.5439,79.7927
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,5,62.3596,85.3846,72.0779
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,6,88.7640,100.0000,94.0476
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,72,Mahalanobis,random forest,7,55.5556,39.1304,45.9184
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,1,90.4321,88.7879,89.6024
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,3,65.6250,70.0000,67.7419
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,4,87.3418,56.5574,68.6567
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,5,57.8652,95.3704,72.0280
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,6,95.5056,61.1511,74.5614
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,73,GMM,multi-layer perceptron,7,33.3333,46.5517,38.8489
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,1,73.1481,89.7727,80.6122
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,3,75.0000,72.0000,73.4694
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,4,91.1392,59.0164,71.6418
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,5,77.5281,93.8776,84.9231
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,6,93.2584,89.2473,91.2088
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,74,LOF,multi-layer perceptron,7,40.7407,27.2727,32.6733
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,1,66.3580,90.7173,76.6488
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,3,69.7917,88.1579,77.9070
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,4,73.4177,68.2353,70.7317
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,5,88.2022,86.7403,87.4652
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,6,91.0112,91.0112,91.0112
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,75,SAM,multi-layer perceptron,7,69.1358,31.2849,43.0769
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,1,71.2963,90.2344,79.6552
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,3,80.2083,76.2376,78.1726
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,4,93.6709,56.0606,70.1422
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,5,76.4045,100.0000,86.6242
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,6,95.5056,85.8586,90.4255
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,76,OneClassSVM,multi-layer perceptron,7,37.0370,24.3902,29.4118
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,1,75.3086,88.4058,81.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,3,80.2083,83.6957,81.9149
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,4,92.4051,46.2025,61.6034
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,5,72.4719,86.5772,78.8991
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,6,94.3820,90.3226,92.3077
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,77,Robust Mahalanobis,multi-layer perceptron,7,18.5185,18.9873,18.7500
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,1,56.7901,97.8723,71.8750
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,3,90.6250,67.9688,77.6786
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,4,92.4051,60.8333,73.3668
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,5,94.9438,68.4211,79.5294
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,78,OneClassSVM,maximum likelihood,7,37.0370,34.0909,35.5030
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,1,64.8148,91.3043,75.8123
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,3,85.4167,71.9298,78.0952
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,4,89.8734,61.2069,72.8205
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,5,73.0337,95.5882,82.8025
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,6,94.3820,90.3226,92.3077
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,79,IQR,multi-layer perceptron,7,49.3827,25.3165,33.4728
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,1,56.4815,97.8610,71.6243
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,3,90.6250,69.6000,78.7330
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,4,91.1392,58.5366,71.2871
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,5,96.0674,68.4000,79.9065
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,80,IsolationForest,maximum likelihood,7,34.5679,32.5581,33.5329
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,1,59.2593,90.1408,71.5084
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,3,66.6667,90.1408,76.6467
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,4,67.0886,84.1270,74.6479
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,5,84.8315,89.3491,87.0317
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,6,93.2584,84.6939,88.7701
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,81,HotellingT2,multi-layer perceptron,7,90.1235,31.3305,46.4968
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,1,56.4815,97.3404,71.4844
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,3,89.5833,69.3548,78.1818
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,4,91.1392,58.0645,70.9360
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,5,96.0674,69.2308,80.4706
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,82,GMM,maximum likelihood,7,33.3333,30.6818,31.9527
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,1,64.8148,90.5172,75.5396
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,3,72.9167,72.9167,72.9167
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,4,54.4304,79.6296,64.6617
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,5,76.4045,93.7931,84.2105
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,6,94.3820,84.8485,89.3617
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,83,Band Z-score,multi-layer perceptron,7,87.6543,32.1267,47.0199
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,1,56.7901,97.3545,71.7349
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,3,89.5833,68.2540,77.4775
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,4,92.4051,57.4803,70.8738
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,5,94.9438,68.4211,79.5294
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,6,84.2697,100.0000,91.4634
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,84,SAM,maximum likelihood,7,32.0988,31.3253,31.7073
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,1,54.0123,96.1538,69.1700
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,3,88.5417,75.8929,81.7308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,4,92.4051,66.3636,77.2487
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,5,94.9438,65.0000,77.1689
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,6,84.2697,100.0000,91.4634
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,85,Erosion,maximum likelihood,7,43.2099,32.4074,37.0370
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,1,55.8642,97.8378,71.1198
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,3,90.6250,67.4419,77.3333
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,4,91.1392,57.6000,70.5882
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,5,96.0674,68.1275,79.7203
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,86,EllipticEnvelope,maximum likelihood,7,30.8642,30.8642,30.8642
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,1,55.5556,97.2973,70.7269
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,3,89.5833,68.8000,77.8281
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,4,91.1392,58.0645,70.9360
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,5,96.0674,67.8571,79.5349
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,87,LOF,maximum likelihood,7,32.0988,30.5882,31.3253
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,1,54.9383,97.8022,70.3557
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,3,90.6250,68.5039,78.0269
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,4,91.1392,57.1429,70.2439
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,5,96.0674,68.1275,79.7203
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,88,kNN,maximum likelihood,7,32.0988,30.5882,31.3253
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,1,57.7160,95.4082,71.9231
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,3,70.8333,82.9268,76.4045
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,4,86.0759,59.6491,70.4663
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,5,89.8876,82.4742,86.0215
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,6,94.3820,88.4211,91.3043
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,89,PCA Reconstruction,multi-layer perceptron,7,51.8519,25.3012,34.0081
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,1,53.7037,97.2067,69.1849
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,3,89.5833,67.7165,77.1300
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,4,92.4051,59.8361,72.6368
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,5,95.5056,67.1937,78.8863
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,90,PCA Reconstruction,maximum likelihood,7,33.3333,30.0000,31.5789
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,1,55.8642,96.7914,70.8415
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,3,89.5833,72.8814,80.3738
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,4,92.4051,55.7252,69.5238
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,5,94.9438,66.0156,77.8802
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,91,Percentile,maximum likelihood,7,24.6914,25.3165,25.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,1,58.6420,96.4467,72.9367
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,3,82.2917,84.0426,83.1579
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,4,91.1392,57.6000,70.5882
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,5,76.9663,85.0932,80.8260
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,6,95.5056,70.2479,80.9524
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,92,Percentile,multi-layer perceptron,7,50.6173,27.5168,35.6522
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,1,54.0123,97.2222,69.4444
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,3,90.6250,71.9008,80.1843
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,4,92.4051,56.5891,70.1923
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,5,96.0674,68.4000,79.9065
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,6,85.3933,100.0000,92.1212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,93,Poziom bazowy,maximum likelihood,7,27.1605,24.1758,25.5814
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,1,66.0494,96.3964,78.3883
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,3,85.4167,62.5954,72.2467
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,4,94.9367,46.0123,61.9835
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,5,80.8989,92.9032,86.4865
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,6,91.0112,83.5052,87.0968
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,94,Poziom bazowy,multi-layer perceptron,7,9.8765,10.1266,10.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,1,66.6667,89.6266,76.4602
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,3,82.2917,63.7097,71.8182
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,4,96.2025,66.6667,78.7565
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,5,57.8652,85.1240,68.8963
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,6,88.7640,100.0000,94.0476
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,95,PCA Mahalanobis,random forest,7,60.4938,29.1667,39.3574
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,1,54.3210,96.7033,69.5652
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,3,90.6250,62.1429,73.7288
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,4,92.4051,64.6018,76.0417
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,5,95.5056,64.8855,77.2727
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,6,84.2697,100.0000,91.4634
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,96,Band Z-score,maximum likelihood,7,23.4568,25.3333,24.3590
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,1,57.7160,90.3382,70.4331
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,3,80.2083,72.6415,76.2376
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,4,87.3418,60.0000,71.1340
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,5,78.0899,94.5578,85.5385
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,6,91.0112,91.0112,91.0112
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,97,Mahalanobis,multi-layer perceptron,7,50.6173,22.4044,31.0606
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,1,51.5432,97.6608,67.4747
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,3,92.7083,61.3793,73.8589
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,4,92.4051,57.9365,71.2195
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,5,93.8202,66.5339,77.8555
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,6,84.2697,100.0000,91.4634
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,98,Mahalanobis,maximum likelihood,7,28.3951,29.1139,28.7500
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,1,51.5432,97.6608,67.4747
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,3,92.7083,62.6761,74.7899
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,4,92.4051,58.8710,71.9212
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,5,94.9438,64.2586,76.6440
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,6,84.2697,100.0000,91.4634
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,99,HotellingT2,maximum likelihood,7,19.7531,22.2222,20.9150
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,1,63.2716,86.8644,73.2143
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,3,78.1250,56.8182,65.7895
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,4,96.2025,66.0870,78.3505
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,5,59.5506,80.9160,68.6084
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,6,87.6404,100.0000,93.4132
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,100,MAD,random forest,7,60.4938,31.6129,41.5254
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,1,61.4198,84.6809,71.1986
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,3,84.3750,60.4478,70.4348
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,4,93.6709,67.8899,78.7234
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,5,58.9888,77.2059,66.8790
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,6,89.8876,100.0000,94.6746
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,101,Robust Mahalanobis,random forest,7,61.7284,32.6797,42.7350
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,1,53.7037,97.7528,69.3227
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,3,95.8333,48.9362,64.7887
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,4,89.8734,71.7172,79.7753
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,5,50.5618,98.9011,66.9145
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,6,93.2584,87.3684,90.2174
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,102,MAD,multi-layer perceptron,7,69.1358,28.5714,40.4332
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,1,44.4444,96.6443,60.8879
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,3,91.6667,51.7647,66.1654
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,4,89.8734,71.7172,79.7753
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,5,89.8876,52.8053,66.5281
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,6,80.8989,100.0000,89.4410
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,103,IQR,maximum likelihood,7,16.0494,24.0741,19.2593
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,1,39.8148,94.8529,56.0870
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,3,79.1667,77.5510,78.3505
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,4,53.1646,85.7143,65.6250
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,5,75.8427,95.0704,84.3750
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,6,95.5056,85.8586,90.4255
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,104,EllipticEnvelope,multi-layer perceptron,7,95.0617,23.8390,38.1188
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,1,37.3457,99.1803,54.2601
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,3,96.8750,40.6114,57.2308
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,4,94.9367,66.3717,78.1250
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,5,84.8315,73.6585,78.8512
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,6,80.8989,100.0000,89.4410
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,105,Robust Mahalanobis,maximum likelihood,7,37.0370,28.3019,32.0856
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,1,54.3210,96.1749,69.4280
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,3,94.7917,43.7500,59.8684
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,4,92.4051,57.0312,70.5314
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,5,50.5618,100.0000,67.1642
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,6,93.2584,83.8384,88.2979
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,106,kNN,multi-layer perceptron,7,35.8025,20.8633,26.3636
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,1,30.2469,98.9899,46.3357
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,3,94.7917,53.2164,68.1648
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,4,96.2025,60.8000,74.5098
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,5,90.4494,57.0922,70.0000
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,6,83.1461,100.0000,90.7975
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,107,MAD,maximum likelihood,7,28.3951,23.9583,25.9887
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,1,30.2469,98.9899,46.3357
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,3,95.8333,73.0159,82.8829
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,4,96.2025,52.7778,68.1614
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,5,90.4494,46.8023,61.6858
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,6,83.1461,100.0000,90.7975
+134567_zbledami_L2A_roi,134567,zbledami,L2A,roi,108,PCA Mahalanobis,maximum likelihood,7,12.3457,16.6667,14.1844

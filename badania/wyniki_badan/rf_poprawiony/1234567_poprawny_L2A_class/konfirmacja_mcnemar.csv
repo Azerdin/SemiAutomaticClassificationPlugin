@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1234567_poprawny_L2A_class,1234567,poprawny,L2A,class,random forest,Percentile,74.4982,74.9705,+0.4723,25,29,chi2 (poprawka na ciągłość),0.683091,0.683091,nie,"C[7,1]: 76->55; C[5,1]: 1->1; C[5,2]: 15->16; C[3,1]: 1->1"

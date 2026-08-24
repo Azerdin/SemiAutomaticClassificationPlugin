@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,minimum distance,LOF,80.1598,80.2929,+0.1332,3,4,dwumianowy,1,1,nie,"C[7,1]: 42->43; C[5,2]: 18->17"
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,maximum likelihood,SAM,44.3409,45.9387,+1.5979,5,17,dwumianowy,0.0169005,0.0676022,nie,"C[1,7]: 1->1; C[7,1]: 128->129; C[5,1]: 111->107; C[5,2]: 68->67"
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,spectral angle mapping,PCA Reconstruction,81.7577,81.2250,-0.5326,6,2,dwumianowy,0.289062,0.867187,nie,"C[7,1]: 56->56; C[5,2]: 12->12"
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,random forest,Mahalanobis,39.9467,45.5393,+5.5925,9,51,chi2 (poprawka na ciągłość),1.20275e-07,7.21651e-07,TAK,"C[1,7]: 1->0; C[7,1]: 138->145; C[5,1]: 168->160; C[5,2]: 33->23"
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,support vector machine,IQR,82.8229,83.7550,+0.9321,24,31,chi2 (poprawka na ciągłość),0.418492,0.867187,nie,"C[7,1]: 62->41; C[5,2]: 11->8"
+124567_zbledami_L1C_roi,124567,zbledami,L1C,roi,multi-layer perceptron,IQR,76.0320,82.1571,+6.1252,24,70,chi2 (poprawka na ciągłość),3.46064e-06,1.73032e-05,TAK,"C[1,7]: 2->0; C[7,1]: 63->40; C[5,1]: 1->0; C[5,2]: 11->30"

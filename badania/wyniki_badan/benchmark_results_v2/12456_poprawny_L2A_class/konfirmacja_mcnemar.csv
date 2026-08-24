@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,minimum distance,PCA Mahalanobis,82.1571,83.0892,+0.9321,40,47,chi2 (poprawka na ciągłość),0.520051,0.624643,nie,"C[5,1]: 2->1; C[5,2]: 11->40"
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,maximum likelihood,MAD,74.8336,78.5619,+3.7284,14,42,chi2 (poprawka na ciągłość),0.000308535,0.00185121,TAK,"C[5,1]: 87->56; C[5,2]: 28->23"
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,spectral angle mapping,PCA Mahalanobis,82.8229,84.4208,+1.5979,23,35,chi2 (poprawka na ciągłość),0.148635,0.445904,nie,"C[5,2]: 6->4"
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,random forest,HotellingT2,81.8908,82.9561,+1.0652,4,12,dwumianowy,0.0768127,0.351562,nie,"C[5,2]: 16->15"
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,support vector machine,kNN,86.9507,87.7497,+0.7989,1,7,dwumianowy,0.0703125,0.351562,nie,"C[5,2]: 5->5"
+12456_poprawny_L2A_class,12456,poprawny,L2A,class,multi-layer perceptron,GMM,80.4261,81.4913,+1.0652,20,28,chi2 (poprawka na ciągłość),0.312321,0.624643,nie,"C[5,2]: 9->18"

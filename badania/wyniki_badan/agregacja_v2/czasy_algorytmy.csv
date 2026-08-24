@@ -1,0 +1,7 @@
+﻿Algorytm,Czas_mediana_s,Czas_srednia_s,Czas_min_s,Czas_max_s,n
+support vector machine,37.1,37.5,18.1,71.3,64
+maximum likelihood,31.8,32.0,27.1,37.4,64
+multi-layer perceptron,13.7,13.8,12.8,17.7,64
+spectral angle mapping,10.8,10.6,9.9,11.2,64
+minimum distance,8.1,8.4,8.0,9.4,64
+random forest,6.0,6.1,5.9,7.2,64

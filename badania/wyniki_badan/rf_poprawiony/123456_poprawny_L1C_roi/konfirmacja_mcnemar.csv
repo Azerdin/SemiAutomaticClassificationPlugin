@@ -1,0 +1,2 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+123456_poprawny_L1C_roi,123456,poprawny,L1C,roi,random forest,Band Z-score,78.6305,79.4569,+0.8264,8,15,dwumianowy,0.21004,0.21004,nie,"C[5,1]: 21->23; C[5,2]: 14->15; C[3,1]: 1->0"

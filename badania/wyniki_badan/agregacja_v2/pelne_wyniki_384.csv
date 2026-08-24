@@ -1,0 +1,385 @@
+﻿Wariant,Stan,Raster,Zakres,Algorytm,OA_bazowe_%,Kappa_bazowe,Najlepsza_metoda,Delta_OA_pp,Istotne_lok
+123456,poprawny,L1C,roi,maximum likelihood,70.13,0.6211,OneClassSVM,+2.36,TAK
+123456,poprawny,L1C,roi,random forest,70.48,0.6191,PCA Reconstruction,+1.30,nie
+123456,poprawny,L1C,roi,multi-layer perceptron,82.41,0.7420,OneClassSVM,+1.65,nie
+123456,poprawny,L1C,roi,support vector machine,87.72,0.8246,LOF,+0.00,nie
+123456,poprawny,L1C,roi,spectral angle mapping,85.71,0.7986,MAD,+0.00,nie
+123456,poprawny,L1C,roi,minimum distance,81.94,0.7406,IQR,+0.24,nie
+123456,poprawny,L1C,class,maximum likelihood,70.13,0.6211,HotellingT2,+3.66,TAK
+123456,poprawny,L1C,class,random forest,70.13,0.6152,Band Z-score,+2.95,TAK
+123456,poprawny,L1C,class,multi-layer perceptron,83.59,0.7681,EllipticEnvelope,+1.30,nie
+123456,poprawny,L1C,class,support vector machine,87.72,0.8246,GMM,+0.12,nie
+123456,poprawny,L1C,class,spectral angle mapping,85.71,0.7986,Band Z-score,+0.12,nie
+123456,poprawny,L1C,class,minimum distance,81.94,0.7406,IQR,+1.42,nie
+123456,zbledami,L1C,roi,maximum likelihood,54.78,0.4611,Erosion,+11.45,TAK
+123456,zbledami,L1C,roi,random forest,63.40,0.5436,OneClassSVM,+2.01,nie
+123456,zbledami,L1C,roi,multi-layer perceptron,80.05,0.7320,SAM,+7.91,TAK
+123456,zbledami,L1C,roi,support vector machine,88.31,0.8336,Band Z-score,+0.24,nie
+123456,zbledami,L1C,roi,spectral angle mapping,88.43,0.8370,IQR,+0.71,nie
+123456,zbledami,L1C,roi,minimum distance,84.30,0.7755,LOF,+0.12,nie
+123456,zbledami,L1C,class,maximum likelihood,54.78,0.4611,Robust Mahalanobis,+21.25,TAK
+123456,zbledami,L1C,class,random forest,63.40,0.5436,IsolationForest,+6.14,TAK
+123456,zbledami,L1C,class,multi-layer perceptron,80.05,0.7320,GMM,+6.38,TAK
+123456,zbledami,L1C,class,support vector machine,88.31,0.8336,PCA Mahalanobis,+1.77,nie
+123456,zbledami,L1C,class,spectral angle mapping,88.43,0.8370,SAM,+0.83,TAK
+123456,zbledami,L1C,class,minimum distance,84.30,0.7755,PCA Mahalanobis,+0.94,nie
+123456,poprawny,L2A,roi,maximum likelihood,74.73,0.6752,Mahalanobis,+1.65,nie
+123456,poprawny,L2A,roi,random forest,80.17,0.7166,GMM,+0.94,nie
+123456,poprawny,L2A,roi,multi-layer perceptron,80.05,0.7216,GMM,+0.59,nie
+123456,poprawny,L2A,roi,support vector machine,85.24,0.7942,PCA Reconstruction,+0.12,nie
+123456,poprawny,L2A,roi,spectral angle mapping,81.82,0.7433,Erosion,+0.47,nie
+123456,poprawny,L2A,roi,minimum distance,80.28,0.7210,Robust Mahalanobis,+0.47,nie
+123456,poprawny,L2A,class,maximum likelihood,74.73,0.6752,MAD,+3.31,TAK
+123456,poprawny,L2A,class,random forest,80.40,0.7204,SAM,+0.94,nie
+123456,poprawny,L2A,class,multi-layer perceptron,80.05,0.7216,OneClassSVM,+2.36,nie
+123456,poprawny,L2A,class,support vector machine,85.24,0.7942,Band Z-score,+0.24,nie
+123456,poprawny,L2A,class,spectral angle mapping,81.82,0.7433,PCA Mahalanobis,+1.53,nie
+123456,poprawny,L2A,class,minimum distance,80.28,0.7210,MAD,+1.18,nie
+123456,zbledami,L2A,roi,maximum likelihood,70.60,0.6221,IsolationForest,+0.35,nie
+123456,zbledami,L2A,roi,random forest,79.34,0.7167,Mahalanobis,+4.25,TAK
+123456,zbledami,L2A,roi,multi-layer perceptron,63.99,0.5298,OneClassSVM,+20.78,TAK
+123456,zbledami,L2A,roi,support vector machine,89.61,0.8545,IsolationForest,-0.24,nie
+123456,zbledami,L2A,roi,spectral angle mapping,83.12,0.7621,MAD,+0.71,nie
+123456,zbledami,L2A,roi,minimum distance,83.71,0.7672,Erosion,+0.47,nie
+123456,zbledami,L2A,class,maximum likelihood,70.60,0.6221,Robust Mahalanobis,+8.85,TAK
+123456,zbledami,L2A,class,random forest,80.05,0.7272,IQR,+4.01,TAK
+123456,zbledami,L2A,class,multi-layer perceptron,73.91,0.6159,IsolationForest,+12.16,TAK
+123456,zbledami,L2A,class,support vector machine,89.61,0.8545,Robust Mahalanobis,+0.59,nie
+123456,zbledami,L2A,class,spectral angle mapping,83.12,0.7621,IQR,+1.06,nie
+123456,zbledami,L2A,class,minimum distance,83.71,0.7672,PCA Mahalanobis,+2.24,TAK
+1234567,poprawny,L1C,roi,maximum likelihood,56.32,0.5052,OneClassSVM,+0.94,nie
+1234567,poprawny,L1C,roi,random forest,46.16,0.3844,PCA Mahalanobis,+1.53,nie
+1234567,poprawny,L1C,roi,multi-layer perceptron,71.78,0.6536,PCA Reconstruction,+9.21,TAK
+1234567,poprawny,L1C,roi,support vector machine,78.75,0.7352,GMM,+0.12,nie
+1234567,poprawny,L1C,roi,spectral angle mapping,76.86,0.7138,IQR,+0.71,nie
+1234567,poprawny,L1C,roi,minimum distance,75.32,0.6895,IQR,+0.47,nie
+1234567,poprawny,L1C,class,maximum likelihood,56.32,0.5052,HotellingT2,+2.72,TAK
+1234567,poprawny,L1C,class,random forest,48.52,0.4115,PCA Reconstruction,-0.24,nie
+1234567,poprawny,L1C,class,multi-layer perceptron,76.74,0.7122,LOF,+4.13,TAK
+1234567,poprawny,L1C,class,support vector machine,78.75,0.7352,Percentile,+0.47,nie
+1234567,poprawny,L1C,class,spectral angle mapping,76.86,0.7138,PCA Mahalanobis,+4.01,TAK
+1234567,poprawny,L1C,class,minimum distance,75.32,0.6895,PCA Mahalanobis,+1.06,nie
+1234567,zbledami,L1C,roi,maximum likelihood,46.40,0.3953,Erosion,+1.30,nie
+1234567,zbledami,L1C,roi,random forest,42.74,0.3588,MAD,+7.91,TAK
+1234567,zbledami,L1C,roi,multi-layer perceptron,77.10,0.7156,EllipticEnvelope,+6.85,TAK
+1234567,zbledami,L1C,roi,support vector machine,81.70,0.7714,Erosion,+0.59,nie
+1234567,zbledami,L1C,roi,spectral angle mapping,81.82,0.7741,PCA Reconstruction,-0.59,nie
+1234567,zbledami,L1C,roi,minimum distance,79.46,0.7405,LOF,+0.00,nie
+1234567,zbledami,L1C,class,maximum likelihood,46.40,0.3953,Robust Mahalanobis,+11.10,TAK
+1234567,zbledami,L1C,class,random forest,42.74,0.3588,MAD,+16.53,TAK
+1234567,zbledami,L1C,class,multi-layer perceptron,78.87,0.7348,Percentile,+4.01,TAK
+1234567,zbledami,L1C,class,support vector machine,81.70,0.7714,IQR,+2.83,TAK
+1234567,zbledami,L1C,class,spectral angle mapping,81.82,0.7741,OneClassSVM,+0.00,nie
+1234567,zbledami,L1C,class,minimum distance,79.46,0.7405,IQR,+1.18,nie
+1234567,poprawny,L2A,roi,maximum likelihood,60.33,0.5417,Mahalanobis,+1.89,TAK
+1234567,poprawny,L2A,roi,random forest,69.89,0.6270,LOF,+2.72,TAK
+1234567,poprawny,L2A,roi,multi-layer perceptron,74.14,0.6767,OneClassSVM,+4.01,TAK
+1234567,poprawny,L2A,roi,support vector machine,74.73,0.6880,IQR,+0.71,nie
+1234567,poprawny,L2A,roi,spectral angle mapping,72.02,0.6554,PCA Mahalanobis,+0.47,nie
+1234567,poprawny,L2A,roi,minimum distance,72.73,0.6584,PCA Mahalanobis,+0.59,nie
+1234567,poprawny,L2A,class,maximum likelihood,60.33,0.5417,Percentile,+1.89,TAK
+1234567,poprawny,L2A,class,random forest,69.89,0.6270,Percentile,+3.54,TAK
+1234567,poprawny,L2A,class,multi-layer perceptron,74.14,0.6767,SAM,+5.67,TAK
+1234567,poprawny,L2A,class,support vector machine,74.73,0.6880,Robust Mahalanobis,+5.08,TAK
+1234567,poprawny,L2A,class,spectral angle mapping,72.02,0.6554,Robust Mahalanobis,+4.49,TAK
+1234567,poprawny,L2A,class,minimum distance,72.73,0.6584,Robust Mahalanobis,+4.13,TAK
+1234567,zbledami,L2A,roi,maximum likelihood,62.46,0.5527,IsolationForest,+1.77,TAK
+1234567,zbledami,L2A,roi,random forest,75.44,0.6973,Percentile,+3.07,TAK
+1234567,zbledami,L2A,roi,multi-layer perceptron,58.91,0.4994,IsolationForest,+18.65,TAK
+1234567,zbledami,L2A,roi,support vector machine,81.94,0.7766,Percentile,+0.24,nie
+1234567,zbledami,L2A,roi,spectral angle mapping,74.38,0.6831,Mahalanobis,-0.24,nie
+1234567,zbledami,L2A,roi,minimum distance,77.21,0.7135,LOF,+0.00,nie
+1234567,zbledami,L2A,class,maximum likelihood,62.46,0.5527,HotellingT2,+2.72,nie
+1234567,zbledami,L2A,class,random forest,75.56,0.6965,Band Z-score,+2.48,nie
+1234567,zbledami,L2A,class,multi-layer perceptron,66.71,0.5999,Percentile,+12.16,TAK
+1234567,zbledami,L2A,class,support vector machine,81.94,0.7766,IQR,+2.01,nie
+1234567,zbledami,L2A,class,spectral angle mapping,74.38,0.6831,IQR,+1.42,nie
+1234567,zbledami,L2A,class,minimum distance,77.21,0.7135,PCA Mahalanobis,+2.36,TAK
+12456,poprawny,L1C,roi,maximum likelihood,74.03,0.6441,HotellingT2,+4.66,TAK
+12456,poprawny,L1C,roi,random forest,51.40,0.4103,Erosion,+20.77,TAK
+12456,poprawny,L1C,roi,multi-layer perceptron,84.15,0.7559,kNN,+2.66,TAK
+12456,poprawny,L1C,roi,support vector machine,90.55,0.8536,PCA Reconstruction,+0.27,nie
+12456,poprawny,L1C,roi,spectral angle mapping,87.08,0.8028,MAD,-0.13,nie
+12456,poprawny,L1C,roi,minimum distance,83.89,0.7483,IQR,+0.27,nie
+12456,poprawny,L1C,class,maximum likelihood,74.03,0.6441,Robust Mahalanobis,+5.86,TAK
+12456,poprawny,L1C,class,random forest,51.53,0.4112,MAD,+25.43,TAK
+12456,poprawny,L1C,class,multi-layer perceptron,83.49,0.7459,EllipticEnvelope,+3.99,TAK
+12456,poprawny,L1C,class,support vector machine,90.55,0.8536,PCA Reconstruction,+0.27,nie
+12456,poprawny,L1C,class,spectral angle mapping,87.08,0.8028,Band Z-score,+0.00,nie
+12456,poprawny,L1C,class,minimum distance,83.89,0.7483,MAD,+1.60,nie
+12456,zbledami,L1C,roi,maximum likelihood,61.52,0.5011,Erosion,+5.46,TAK
+12456,zbledami,L1C,roi,random forest,63.52,0.5270,HotellingT2,+2.53,nie
+12456,zbledami,L1C,roi,multi-layer perceptron,89.21,0.8315,LOF,-0.40,nie
+12456,zbledami,L1C,roi,support vector machine,91.08,0.8618,HotellingT2,+1.07,nie
+12456,zbledami,L1C,roi,spectral angle mapping,89.21,0.8346,IQR,+0.93,nie
+12456,zbledami,L1C,roi,minimum distance,85.75,0.7769,LOF,+0.27,nie
+12456,zbledami,L1C,class,maximum likelihood,61.52,0.5011,Robust Mahalanobis,+14.78,TAK
+12456,zbledami,L1C,class,random forest,63.78,0.5291,MAD,+4.13,TAK
+12456,zbledami,L1C,class,multi-layer perceptron,85.62,0.7781,IsolationForest,+1.73,nie
+12456,zbledami,L1C,class,support vector machine,91.08,0.8618,PCA Mahalanobis,+1.33,nie
+12456,zbledami,L1C,class,spectral angle mapping,89.21,0.8346,SAM,+0.80,nie
+12456,zbledami,L1C,class,minimum distance,85.75,0.7769,PCA Mahalanobis,+1.86,nie
+12456,poprawny,L2A,roi,maximum likelihood,74.83,0.6545,Robust Mahalanobis,+1.46,nie
+12456,poprawny,L2A,roi,random forest,81.89,0.7204,LOF,+1.07,nie
+12456,poprawny,L2A,roi,multi-layer perceptron,80.43,0.7049,IsolationForest,+2.13,nie
+12456,poprawny,L2A,roi,support vector machine,86.95,0.8037,HotellingT2,+0.67,nie
+12456,poprawny,L2A,roi,spectral angle mapping,82.82,0.7376,Erosion,+0.67,nie
+12456,poprawny,L2A,roi,minimum distance,82.16,0.7264,Robust Mahalanobis,+0.53,nie
+12456,poprawny,L2A,class,maximum likelihood,74.83,0.6545,MAD,+3.73,TAK
+12456,poprawny,L2A,class,random forest,81.89,0.7209,HotellingT2,+1.07,nie
+12456,poprawny,L2A,class,multi-layer perceptron,80.43,0.7049,GMM,+1.07,nie
+12456,poprawny,L2A,class,support vector machine,86.95,0.8037,kNN,+0.80,nie
+12456,poprawny,L2A,class,spectral angle mapping,82.82,0.7376,PCA Mahalanobis,+1.60,nie
+12456,poprawny,L2A,class,minimum distance,82.16,0.7264,PCA Mahalanobis,+0.93,nie
+12456,zbledami,L2A,roi,maximum likelihood,69.77,0.5871,Robust Mahalanobis,+7.46,TAK
+12456,zbledami,L2A,roi,random forest,84.02,0.7644,HotellingT2,+2.93,TAK
+12456,zbledami,L2A,roi,multi-layer perceptron,77.10,0.6749,Mahalanobis,+11.98,TAK
+12456,zbledami,L2A,roi,support vector machine,91.61,0.8719,Band Z-score,+1.07,nie
+12456,zbledami,L2A,roi,spectral angle mapping,84.55,0.7645,MAD,+0.67,nie
+12456,zbledami,L2A,roi,minimum distance,84.95,0.7645,Erosion,+0.40,nie
+12456,zbledami,L2A,class,maximum likelihood,69.77,0.5871,Robust Mahalanobis,+8.39,TAK
+12456,zbledami,L2A,class,random forest,84.82,0.7760,PCA Reconstruction,+2.00,nie
+12456,zbledami,L2A,class,multi-layer perceptron,86.42,0.7902,Band Z-score,+2.40,nie
+12456,zbledami,L2A,class,support vector machine,91.61,0.8719,Mahalanobis,+1.46,nie
+12456,zbledami,L2A,class,spectral angle mapping,84.55,0.7645,Band Z-score,+0.93,nie
+12456,zbledami,L2A,class,minimum distance,84.95,0.7645,PCA Mahalanobis,+1.46,nie
+124567,poprawny,L1C,roi,maximum likelihood,56.19,0.4915,OneClassSVM,+1.86,nie
+124567,poprawny,L1C,roi,random forest,45.54,0.3832,Robust Mahalanobis,+0.67,nie
+124567,poprawny,L1C,roi,multi-layer perceptron,78.83,0.7231,kNN,+1.46,nie
+124567,poprawny,L1C,roi,support vector machine,79.63,0.7363,PCA Reconstruction,+0.80,nie
+124567,poprawny,L1C,roi,spectral angle mapping,77.10,0.7055,IQR,+0.67,nie
+124567,poprawny,L1C,roi,minimum distance,76.43,0.6905,IQR,+0.53,nie
+124567,poprawny,L1C,class,maximum likelihood,56.19,0.4915,Robust Mahalanobis,+6.66,TAK
+124567,poprawny,L1C,class,random forest,45.27,0.3802,OneClassSVM,+0.67,nie
+124567,poprawny,L1C,class,multi-layer perceptron,79.23,0.7301,Band Z-score,+2.93,TAK
+124567,poprawny,L1C,class,support vector machine,79.63,0.7363,PCA Mahalanobis,+3.60,TAK
+124567,poprawny,L1C,class,spectral angle mapping,77.10,0.7055,PCA Mahalanobis,+5.33,TAK
+124567,poprawny,L1C,class,minimum distance,76.43,0.6905,PCA Mahalanobis,+5.33,TAK
+124567,zbledami,L1C,roi,maximum likelihood,44.34,0.3592,SAM,+1.60,nie
+124567,zbledami,L1C,roi,random forest,39.95,0.3234,Mahalanobis,+5.59,TAK
+124567,zbledami,L1C,roi,multi-layer perceptron,76.03,0.6904,IQR,+6.13,TAK
+124567,zbledami,L1C,roi,support vector machine,82.82,0.7770,IQR,+0.93,nie
+124567,zbledami,L1C,roi,spectral angle mapping,81.76,0.7634,PCA Reconstruction,-0.53,nie
+124567,zbledami,L1C,roi,minimum distance,80.16,0.7369,LOF,+0.13,nie
+124567,zbledami,L1C,class,maximum likelihood,44.34,0.3592,Robust Mahalanobis,+10.52,TAK
+124567,zbledami,L1C,class,random forest,39.55,0.3188,MAD,+18.64,TAK
+124567,zbledami,L1C,class,multi-layer perceptron,80.16,0.7380,MAD,-1.20,nie
+124567,zbledami,L1C,class,support vector machine,82.82,0.7770,IQR,+2.53,TAK
+124567,zbledami,L1C,class,spectral angle mapping,81.76,0.7634,MAD,+0.13,nie
+124567,zbledami,L1C,class,minimum distance,80.16,0.7369,IQR,+1.86,nie
+124567,poprawny,L2A,roi,maximum likelihood,58.46,0.5064,PCA Mahalanobis,+1.46,nie
+124567,poprawny,L2A,roi,random forest,73.50,0.6525,OneClassSVM,+0.93,nie
+124567,poprawny,L2A,roi,multi-layer perceptron,64.45,0.5476,PCA Reconstruction,+9.45,TAK
+124567,poprawny,L2A,roi,support vector machine,75.23,0.6812,IQR,+0.93,nie
+124567,poprawny,L2A,roi,spectral angle mapping,71.77,0.6398,Erosion,+0.67,nie
+124567,poprawny,L2A,roi,minimum distance,73.64,0.6556,Robust Mahalanobis,+0.53,nie
+124567,poprawny,L2A,class,maximum likelihood,58.46,0.5064,Robust Mahalanobis,+6.26,TAK
+124567,poprawny,L2A,class,random forest,72.97,0.6418,HotellingT2,+2.00,nie
+124567,poprawny,L2A,class,multi-layer perceptron,63.12,0.5358,SAM,+7.99,TAK
+124567,poprawny,L2A,class,support vector machine,75.23,0.6812,Robust Mahalanobis,+9.59,TAK
+124567,poprawny,L2A,class,spectral angle mapping,71.77,0.6398,Robust Mahalanobis,+5.06,TAK
+124567,poprawny,L2A,class,minimum distance,73.64,0.6556,Robust Mahalanobis,+8.26,TAK
+124567,zbledami,L2A,roi,maximum likelihood,60.45,0.5125,IsolationForest,+2.93,TAK
+124567,zbledami,L2A,roi,random forest,75.37,0.6837,Percentile,+5.86,TAK
+124567,zbledami,L2A,roi,multi-layer perceptron,71.64,0.6345,Erosion,+3.73,TAK
+124567,zbledami,L2A,roi,support vector machine,82.42,0.7737,IQR,+0.67,nie
+124567,zbledami,L2A,roi,spectral angle mapping,74.70,0.6751,Mahalanobis,-0.40,nie
+124567,zbledami,L2A,roi,minimum distance,77.63,0.7050,LOF,+0.00,nie
+124567,zbledami,L2A,class,maximum likelihood,60.45,0.5125,Percentile,+4.39,TAK
+124567,zbledami,L2A,class,random forest,77.10,0.7054,IQR,+2.13,nie
+124567,zbledami,L2A,class,multi-layer perceptron,67.24,0.5880,EllipticEnvelope,+11.98,TAK
+124567,zbledami,L2A,class,support vector machine,82.42,0.7737,Percentile,+1.46,nie
+124567,zbledami,L2A,class,spectral angle mapping,74.70,0.6751,IQR,+1.07,nie
+124567,zbledami,L2A,class,minimum distance,77.63,0.7050,PCA Mahalanobis,+1.60,nie
+13456,poprawny,L1C,roi,maximum likelihood,73.55,0.6499,OneClassSVM,+2.13,TAK
+13456,poprawny,L1C,roi,random forest,58.32,0.4750,Robust Mahalanobis,+4.60,TAK
+13456,poprawny,L1C,roi,multi-layer perceptron,86.78,0.8066,OneClassSVM,+3.07,TAK
+13456,poprawny,L1C,roi,support vector machine,91.85,0.8802,kNN,-0.12,nie
+13456,poprawny,L1C,roi,spectral angle mapping,89.14,0.8425,MAD,+0.12,nie
+13456,poprawny,L1C,roi,minimum distance,86.07,0.7946,OneClassSVM,+0.00,nie
+13456,poprawny,L1C,class,maximum likelihood,73.55,0.6499,PCA Mahalanobis,+11.81,TAK
+13456,poprawny,L1C,class,random forest,56.20,0.4530,Robust Mahalanobis,+23.73,TAK
+13456,poprawny,L1C,class,multi-layer perceptron,83.59,0.7632,EllipticEnvelope,+4.49,TAK
+13456,poprawny,L1C,class,support vector machine,91.85,0.8802,IQR,+0.94,nie
+13456,poprawny,L1C,class,spectral angle mapping,89.14,0.8425,IQR,+0.12,nie
+13456,poprawny,L1C,class,minimum distance,86.07,0.7946,Percentile,+0.12,nie
+13456,zbledami,L1C,roi,maximum likelihood,62.81,0.5403,Erosion,+11.81,TAK
+13456,zbledami,L1C,roi,random forest,63.87,0.5296,HotellingT2,+3.54,TAK
+13456,zbledami,L1C,roi,multi-layer perceptron,89.02,0.8444,IQR,+1.06,nie
+13456,zbledami,L1C,roi,support vector machine,91.74,0.8793,Mahalanobis,+0.47,nie
+13456,zbledami,L1C,roi,spectral angle mapping,91.38,0.8752,IQR,+0.83,nie
+13456,zbledami,L1C,roi,minimum distance,86.78,0.8066,LOF,+0.00,nie
+13456,zbledami,L1C,class,maximum likelihood,62.81,0.5403,Robust Mahalanobis,+15.58,TAK
+13456,zbledami,L1C,class,random forest,64.70,0.5397,Robust Mahalanobis,+4.13,TAK
+13456,zbledami,L1C,class,multi-layer perceptron,86.78,0.8038,Band Z-score,+4.60,TAK
+13456,zbledami,L1C,class,support vector machine,91.74,0.8793,MAD,+2.01,TAK
+13456,zbledami,L1C,class,spectral angle mapping,91.38,0.8752,SAM,+0.94,TAK
+13456,zbledami,L1C,class,minimum distance,86.78,0.8066,PCA Mahalanobis,+5.08,TAK
+13456,poprawny,L2A,roi,maximum likelihood,78.63,0.7131,Robust Mahalanobis,+3.07,TAK
+13456,poprawny,L2A,roi,random forest,83.71,0.7624,PCA Mahalanobis,+1.18,nie
+13456,poprawny,L2A,roi,multi-layer perceptron,83.23,0.7548,Percentile,+0.59,nie
+13456,poprawny,L2A,roi,support vector machine,88.55,0.8357,PCA Reconstruction,+0.00,nie
+13456,poprawny,L2A,roi,spectral angle mapping,86.54,0.8051,IQR,+0.83,nie
+13456,poprawny,L2A,roi,minimum distance,84.42,0.7735,MAD,+0.35,nie
+13456,poprawny,L2A,class,maximum likelihood,78.63,0.7131,Percentile,+2.83,TAK
+13456,poprawny,L2A,class,random forest,83.71,0.7617,Mahalanobis,+1.30,nie
+13456,poprawny,L2A,class,multi-layer perceptron,79.34,0.7083,PCA Mahalanobis,+5.90,TAK
+13456,poprawny,L2A,class,support vector machine,88.55,0.8357,PCA Mahalanobis,+2.83,TAK
+13456,poprawny,L2A,class,spectral angle mapping,86.54,0.8051,PCA Mahalanobis,+2.36,TAK
+13456,poprawny,L2A,class,minimum distance,84.42,0.7735,PCA Mahalanobis,+3.90,TAK
+13456,zbledami,L2A,roi,maximum likelihood,79.46,0.7243,Erosion,+1.18,nie
+13456,zbledami,L2A,roi,random forest,86.30,0.8077,EllipticEnvelope,+1.18,nie
+13456,zbledami,L2A,roi,multi-layer perceptron,81.70,0.7479,MAD,+6.61,TAK
+13456,zbledami,L2A,roi,support vector machine,91.85,0.8830,LOF,+0.00,nie
+13456,zbledami,L2A,roi,spectral angle mapping,86.54,0.8054,MAD,+1.06,nie
+13456,zbledami,L2A,roi,minimum distance,86.66,0.8046,Erosion,+0.12,nie
+13456,zbledami,L2A,class,maximum likelihood,79.46,0.7243,HotellingT2,+3.66,TAK
+13456,zbledami,L2A,class,random forest,86.30,0.8077,IQR,+3.54,TAK
+13456,zbledami,L2A,class,multi-layer perceptron,81.70,0.7479,HotellingT2,+8.26,TAK
+13456,zbledami,L2A,class,support vector machine,91.85,0.8830,IQR,+2.01,TAK
+13456,zbledami,L2A,class,spectral angle mapping,86.54,0.8054,IQR,+1.77,TAK
+13456,zbledami,L2A,class,minimum distance,86.66,0.8046,Band Z-score,+0.94,TAK
+134567,poprawny,L1C,roi,maximum likelihood,59.74,0.5264,OneClassSVM,+0.71,nie
+134567,poprawny,L1C,roi,random forest,51.71,0.4168,PCA Mahalanobis,+0.71,nie
+134567,poprawny,L1C,roi,multi-layer perceptron,74.38,0.6780,Band Z-score,+5.67,TAK
+134567,poprawny,L1C,roi,support vector machine,82.76,0.7802,IsolationForest,+0.12,nie
+134567,poprawny,L1C,roi,spectral angle mapping,80.28,0.7500,MAD,+0.71,nie
+134567,poprawny,L1C,roi,minimum distance,79.46,0.7355,IQR,+0.24,nie
+134567,poprawny,L1C,class,maximum likelihood,59.74,0.5264,PCA Mahalanobis,+10.27,TAK
+134567,poprawny,L1C,class,random forest,50.65,0.4037,Robust Mahalanobis,+24.09,TAK
+134567,poprawny,L1C,class,multi-layer perceptron,76.51,0.7027,Band Z-score,+2.01,nie
+134567,poprawny,L1C,class,support vector machine,82.76,0.7802,PCA Mahalanobis,+6.61,TAK
+134567,poprawny,L1C,class,spectral angle mapping,80.28,0.7500,PCA Mahalanobis,+8.03,TAK
+134567,poprawny,L1C,class,minimum distance,79.46,0.7355,PCA Mahalanobis,+7.44,TAK
+134567,zbledami,L1C,roi,maximum likelihood,54.43,0.4677,Erosion,+1.65,nie
+134567,zbledami,L1C,roi,random forest,47.23,0.3827,MAD,+7.08,TAK
+134567,zbledami,L1C,roi,multi-layer perceptron,68.59,0.6164,PCA Reconstruction,+13.93,TAK
+134567,zbledami,L1C,roi,support vector machine,84.89,0.8068,Erosion,+1.30,nie
+134567,zbledami,L1C,roi,spectral angle mapping,84.77,0.8062,PCA Reconstruction,-0.59,nie
+134567,zbledami,L1C,roi,minimum distance,81.94,0.7672,LOF,-0.12,nie
+134567,zbledami,L1C,class,maximum likelihood,54.43,0.4677,Robust Mahalanobis,+6.02,TAK
+134567,zbledami,L1C,class,random forest,47.82,0.3892,MAD,+14.52,TAK
+134567,zbledami,L1C,class,multi-layer perceptron,68.59,0.6164,IQR,+14.76,TAK
+134567,zbledami,L1C,class,support vector machine,84.89,0.8068,IQR,+3.42,TAK
+134567,zbledami,L1C,class,spectral angle mapping,84.77,0.8062,MAD,+0.24,nie
+134567,zbledami,L1C,class,minimum distance,81.94,0.7672,IQR,+4.13,TAK
+134567,poprawny,L2A,roi,maximum likelihood,64.23,0.5704,PCA Mahalanobis,+4.60,TAK
+134567,poprawny,L2A,roi,random forest,71.07,0.6371,MAD,+3.31,TAK
+134567,poprawny,L2A,roi,multi-layer perceptron,70.25,0.6244,Percentile,+4.84,TAK
+134567,poprawny,L2A,roi,support vector machine,77.92,0.7210,PCA Mahalanobis,+1.30,nie
+134567,poprawny,L2A,roi,spectral angle mapping,76.74,0.7072,IQR,+0.83,nie
+134567,poprawny,L2A,roi,minimum distance,76.86,0.7033,PCA Mahalanobis,+0.59,nie
+134567,poprawny,L2A,class,maximum likelihood,64.23,0.5704,Percentile,+3.66,TAK
+134567,poprawny,L2A,class,random forest,67.18,0.5919,PCA Mahalanobis,+8.26,TAK
+134567,poprawny,L2A,class,multi-layer perceptron,71.19,0.6320,Percentile,+4.01,TAK
+134567,poprawny,L2A,class,support vector machine,77.92,0.7210,IQR,+4.49,TAK
+134567,poprawny,L2A,class,spectral angle mapping,76.74,0.7072,Robust Mahalanobis,+4.49,TAK
+134567,poprawny,L2A,class,minimum distance,76.86,0.7033,PCA Mahalanobis,+3.42,TAK
+134567,zbledami,L2A,roi,maximum likelihood,71.31,0.6443,OneClassSVM,+1.77,nie
+134567,zbledami,L2A,roi,random forest,78.28,0.7263,IsolationForest,+2.24,nie
+134567,zbledami,L2A,roi,multi-layer perceptron,71.31,0.6435,IsolationForest,+7.32,TAK
+134567,zbledami,L2A,roi,support vector machine,83.94,0.7968,Erosion,+1.06,nie
+134567,zbledami,L2A,roi,spectral angle mapping,77.80,0.7191,Mahalanobis,+0.00,nie
+134567,zbledami,L2A,roi,minimum distance,80.17,0.7451,LOF,-0.24,nie
+134567,zbledami,L2A,class,maximum likelihood,71.31,0.6443,Percentile,+2.48,TAK
+134567,zbledami,L2A,class,random forest,76.98,0.7101,IQR,+8.03,TAK
+134567,zbledami,L2A,class,multi-layer perceptron,71.31,0.6435,GMM,+8.38,TAK
+134567,zbledami,L2A,class,support vector machine,83.94,0.7968,IQR,+3.66,TAK
+134567,zbledami,L2A,class,spectral angle mapping,77.80,0.7191,IQR,+2.13,TAK
+134567,zbledami,L2A,class,minimum distance,80.17,0.7451,IQR,+0.35,nie
+1456,poprawny,L1C,roi,maximum likelihood,78.03,0.6747,HotellingT2,+8.26,TAK
+1456,poprawny,L1C,roi,random forest,78.16,0.6704,GMM,+1.60,TAK
+1456,poprawny,L1C,roi,multi-layer perceptron,92.14,0.8737,LOF,+0.53,nie
+1456,poprawny,L1C,roi,support vector machine,94.94,0.9186,Mahalanobis,+0.00,nie
+1456,poprawny,L1C,roi,spectral angle mapping,90.95,0.8565,MAD,+0.00,nie
+1456,poprawny,L1C,roi,minimum distance,88.55,0.8150,OneClassSVM,+0.13,nie
+1456,poprawny,L1C,class,maximum likelihood,78.03,0.6747,PCA Mahalanobis,+9.32,TAK
+1456,poprawny,L1C,class,random forest,78.16,0.6704,Robust Mahalanobis,+4.39,nie
+1456,poprawny,L1C,class,multi-layer perceptron,92.14,0.8737,IQR,+0.67,nie
+1456,poprawny,L1C,class,support vector machine,94.94,0.9186,IQR,+0.40,nie
+1456,poprawny,L1C,class,spectral angle mapping,90.95,0.8565,Robust Mahalanobis,+0.13,nie
+1456,poprawny,L1C,class,minimum distance,88.55,0.8150,Mahalanobis,+0.40,nie
+1456,zbledami,L1C,roi,maximum likelihood,70.84,0.5944,Erosion,+6.26,TAK
+1456,zbledami,L1C,roi,random forest,69.51,0.5683,Band Z-score,+3.86,TAK
+1456,zbledami,L1C,roi,multi-layer perceptron,87.08,0.8061,LOF,+8.79,TAK
+1456,zbledami,L1C,roi,support vector machine,94.94,0.9188,HotellingT2,+0.93,nie
+1456,zbledami,L1C,roi,spectral angle mapping,92.94,0.8875,IQR,+1.07,nie
+1456,zbledami,L1C,roi,minimum distance,88.95,0.8210,GMM,+0.13,nie
+1456,zbledami,L1C,class,maximum likelihood,70.84,0.5944,Robust Mahalanobis,+7.86,TAK
+1456,zbledami,L1C,class,random forest,69.51,0.5683,IQR,+5.33,TAK
+1456,zbledami,L1C,class,multi-layer perceptron,94.27,0.9082,LOF,+0.93,nie
+1456,zbledami,L1C,class,support vector machine,94.94,0.9188,PCA Reconstruction,+0.67,nie
+1456,zbledami,L1C,class,spectral angle mapping,92.94,0.8875,SAM,+0.80,nie
+1456,zbledami,L1C,class,minimum distance,88.95,0.8210,PCA Mahalanobis,+5.46,TAK
+1456,poprawny,L2A,roi,maximum likelihood,79.63,0.7009,Robust Mahalanobis,+4.66,TAK
+1456,poprawny,L2A,roi,random forest,83.49,0.7331,IsolationForest,+2.53,TAK
+1456,poprawny,L2A,roi,multi-layer perceptron,83.49,0.7477,Percentile,+2.26,TAK
+1456,poprawny,L2A,roi,support vector machine,90.68,0.8545,HotellingT2,+0.67,nie
+1456,poprawny,L2A,roi,spectral angle mapping,88.15,0.8126,IQR,+1.07,nie
+1456,poprawny,L2A,roi,minimum distance,86.82,0.7911,MAD,+0.27,nie
+1456,poprawny,L2A,class,maximum likelihood,79.63,0.7009,Percentile,+2.13,TAK
+1456,poprawny,L2A,class,random forest,84.02,0.7434,GMM,+2.40,TAK
+1456,poprawny,L2A,class,multi-layer perceptron,86.42,0.7866,PCA Mahalanobis,+0.93,nie
+1456,poprawny,L2A,class,support vector machine,90.68,0.8545,PCA Mahalanobis,+2.80,TAK
+1456,poprawny,L2A,class,spectral angle mapping,88.15,0.8126,PCA Mahalanobis,+2.66,TAK
+1456,poprawny,L2A,class,minimum distance,86.82,0.7911,PCA Mahalanobis,+4.26,TAK
+1456,zbledami,L2A,roi,maximum likelihood,80.03,0.7096,Robust Mahalanobis,+2.13,nie
+1456,zbledami,L2A,roi,random forest,90.68,0.8555,kNN,+0.27,nie
+1456,zbledami,L2A,roi,multi-layer perceptron,92.14,0.8772,kNN,+0.93,nie
+1456,zbledami,L2A,roi,support vector machine,94.01,0.9050,Band Z-score,+0.93,nie
+1456,zbledami,L2A,roi,spectral angle mapping,88.42,0.8170,MAD,+1.07,nie
+1456,zbledami,L2A,roi,minimum distance,88.28,0.8103,PCA Mahalanobis,+0.00,nie
+1456,zbledami,L2A,class,maximum likelihood,80.03,0.7096,Percentile,+4.13,TAK
+1456,zbledami,L2A,class,random forest,90.68,0.8555,IQR,+0.80,nie
+1456,zbledami,L2A,class,multi-layer perceptron,86.02,0.7825,Mahalanobis,+7.72,TAK
+1456,zbledami,L2A,class,support vector machine,94.01,0.9050,Mahalanobis,+1.33,nie
+1456,zbledami,L2A,class,spectral angle mapping,88.42,0.8170,Band Z-score,+1.46,nie
+1456,zbledami,L2A,class,minimum distance,88.28,0.8103,Band Z-score,+0.53,nie
+14567,poprawny,L1C,roi,maximum likelihood,60.19,0.5068,HotellingT2,+4.66,TAK
+14567,poprawny,L1C,roi,random forest,50.87,0.3878,IQR,+2.13,nie
+14567,poprawny,L1C,roi,multi-layer perceptron,83.89,0.7855,Erosion,+0.93,nie
+14567,poprawny,L1C,roi,support vector machine,84.02,0.7874,Robust Mahalanobis,+1.20,nie
+14567,poprawny,L1C,roi,spectral angle mapping,80.96,0.7473,Robust Mahalanobis,+1.07,nie
+14567,poprawny,L1C,roi,minimum distance,81.09,0.7446,Robust Mahalanobis,+0.27,nie
+14567,poprawny,L1C,class,maximum likelihood,60.19,0.5068,PCA Mahalanobis,+9.85,TAK
+14567,poprawny,L1C,class,random forest,50.07,0.3771,Robust Mahalanobis,+30.23,TAK
+14567,poprawny,L1C,class,multi-layer perceptron,82.02,0.7624,Robust Mahalanobis,+9.85,TAK
+14567,poprawny,L1C,class,support vector machine,84.02,0.7874,PCA Mahalanobis,+7.72,TAK
+14567,poprawny,L1C,class,spectral angle mapping,80.96,0.7473,PCA Mahalanobis,+8.66,TAK
+14567,poprawny,L1C,class,minimum distance,81.09,0.7446,PCA Mahalanobis,+8.39,TAK
+14567,zbledami,L1C,roi,maximum likelihood,53.66,0.4322,SAM,+1.46,nie
+14567,zbledami,L1C,roi,random forest,46.21,0.3486,IQR,+5.99,TAK
+14567,zbledami,L1C,roi,multi-layer perceptron,92.14,0.8916,EllipticEnvelope,-1.73,nie
+14567,zbledami,L1C,roi,support vector machine,86.28,0.8163,IQR,+0.93,nie
+14567,zbledami,L1C,roi,spectral angle mapping,85.49,0.8056,PCA Reconstruction,-0.53,nie
+14567,zbledami,L1C,roi,minimum distance,83.36,0.7729,GMM,+0.00,nie
+14567,zbledami,L1C,class,maximum likelihood,53.66,0.4322,Robust Mahalanobis,+5.19,TAK
+14567,zbledami,L1C,class,random forest,46.34,0.3499,PCA Mahalanobis,+25.83,TAK
+14567,zbledami,L1C,class,multi-layer perceptron,92.14,0.8916,EllipticEnvelope,-0.93,nie
+14567,zbledami,L1C,class,support vector machine,86.28,0.8163,IQR,+1.86,nie
+14567,zbledami,L1C,class,spectral angle mapping,85.49,0.8056,MAD,+0.53,nie
+14567,zbledami,L1C,class,minimum distance,83.36,0.7729,IQR,+3.73,TAK
+14567,poprawny,L2A,roi,maximum likelihood,63.25,0.5374,PCA Mahalanobis,+6.92,TAK
+14567,poprawny,L2A,roi,random forest,66.71,0.5647,OneClassSVM,+5.86,TAK
+14567,poprawny,L2A,roi,multi-layer perceptron,74.17,0.6520,OneClassSVM,+6.26,TAK
+14567,poprawny,L2A,roi,support vector machine,78.56,0.7164,PCA Mahalanobis,+2.66,TAK
+14567,poprawny,L2A,roi,spectral angle mapping,77.10,0.6992,IQR,+1.07,nie
+14567,poprawny,L2A,roi,minimum distance,78.30,0.7084,MAD,+0.40,nie
+14567,poprawny,L2A,class,maximum likelihood,63.25,0.5374,Robust Mahalanobis,+7.46,TAK
+14567,poprawny,L2A,class,random forest,66.44,0.5628,Robust Mahalanobis,+12.92,TAK
+14567,poprawny,L2A,class,multi-layer perceptron,80.43,0.7367,Band Z-score,+2.53,TAK
+14567,poprawny,L2A,class,support vector machine,78.56,0.7164,Robust Mahalanobis,+6.66,TAK
+14567,poprawny,L2A,class,spectral angle mapping,77.10,0.6992,Robust Mahalanobis,+5.06,TAK
+14567,poprawny,L2A,class,minimum distance,78.30,0.7084,Robust Mahalanobis,+7.32,TAK
+14567,zbledami,L2A,roi,maximum likelihood,70.71,0.6180,OneClassSVM,+3.20,TAK
+14567,zbledami,L2A,roi,random forest,80.69,0.7444,EllipticEnvelope,+4.13,TAK
+14567,zbledami,L2A,roi,multi-layer perceptron,74.03,0.6630,PCA Reconstruction,+11.85,TAK
+14567,zbledami,L2A,roi,support vector machine,84.55,0.7945,EllipticEnvelope,+1.07,nie
+14567,zbledami,L2A,roi,spectral angle mapping,78.56,0.7164,PCA Mahalanobis,-0.13,nie
+14567,zbledami,L2A,roi,minimum distance,80.96,0.7417,GMM,-0.13,nie
+14567,zbledami,L2A,class,maximum likelihood,70.71,0.6180,Percentile,+4.53,TAK
+14567,zbledami,L2A,class,random forest,80.69,0.7444,PCA Mahalanobis,+3.86,TAK
+14567,zbledami,L2A,class,multi-layer perceptron,79.76,0.7319,Band Z-score,+7.59,TAK
+14567,zbledami,L2A,class,support vector machine,84.55,0.7945,IQR,+2.00,nie
+14567,zbledami,L2A,class,spectral angle mapping,78.56,0.7164,IQR,+1.86,nie
+14567,zbledami,L2A,class,minimum distance,80.96,0.7417,Percentile,+0.00,nie

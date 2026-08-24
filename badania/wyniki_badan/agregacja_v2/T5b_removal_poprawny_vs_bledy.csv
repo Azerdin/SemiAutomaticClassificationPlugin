@@ -1,0 +1,7 @@
+﻿Algorytm,OA_po_poprawny,OA_po_zbledami,Delta_zbl_minus_pop,zbl_lepszy,n
+multi-layer perceptron,83.72,86.79,3.07,13,16
+support vector machine,87.54,89.56,2.01,13,16
+minimum distance,84.19,85.25,1.06,10,16
+random forest,75.06,75.94,0.87,10,16
+spectral angle mapping,84.92,85.02,0.1,7,16
+maximum likelihood,73.59,71.56,-2.02,7,16
