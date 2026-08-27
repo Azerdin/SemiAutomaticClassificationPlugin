@@ -21,7 +21,7 @@ RESULTS_DIR = os.environ.get("WYNIKI_DIR",
 ALGO_ORDER = ["maximum likelihood", "random forest", "multi-layer perceptron",
               "support vector machine", "spectral angle mapping",
               "minimum distance"]
-ALGO_SHORT = {"maximum likelihood": "NW", "random forest": "RF",
+ALGO_SHORT = {"maximum likelihood": "MLC", "random forest": "RF",
               "multi-layer perceptron": "MLP", "support vector machine": "SVM",
               "spectral angle mapping": "SAM", "minimum distance": "min. odl."}
 ALPHA = 0.05

@@ -30,7 +30,7 @@ ALGO_ORDER = [
     "support vector machine", "spectral angle mapping", "minimum distance",
 ]
 ALGO_SHORT = {
-    "maximum likelihood": "NW", "random forest": "RF",
+    "maximum likelihood": "MLC", "random forest": "RF",
     "multi-layer perceptron": "MLP", "support vector machine": "SVM",
     "spectral angle mapping": "SAM", "minimum distance": "MD",
 }
