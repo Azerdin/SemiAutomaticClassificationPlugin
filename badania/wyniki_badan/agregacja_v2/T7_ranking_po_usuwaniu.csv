@@ -1,0 +1,7 @@
+﻿Miejsce,Algorytm,sr_pozycja_1-6,sr_OA_najlepsza,n
+1,support vector machine,1.203125,87.55974218749999,64
+2,multi-layer perceptron,2.859375,84.4859125,64
+3,spectral angle mapping,3.09375,84.07271562499997,64
+4,minimum distance,3.53125,83.37993593749997,64
+5,random forest,4.703125,73.07394374999998,64
+6,maximum likelihood,5.609375,70.74390781249998,64

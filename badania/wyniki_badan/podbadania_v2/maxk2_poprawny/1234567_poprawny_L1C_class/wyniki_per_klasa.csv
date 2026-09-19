@@ -1,0 +1,1513 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Lp.,Metoda,Algorytm,Klasa,PA_%,UA_%,F1_%
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,1,98.1481,89.5775,93.6672
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,2,77.8947,57.3643,66.0714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,4,91.1392,65.4545,76.1905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,5,28.9157,68.5714,40.6780
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,MAD → PCA Mahalanobis,support vector machine,7,69.1358,86.1538,76.7123
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,1,95.3704,93.0723,94.2073
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,2,73.6842,62.5000,67.6329
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,3,78.1250,100.0000,87.7193
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,4,87.3418,51.8797,65.0943
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,5,45.7831,74.5098,56.7164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,MAD → PCA Mahalanobis,spectral angle mapping,7,58.0247,81.0345,67.6259
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,1,95.3704,92.5150,93.9210
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,2,85.2632,55.8621,67.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,5,26.5060,66.6667,37.9310
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,MAD → Robust Mahalanobis,support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,1,93.8272,88.1159,90.8819
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,2,61.0526,52.2523,56.3107
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,3,79.1667,95.0000,86.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,4,89.8734,83.5294,86.5854
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,5,31.3253,68.4211,42.9752
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,"Ensemble[Robust Mahalanobis, Percentile]",multi-layer perceptron,7,95.0617,74.7573,83.6957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,1,88.5802,91.9872,90.2516
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,2,72.6316,71.8750,72.2513
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,4,83.5443,68.0412,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,5,60.2410,68.4932,64.1026
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",spectral angle mapping,7,85.1852,58.4746,69.3467
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,1,95.9877,87.1148,91.3363
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,2,61.0526,53.2110,56.8627
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,4,91.1392,82.7586,86.7470
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,5,32.5301,56.2500,41.2214
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,6,93.2584,94.3182,93.7853
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,Percentile → SAM,multi-layer perceptron,7,95.0617,81.0526,87.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,1,90.4321,93.3121,91.8495
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,2,83.1579,56.8345,67.5214
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,4,83.5443,76.7442,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,5,27.7108,62.1622,38.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,PCA Mahalanobis,spectral angle mapping,7,90.1235,61.3445,73.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,1,90.4321,93.0159,91.7058
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,2,81.0526,56.2044,66.3793
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,3,69.7917,100.0000,82.2086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,4,83.5443,75.8621,79.5181
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,5,27.7108,63.8889,38.6555
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,PCA Mahalanobis → SAM,spectral angle mapping,7,90.1235,61.3445,73.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,1,87.6543,93.1148,90.3021
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,2,75.7895,64.8649,69.9029
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,3,69.7917,100.0000,82.2086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,4,83.5443,72.5275,77.6471
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,5,50.6024,66.6667,57.5342
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,Percentile → Robust Mahalanobis,spectral angle mapping,7,82.7160,53.6000,65.0485
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,1,85.1852,87.8981,86.5204
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,5,43.3735,65.4545,52.1739
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,SAM → Percentile,support vector machine,7,87.6543,54.1985,66.9811
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,1,90.4321,93.3121,91.8495
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,2,78.9474,55.9701,65.5022
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,4,82.2785,77.3810,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,5,26.5060,55.0000,35.7724
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,PCA Mahalanobis → Percentile,spectral angle mapping,7,93.8272,61.7886,74.5098
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,1,84.8765,87.8594,86.3422
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,2,76.8421,70.8738,73.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,5,43.3735,64.2857,51.7986
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,Percentile → SAM,support vector machine,7,87.6543,53.3835,66.3551
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,1,95.6790,93.9394,94.8012
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,2,86.3158,63.5659,73.2143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,3,41.6667,90.9091,57.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,4,91.1392,66.6667,77.0053
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,5,37.3494,41.8919,39.4904
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Percentile → Robust Mahalanobis,support vector machine,7,71.6049,80.5556,75.8170
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,1,86.7284,93.0464,89.7764
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,2,73.6842,65.4206,69.3069
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,4,83.5443,66.6667,74.1573
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,5,49.3976,65.0794,56.1644
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,Robust Mahalanobis → Percentile,spectral angle mapping,7,86.4198,56.9106,68.6275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,1,92.5926,92.0245,92.3077
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,2,75.7895,56.2500,64.5740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,3,65.6250,95.4545,77.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,4,89.8734,60.6838,72.4490
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,5,32.5301,51.9231,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,MAD → PCA Mahalanobis,minimum distance,7,70.3704,83.8235,76.5101
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,1,86.1111,93.3110,89.5666
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,2,72.6316,66.9903,69.6970
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,4,83.5443,65.3465,73.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,5,53.0120,64.7059,58.2781
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,Robust Mahalanobis → SAM,spectral angle mapping,7,82.7160,54.0323,65.3659
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,1,90.4321,92.4290,91.4197
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,2,74.7368,53.3835,62.2807
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,4,83.5443,75.8621,79.5181
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,5,26.5060,53.6585,35.4839
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,PCA Mahalanobis → MAD,spectral angle mapping,7,91.3580,61.6667,73.6318
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,1,94.4444,93.5780,94.0092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,2,80.0000,56.2963,66.0870
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,3,69.7917,100.0000,82.2086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,4,87.3418,51.4925,64.7887
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,5,27.7108,62.1622,38.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Percentile → PCA Mahalanobis,spectral angle mapping,7,60.4938,81.6667,69.5035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,1,93.8272,92.4012,93.1087
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,2,47.3684,52.3256,49.7238
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,3,78.1250,98.6842,87.2093
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,4,92.4051,69.5238,79.3478
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,5,44.5783,45.1220,44.8485
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,6,92.1348,92.1348,92.1348
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Percentile → MAD,multi-layer perceptron,7,72.8395,73.7500,73.2919
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,1,87.9630,90.1899,89.0625
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,2,66.3158,50.4000,57.2727
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,3,77.0833,96.1039,85.5491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,4,92.4051,80.2198,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,5,26.5060,64.7059,37.6068
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Ensemble[PCA Mahalanobis, Percentile]",multi-layer perceptron,7,92.5926,63.5593,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,1,91.6667,93.3962,92.5234
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,2,81.0526,53.4722,64.4351
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,3,63.5417,96.8254,76.7296
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,4,91.1392,63.1579,74.6114
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,5,25.3012,51.2195,33.8710
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,MAD → Robust Mahalanobis,minimum distance,7,72.8395,76.6234,74.6835
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,1,95.6790,95.3846,95.5316
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,2,85.2632,57.8571,68.9362
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,3,47.9167,88.4615,62.1622
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,5,25.3012,31.8182,28.1879
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,Percentile → PCA Mahalanobis,support vector machine,7,70.3704,85.0746,77.0270
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,1,86.1111,93.3110,89.5666
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,2,72.6316,66.9903,69.6970
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,4,83.5443,64.0777,72.5275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,5,53.0120,64.7059,58.2781
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,Robust Mahalanobis,spectral angle mapping,7,80.2469,53.2787,64.0394
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,1,97.5309,83.3773,89.9004
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,2,47.3684,40.9091,43.9024
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,3,71.8750,98.5714,83.1325
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,4,82.2785,81.2500,81.7610
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,5,28.9157,64.8649,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,6,92.1348,94.2529,93.1818
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,MAD → PCA Mahalanobis,multi-layer perceptron,7,88.8889,85.7143,87.2727
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,1,86.4198,92.4092,89.3142
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,2,73.6842,65.4206,69.3069
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,4,83.5443,66.0000,73.7430
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,5,50.6024,63.6364,56.3758
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,SAM → Robust Mahalanobis,spectral angle mapping,7,81.4815,53.6585,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,1,86.7284,93.0464,89.7764
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,2,78.9474,56.8182,66.0793
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,3,78.1250,100.0000,87.7193
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,4,83.5443,64.0777,72.5275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,5,30.1205,89.2857,45.0450
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,MAD → Robust Mahalanobis,spectral angle mapping,7,80.2469,54.1667,64.6766
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,1,87.0370,91.2621,89.0995
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,2,70.5263,53.1746,60.6335
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,3,72.9167,98.5915,83.8323
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,4,89.8734,87.6543,88.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,5,27.7108,62.1622,38.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,Percentile,multi-layer perceptron,7,93.8272,55.8824,70.0461
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,1,94.4444,94.4444,94.4444
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,2,81.0526,56.2044,66.3793
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,3,67.7083,98.4848,80.2469
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,4,89.8734,50.3546,64.5455
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,5,27.7108,57.5000,37.3984
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,Robust Mahalanobis → PCA Mahalanobis,spectral angle mapping,7,55.5556,84.9057,67.1642
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,1,95.9877,93.1138,94.5289
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,2,76.8421,55.3030,64.3172
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,4,87.3418,52.6718,65.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,5,27.7108,56.0976,37.0968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,SAM → PCA Mahalanobis,spectral angle mapping,7,58.0247,81.0345,67.6259
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,1,81.7901,87.1711,84.3949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,5,42.1687,64.8148,51.0949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,Percentile,support vector machine,7,87.6543,50.0000,63.6771
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,1,81.7901,87.1711,84.3949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,2,77.8947,71.8447,74.7475
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,5,44.5783,64.9123,52.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,"Ensemble[Robust Mahalanobis, Percentile]",support vector machine,7,86.4198,49.6454,63.0631
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,1,81.4815,91.9861,86.4157
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,2,80.0000,58.0153,67.2566
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,3,73.9583,95.9459,83.5294
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,4,97.4684,83.6957,90.0585
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,5,28.9157,72.7273,41.3793
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,Percentile → MAD,support vector machine,7,86.4198,50.0000,63.3484
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,1,80.2469,87.5421,83.7359
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,2,75.7895,71.2871,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,SAM,support vector machine,7,86.4198,47.9452,61.6740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,1,80.2469,87.5421,83.7359
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,2,75.7895,71.2871,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,"Ensemble[PCA Mahalanobis, SAM]",support vector machine,7,86.4198,47.9452,61.6740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,1,80.2469,87.5421,83.7359
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,2,75.7895,71.2871,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,"Ensemble[Robust Mahalanobis, SAM]",support vector machine,7,86.4198,47.9452,61.6740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,1,79.9383,87.5000,83.5484
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,2,75.7895,71.2871,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,"Ensemble[Percentile, SAM]",support vector machine,7,86.4198,47.6190,61.4035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,1,93.8272,84.4444,88.8889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,2,58.9474,50.9091,54.6341
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,3,73.9583,98.6111,84.5238
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,4,92.4051,71.5686,80.6630
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,5,21.6867,75.0000,33.6449
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,6,94.3820,92.3077,93.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,SAM → MAD,multi-layer perceptron,7,76.5432,70.4545,73.3728
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,1,77.4691,87.1528,82.0261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,2,80.0000,72.3810,76.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,5,46.9880,70.9091,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,Poziom bazowy,support vector machine,7,88.8889,46.4516,61.0169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,1,81.4815,87.1287,84.2105
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,2,77.8947,70.4762,74.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,4,97.4684,81.0526,88.5057
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,5,40.9639,62.9630,49.6350
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,"Ensemble[PCA Mahalanobis, Percentile]",support vector machine,7,86.4198,49.6454,63.0631
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,1,85.1852,88.7460,86.9291
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,2,60.0000,64.7727,62.2951
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,3,72.9167,89.7436,80.4598
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,4,88.6076,51.8519,65.4206
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,5,49.3976,61.1940,54.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,6,93.2584,93.2584,93.2584
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",multi-layer perceptron,7,86.4198,88.6076,87.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,1,77.7778,87.1972,82.2186
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,"Ensemble[MAD, SAM]",support vector machine,7,88.8889,46.4516,61.0169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,1,94.4444,93.5780,94.0092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,2,82.1053,54.9296,65.8228
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,4,87.3418,50.0000,63.5945
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,5,22.8916,57.5758,32.7586
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,PCA Mahalanobis → Robust Mahalanobis,spectral angle mapping,7,55.5556,80.3571,65.6934
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,1,81.4815,92.6316,86.6995
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,2,80.0000,56.7164,66.3755
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,3,72.9167,95.8904,82.8402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,5,26.5060,70.9677,38.5965
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,MAD → Percentile,support vector machine,7,85.1852,48.9362,62.1622
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,1,93.5185,88.0814,90.7186
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,2,83.1579,69.2982,75.5981
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,3,38.5417,90.2439,54.0146
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,4,91.1392,65.4545,76.1905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,5,37.3494,40.2597,38.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",support vector machine,7,71.6049,77.3333,74.3590
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,1,92.5926,86.9565,89.6861
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,2,57.8947,56.1224,56.9948
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,3,70.8333,98.5507,82.4242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,4,91.1392,64.8649,75.7895
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,5,43.3735,63.1579,51.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,"Ensemble[Percentile, SAM]",multi-layer perceptron,7,61.7284,62.5000,62.1118
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,1,83.6420,89.7351,86.5815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,2,72.6316,53.0769,61.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,3,70.8333,98.5507,82.4242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,4,91.1392,90.0000,90.5660
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,5,30.1205,75.7576,43.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Ensemble[PCA Mahalanobis, MAD]",multi-layer perceptron,7,93.8272,51.3514,66.3755
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,1,91.9753,94.3038,93.1250
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,2,77.8947,55.2239,64.6288
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,4,89.8734,47.0199,61.7391
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,5,27.7108,58.9744,37.7049
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,Robust Mahalanobis → MAD,spectral angle mapping,7,56.7901,85.1852,68.1481
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,1,95.3704,94.7853,95.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,2,84.2105,56.7376,67.7966
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,3,38.5417,92.5000,54.4118
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,4,91.1392,66.6667,77.0053
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,5,25.3012,28.3784,26.7516
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,PCA Mahalanobis,support vector machine,7,69.1358,80.0000,74.1722
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,1,79.6296,92.1429,85.4305
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,2,72.6316,75.0000,73.7968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,4,86.0759,67.3267,75.5556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,5,63.8554,77.9412,70.1987
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,SAM → Percentile,spectral angle mapping,7,66.6667,37.5000,48.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,1,78.0864,86.6438,82.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,2,78.9474,70.7547,74.6269
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,5,40.9639,64.1509,50.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"Ensemble[MAD, Percentile]",support vector machine,7,88.8889,46.7532,61.2766
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,1,85.4938,90.2280,87.7971
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,2,61.0526,55.2381,58.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,3,67.7083,98.4848,80.2469
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,4,92.4051,74.4898,82.4859
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,5,42.1687,55.5556,47.9452
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,"Ensemble[PCA Mahalanobis, SAM]",multi-layer perceptron,7,87.6543,58.1967,69.9507
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,1,95.3704,94.7853,95.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,2,83.1579,56.4286,67.2340
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,3,38.5417,92.5000,54.4118
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,5,25.3012,28.3784,26.7516
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,PCA Mahalanobis → SAM,support vector machine,7,69.1358,80.0000,74.1722
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,1,79.6296,92.1429,85.4305
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,2,71.5789,74.7253,73.1183
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,5,63.8554,77.9412,70.1987
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,Percentile → SAM,spectral angle mapping,7,66.6667,37.7622,48.2143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,1,79.0123,92.0863,85.0498
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,2,72.6316,75.0000,73.7968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,4,86.0759,66.6667,75.1381
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,5,63.8554,77.9412,70.1987
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,Percentile,spectral angle mapping,7,66.6667,37.2414,47.7876
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,1,88.5802,86.1862,87.3668
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,2,63.1579,54.5455,58.5366
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,3,57.2917,98.2143,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,4,87.3418,88.4615,87.8981
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,5,32.5301,61.3636,42.5197
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,MAD → SAM,multi-layer perceptron,7,96.2963,56.1151,70.9091
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,1,79.0123,92.0863,85.0498
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,2,71.5789,75.5556,73.5135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,5,65.0602,78.2609,71.0526
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Ensemble[Robust Mahalanobis, Percentile]",spectral angle mapping,7,65.4321,36.8056,47.1111
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,1,95.9877,89.3678,92.5595
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,2,60.0000,44.8819,51.3514
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,3,67.7083,94.2029,78.7879
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,4,87.3418,66.3462,75.4098
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,5,16.8675,40.0000,23.7288
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,6,89.8876,84.2105,86.9565
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,PCA Mahalanobis → SAM,multi-layer perceptron,7,76.5432,89.8551,82.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,1,79.0123,92.0863,85.0498
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,2,72.6316,74.1935,73.4043
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,5,62.6506,77.6119,69.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"Ensemble[PCA Mahalanobis, Percentile]",spectral angle mapping,7,65.4321,36.8056,47.1111
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,1,85.8025,90.2597,87.9747
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,2,68.4211,57.5221,62.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,3,79.1667,98.7013,87.8613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,4,97.4684,54.2254,69.6833
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,5,37.3494,73.8095,49.6000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"Ensemble[Robust Mahalanobis, SAM]",multi-layer perceptron,7,58.0247,60.2564,59.1195
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,1,94.7531,95.3416,95.0464
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,2,85.2632,56.6434,68.0672
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,3,31.2500,93.7500,46.8750
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,4,91.1392,67.9245,77.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,5,26.5060,24.7191,25.5814
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,Robust Mahalanobis → MAD,support vector machine,7,71.6049,86.5672,78.3784
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,1,94.1358,95.3125,94.7205
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,2,83.1579,56.0284,66.9492
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,3,37.5000,94.7368,53.7313
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,5,24.0964,25.3165,24.6914
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,6,97.7528,97.7528,97.7528
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,PCA Mahalanobis → Percentile,support vector machine,7,70.3704,80.2817,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,1,95.6790,94.5122,95.0920
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,2,81.0526,55.7971,66.0944
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,3,33.3333,94.1176,49.2308
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,4,91.1392,65.4545,76.1905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,5,25.3012,25.3012,25.3012
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,SAM → PCA Mahalanobis,support vector machine,7,69.1358,84.8485,76.1905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,1,91.3580,90.7975,91.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,2,76.8421,45.6250,57.2549
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,3,57.2917,98.2143,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,4,89.8734,65.1376,75.5319
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,5,13.2530,34.3750,19.1304
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,6,93.2584,92.2222,92.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,Robust Mahalanobis,multi-layer perceptron,7,81.4815,89.1892,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,SAM,spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"Ensemble[PCA Mahalanobis, SAM]",spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,"Ensemble[Robust Mahalanobis, SAM]",spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,"Ensemble[Percentile, SAM]",spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,1,87.0370,90.0958,88.5400
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,2,65.2632,45.9259,53.9130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,3,78.1250,98.6842,87.2093
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,4,92.4051,72.2772,81.1111
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,5,21.6867,62.0690,32.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,6,89.8876,91.9540,90.9091
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,MAD → Percentile,multi-layer perceptron,7,79.0123,60.3774,68.4492
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,1,94.7531,83.1978,88.6003
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,2,57.8947,49.1071,53.1401
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,4,89.8734,61.2069,72.8205
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,5,16.8675,58.3333,26.1682
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,6,93.2584,87.3684,90.2174
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis → SAM,multi-layer perceptron,7,74.0741,89.5522,81.0811
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,1,94.7531,94.7531,94.7531
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,2,80.0000,55.4745,65.5172
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,3,34.3750,91.6667,50.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,4,91.1392,63.7168,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,5,24.0964,25.6410,24.8447
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,PCA Mahalanobis → MAD,support vector machine,7,70.3704,80.2817,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,1,76.5432,91.5129,83.3613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,4,87.3418,66.9903,75.8242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,Poziom bazowy,spectral angle mapping,7,66.6667,35.5263,46.3519
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,1,79.3210,93.4545,85.8097
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,2,76.8421,64.0351,69.8565
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,3,79.1667,100.0000,88.3721
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,4,86.0759,66.6667,75.1381
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,5,45.7831,79.1667,58.0153
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,Percentile → MAD,spectral angle mapping,7,66.6667,37.2414,47.7876
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,1,91.9753,94.3038,93.1250
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,2,72.6316,53.9062,61.8834
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,3,36.4583,97.2222,53.0303
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,4,91.1392,62.0690,73.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,5,37.3494,35.6322,36.4706
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,Percentile → Robust Mahalanobis,minimum distance,7,72.8395,79.7297,76.1290
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,1,95.9877,93.3934,94.6728
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,2,81.0526,55.3957,65.8120
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,3,27.0833,92.8571,41.9355
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,4,91.1392,64.2857,75.3927
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,5,25.3012,26.2500,25.7669
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,PCA Mahalanobis → Robust Mahalanobis,support vector machine,7,70.3704,85.0746,77.0270
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,1,94.1358,95.3125,94.7205
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,2,85.2632,57.0423,68.3544
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,3,27.0833,92.8571,41.9355
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,4,91.1392,66.6667,77.0053
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,5,26.5060,23.1579,24.7191
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,Robust Mahalanobis → PCA Mahalanobis,support vector machine,7,70.3704,86.3636,77.5510
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,1,79.0123,92.4188,85.1913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,2,76.8421,56.5891,65.1786
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,3,69.7917,97.1014,81.2121
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,5,36.1446,63.8298,46.1538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,Percentile → MAD,minimum distance,7,80.2469,46.4286,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,1,79.6296,92.1429,85.4305
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,2,77.8947,57.8125,66.3677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,3,62.5000,90.9091,74.0741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,5,26.5060,50.0000,34.6457
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,SAM → MAD,support vector machine,7,86.4198,47.6190,61.4035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,1,92.2840,94.6203,93.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,2,81.0526,53.8462,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,3,37.5000,92.3077,53.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,4,91.1392,60.5042,72.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,5,25.3012,28.7671,26.9231
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,Percentile → PCA Mahalanobis,minimum distance,7,70.3704,85.0746,77.0270
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,1,76.5432,91.5129,83.3613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,"Ensemble[MAD, SAM]",spectral angle mapping,7,64.1975,34.4371,44.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,1,81.4815,89.4915,85.2989
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,2,71.5789,50.0000,58.8745
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,3,78.1250,97.4026,86.7052
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,4,91.1392,78.2609,84.2105
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,5,24.0964,76.9231,36.6972
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,6,89.8876,95.2381,92.4855
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,MAD,multi-layer perceptron,7,85.1852,50.3650,63.3028
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,1,90.4321,87.2024,88.7879
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,2,66.3158,50.8065,57.5342
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,3,58.3333,96.5517,72.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,4,91.1392,57.6000,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,5,25.3012,46.6667,32.8125
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,6,93.2584,92.2222,92.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,SAM → Robust Mahalanobis,multi-layer perceptron,7,74.0741,86.9565,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,1,93.5185,86.3248,89.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,2,70.5263,69.0722,69.7917
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,3,32.2917,96.8750,48.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,5,36.1446,33.3333,34.6821
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,SAM → Robust Mahalanobis,minimum distance,7,72.8395,78.6667,75.6410
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,1,93.8272,85.6338,89.5434
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,2,66.3158,68.4783,67.3797
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,3,35.4167,97.1429,51.9084
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,5,36.1446,33.7079,34.8837
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",minimum distance,7,72.8395,79.7297,76.1290
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,1,76.5432,91.8519,83.5017
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,2,72.6316,73.4043,73.0159
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,5,61.4458,77.2727,68.4564
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"Ensemble[MAD, Percentile]",spectral angle mapping,7,64.1975,34.4371,44.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,1,79.6296,92.1429,85.4305
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,2,77.8947,58.2677,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,3,60.4167,90.6250,72.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,5,26.5060,47.8261,34.1085
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,MAD → SAM,support vector machine,7,86.4198,47.6190,61.4035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,1,91.9753,93.4169,92.6905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,2,78.9474,52.4476,63.0252
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,3,36.4583,94.5946,52.6316
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,4,91.1392,63.7168,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,5,26.5060,30.5556,28.3871
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,PCA Mahalanobis,minimum distance,7,71.6049,79.4521,75.3247
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,1,91.6667,86.3372,88.9222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,2,82.1053,63.9344,71.8894
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,5,32.5301,34.6154,33.5404
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,SAM → Robust Mahalanobis,support vector machine,7,71.6049,77.3333,74.3590
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,1,99.0741,84.9206,91.4530
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,2,49.4737,43.5185,46.3054
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,3,44.7917,97.7273,61.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,4,73.4177,81.6901,77.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,5,24.0964,32.7869,27.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,6,88.7640,92.9412,90.8046
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,SAM → PCA Mahalanobis,multi-layer perceptron,7,97.5309,79.0000,87.2928
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,1,91.9753,94.3038,93.1250
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,2,81.0526,53.8462,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,3,35.4167,91.8919,51.1278
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,4,89.8734,61.2069,72.8205
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,5,25.3012,29.5775,27.2727
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,PCA Mahalanobis → Percentile,minimum distance,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,1,92.2840,93.1464,92.7132
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,2,76.8421,52.1429,62.1277
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,3,36.4583,94.5946,52.6316
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,5,26.5060,30.9859,28.5714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,PCA Mahalanobis → SAM,minimum distance,7,71.6049,79.4521,75.3247
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,1,75.9259,86.6197,80.9211
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,2,80.0000,71.0280,75.2475
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,3,56.2500,90.0000,69.2308
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,5,39.7590,55.0000,46.1538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"Ensemble[Robust Mahalanobis, MAD]",support vector machine,7,88.8889,45.5696,60.2510
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,1,92.5926,80.8625,86.3309
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,2,53.6842,52.0408,52.8497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,3,59.3750,100.0000,74.5098
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,4,89.8734,67.6190,77.1739
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,5,28.9157,60.0000,39.0244
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,SAM,multi-layer perceptron,7,74.0741,65.9341,69.7674
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,1,91.9753,86.6279,89.2216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,2,71.5789,70.8333,71.2042
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,3,30.2083,93.5484,45.6693
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,5,37.3494,32.2917,34.6369
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,Robust Mahalanobis → Percentile,minimum distance,7,72.8395,75.6410,74.2138
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,1,91.9753,86.6279,89.2216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,2,70.5263,69.0722,69.7917
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,3,32.2917,96.8750,48.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,5,36.1446,31.9149,33.8983
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,Robust Mahalanobis → SAM,minimum distance,7,72.8395,75.6410,74.2138
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,1,91.9753,86.6279,89.2216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,2,70.5263,69.0722,69.7917
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,3,32.2917,96.8750,48.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,4,91.1392,63.1579,74.6114
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,5,36.1446,31.9149,33.8983
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,Robust Mahalanobis,minimum distance,7,72.8395,74.6835,73.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,1,96.9136,83.9572,89.9713
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,2,61.0526,53.7037,57.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,3,41.6667,100.0000,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,4,46.8354,94.8718,62.7119
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,5,37.3494,47.6923,41.8919
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,SAM → Percentile,multi-layer perceptron,7,100.0000,60.0000,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,1,79.0123,93.4307,85.6187
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,2,80.0000,58.4615,67.5556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,3,79.1667,98.7013,87.8613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,4,86.0759,66.6667,75.1381
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,5,32.5301,84.3750,46.9565
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,MAD → Percentile,spectral angle mapping,7,66.6667,37.2414,47.7876
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,1,92.9012,93.4783,93.1889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,2,76.8421,52.5180,62.3932
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,3,32.2917,93.9394,48.0620
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,4,89.8734,60.6838,72.4490
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,5,26.5060,28.2051,27.3292
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,SAM → PCA Mahalanobis,minimum distance,7,70.3704,83.8235,76.5101
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,1,76.5432,92.1933,83.6425
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,2,81.0526,59.2308,68.4444
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,3,59.3750,90.4762,71.6981
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,5,26.5060,46.8085,33.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,6,97.7528,97.7528,97.7528
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,MAD,support vector machine,7,88.8889,45.8599,60.5042
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,1,91.3580,95.1768,93.2283
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,2,81.0526,53.4722,64.4351
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,3,32.2917,91.1765,47.6923
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,4,91.1392,60.5042,72.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,5,25.3012,25.3012,25.3012
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,Robust Mahalanobis → MAD,minimum distance,7,70.3704,86.3636,77.5510
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,1,93.2099,93.7888,93.4985
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,2,81.0526,53.8462,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,3,28.1250,90.0000,42.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,4,91.1392,60.0000,72.3618
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,5,24.0964,26.3158,25.1572
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,PCA Mahalanobis → Robust Mahalanobis,minimum distance,7,69.1358,84.8485,76.1905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,1,76.8519,91.8819,83.6975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,2,73.6842,72.1649,72.9167
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,3,70.8333,100.0000,82.9268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,5,57.8313,68.5714,62.7451
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,"Ensemble[Robust Mahalanobis, MAD]",spectral angle mapping,7,64.1975,34.4371,44.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,1,78.7037,92.7273,85.1419
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,2,78.9474,53.1915,63.5593
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,3,68.7500,97.0588,80.4878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,5,25.3012,56.7568,35.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,MAD → Percentile,minimum distance,7,80.2469,46.0993,58.5586
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,1,81.1728,83.4921,82.3161
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,4,89.8734,73.9583,81.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,5,33.7349,50.0000,40.2878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,SAM → Percentile,minimum distance,7,79.0123,47.0588,58.9862
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,1,91.9753,93.4169,92.6905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,2,76.8421,52.5180,62.3932
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,3,32.2917,93.9394,48.0620
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,4,89.8734,61.7391,73.1959
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,5,26.5060,28.5714,27.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,PCA Mahalanobis → MAD,minimum distance,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,1,89.1975,86.2687,87.7086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,2,82.1053,58.6466,68.4211
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,3,31.2500,93.7500,46.8750
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,5,33.7349,35.0000,34.3558
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,Robust Mahalanobis → SAM,support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,1,78.7037,93.4066,85.4271
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,2,77.8947,63.7931,70.1422
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,3,70.8333,100.0000,82.9268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,5,44.5783,68.5185,54.0146
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,SAM → MAD,spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,1,80.8642,83.7061,82.2606
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,2,65.2632,68.8889,67.0270
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,3,67.7083,98.4848,80.2469
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,4,89.8734,73.1959,80.6818
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,5,34.9398,50.8772,41.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,Percentile → SAM,minimum distance,7,77.7778,46.3235,58.0645
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,1,80.5556,83.1210,81.8182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,2,66.3158,70.0000,68.1081
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,5,33.7349,50.0000,40.2878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,"Ensemble[Robust Mahalanobis, Percentile]",minimum distance,7,80.2469,47.1014,59.3607
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,1,76.5432,92.5373,83.7838
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,2,81.0526,58.7786,68.1416
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,3,55.2083,89.8305,68.3871
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,5,27.7108,44.2308,34.0741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Ensemble[PCA Mahalanobis, MAD]",support vector machine,7,88.8889,45.8599,60.5042
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,1,78.7037,93.4066,85.4271
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,2,76.8421,64.6018,70.1923
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,5,46.9880,66.1017,54.9296
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,MAD → SAM,spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,1,79.9383,83.2797,81.5748
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,2,66.3158,69.2308,67.7419
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,3,67.7083,98.4848,80.2469
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,4,88.6076,74.4681,80.9249
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,5,34.9398,51.7857,41.7266
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"Ensemble[MAD, Percentile]",minimum distance,7,80.2469,46.0993,58.5586
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,1,80.2469,83.6013,81.8898
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,2,65.2632,68.1319,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,5,33.7349,49.1228,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Ensemble[PCA Mahalanobis, Percentile]",minimum distance,7,80.2469,47.1014,59.3607
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,1,79.9383,83.0128,81.4465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,3,67.7083,98.4848,80.2469
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,5,36.1446,51.7241,42.5532
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,Poziom bazowy,minimum distance,7,80.2469,46.4286,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,1,80.2469,83.3333,81.7610
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,2,65.2632,68.8889,67.0270
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,5,33.7349,49.1228,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,Percentile,minimum distance,7,80.2469,47.1014,59.3607
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,1,80.2469,83.0671,81.6327
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,5,36.1446,50.8475,42.2535
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,SAM,minimum distance,7,80.2469,46.7626,59.0909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,1,80.2469,83.0671,81.6327
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,5,36.1446,50.8475,42.2535
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"Ensemble[PCA Mahalanobis, SAM]",minimum distance,7,80.2469,46.7626,59.0909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,1,80.2469,83.0671,81.6327
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,5,36.1446,50.8475,42.2535
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,"Ensemble[Robust Mahalanobis, SAM]",minimum distance,7,80.2469,46.7626,59.0909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,1,80.2469,83.0671,81.6327
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,5,36.1446,50.0000,41.9580
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,"Ensemble[Percentile, SAM]",minimum distance,7,80.2469,47.1014,59.3607
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,1,91.6667,94.8882,93.2496
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,2,81.0526,53.8462,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,3,29.1667,90.3226,44.0945
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,4,91.1392,60.0000,72.3618
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,5,25.3012,24.7059,25.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,Robust Mahalanobis → PCA Mahalanobis,minimum distance,7,69.1358,86.1538,76.7123
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,1,89.8148,86.3501,88.0484
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,2,82.1053,60.0000,69.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,3,31.2500,93.7500,46.8750
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,5,28.9157,29.6296,29.2683
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,Robust Mahalanobis → Percentile,support vector machine,7,71.6049,80.5556,75.8170
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,1,80.8642,92.2535,86.1842
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,2,70.5263,54.4715,61.4679
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,3,78.1250,100.0000,87.7193
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,4,93.6709,56.4885,70.4762
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,5,28.9157,63.1579,39.6694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Poziom bazowy,multi-layer perceptron,7,64.1975,47.7064,54.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,1,79.9383,83.0128,81.4465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,2,65.2632,69.6629,67.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,5,36.1446,50.8475,42.2535
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,"Ensemble[MAD, SAM]",minimum distance,7,80.2469,46.4286,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,1,82.7160,90.5405,86.4516
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,2,61.0526,45.6693,52.2523
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,3,83.3333,80.0000,81.6327
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,4,88.6076,50.0000,63.9269
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,5,12.0482,58.8235,20.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,6,94.3820,91.3043,92.8177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,Percentile → Robust Mahalanobis,multi-layer perceptron,7,80.2469,86.6667,83.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,1,87.6543,86.5854,87.1166
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,2,82.1053,56.9343,67.2414
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,5,33.7349,34.1463,33.9394
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis,support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,1,99.3827,85.4111,91.8688
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,2,60.0000,45.9677,52.0548
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,3,39.5833,97.4359,56.2963
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,4,84.8101,69.0722,76.1364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,5,19.2771,27.5862,22.6950
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,6,88.7640,89.7727,89.2655
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,PCA Mahalanobis,multi-layer perceptron,7,69.1358,87.5000,77.2414
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,1,76.8519,92.9104,84.1216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,2,76.8421,65.1786,70.5314
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,3,70.8333,100.0000,82.9268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,5,46.9880,68.4211,55.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,"Ensemble[PCA Mahalanobis, MAD]",spectral angle mapping,7,64.1975,34.4371,44.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,1,99.0741,84.4737,91.1932
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,2,55.7895,43.8017,49.0741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,3,46.8750,97.8261,63.3803
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,4,86.0759,67.3267,75.5556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,5,18.0723,27.7778,21.8978
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,6,88.7640,92.9412,90.8046
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,PCA Mahalanobis → MAD,multi-layer perceptron,7,65.4321,88.3333,75.1773
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,1,76.8519,92.9104,84.1216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,2,76.8421,65.1786,70.5314
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,3,69.7917,100.0000,82.2086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,5,46.9880,67.2414,55.3191
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,MAD,spectral angle mapping,7,64.1975,34.4371,44.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,1,84.2593,88.6364,86.3924
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,2,67.3684,55.6522,60.9524
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,3,61.4583,100.0000,76.1290
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,4,93.6709,61.6667,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,5,33.7349,50.9091,40.5797
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,6,91.0112,96.4286,93.6416
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,"Ensemble[MAD, SAM]",multi-layer perceptron,7,65.4321,50.0000,56.6845
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,1,97.2222,85.5978,91.0405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,2,52.6316,51.0204,51.8135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,3,45.8333,97.7778,62.4113
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,4,88.6076,58.8235,70.7071
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,5,19.2771,30.7692,23.7037
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,6,92.1348,76.6355,83.6735
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,Percentile → PCA Mahalanobis,multi-layer perceptron,7,62.9630,87.9310,73.3813
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,1,77.4691,90.2878,83.3887
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,2,70.5263,53.1746,60.6335
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,3,46.8750,97.8261,63.3803
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,4,88.6076,87.5000,88.0503
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,5,37.3494,46.9697,41.6107
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,6,89.8876,95.2381,92.4855
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,"Ensemble[Robust Mahalanobis, MAD]",multi-layer perceptron,7,97.5309,47.3054,63.7097
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,1,79.9383,89.9306,84.6405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,2,75.7895,63.7168,69.2308
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,3,39.5833,97.4359,56.2963
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,4,89.8734,74.7368,81.6092
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,5,36.1446,37.9747,37.0370
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"Ensemble[PCA Mahalanobis, MAD]",minimum distance,7,80.2469,45.4545,58.0357
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,1,77.4691,95.0758,85.3741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,2,76.8421,56.1538,64.8889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,3,45.8333,97.7778,62.4113
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,4,88.6076,74.4681,80.9249
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,5,36.1446,36.5854,36.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,SAM → MAD,minimum distance,7,80.2469,45.7746,58.2960
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,1,78.7037,91.0714,84.4371
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,2,75.7895,63.7168,69.2308
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,3,42.7083,97.6190,59.4203
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,4,88.6076,74.4681,80.9249
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,5,36.1446,35.7143,35.9281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,MAD,minimum distance,7,80.2469,45.1389,57.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,1,97.2222,83.3333,89.7436
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,2,43.1579,43.6170,43.3862
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,3,41.6667,97.5610,58.3942
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,4,79.7468,68.4783,73.6842
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,5,20.4819,23.2877,21.7949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,6,89.8876,83.3333,86.4865
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,136,PCA Mahalanobis → Robust Mahalanobis,multi-layer perceptron,7,76.5432,84.9315,80.5195
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,1,77.4691,94.7170,85.2292
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,2,76.8421,56.1538,64.8889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,3,41.6667,97.5610,58.3942
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,4,88.6076,74.4681,80.9249
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,5,36.1446,35.2941,35.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,137,MAD → SAM,minimum distance,7,80.2469,45.7746,58.2960
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,1,83.0247,91.8089,87.1961
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,2,66.3158,43.7500,52.7197
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,3,61.4583,86.7647,71.9512
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,4,87.3418,50.0000,63.5945
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,5,18.0723,33.3333,23.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,6,93.2584,88.2979,90.7104
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,138,Robust Mahalanobis → PCA Mahalanobis,multi-layer perceptron,7,69.1358,86.1538,76.7123
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,1,79.6296,84.0391,81.7750
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,2,66.3158,69.2308,67.7419
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,3,39.5833,97.4359,56.2963
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,4,88.6076,74.4681,80.9249
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,5,36.1446,35.2941,35.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,139,"Ensemble[Robust Mahalanobis, MAD]",minimum distance,7,80.2469,45.1389,57.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,1,75.9259,93.5361,83.8160
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,2,35.7895,64.1509,45.9459
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,3,60.4167,89.2308,72.0497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,4,98.7342,44.5714,61.4173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,5,68.6747,50.8929,58.4615
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,6,94.3820,93.3333,93.8547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,140,"Ensemble[MAD, Percentile]",multi-layer perceptron,7,59.2593,53.9326,56.4706
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,1,78.7037,93.4066,85.4271
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,2,71.5789,45.6376,55.7377
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,3,51.0417,94.2308,66.2162
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,4,89.8734,42.0118,57.2581
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,5,15.6627,31.7073,20.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,6,93.2584,88.2979,90.7104
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,141,Robust Mahalanobis → Percentile,multi-layer perceptron,7,72.8395,85.5072,78.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,1,74.6914,88.3212,80.9365
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,2,56.8421,35.5263,43.7247
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,3,70.8333,98.5507,82.4242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,4,84.8101,69.0722,76.1364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,5,21.6867,20.2247,20.9302
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,6,89.8876,91.9540,90.9091
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,142,MAD → Robust Mahalanobis,multi-layer perceptron,7,83.9506,86.0759,85.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,1,80.2469,91.2281,85.3859
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,2,52.6316,42.7350,47.1698
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,3,59.3750,86.3636,70.3704
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,4,89.8734,42.5150,57.7236
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,5,22.8916,35.1852,27.7372
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,6,91.0112,88.0435,89.5028
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,143,PCA Mahalanobis → Percentile,multi-layer perceptron,7,71.6049,87.8788,78.9116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,1,45.3704,99.3243,62.2881
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,2,90.5263,54.4304,67.9842
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,3,78.1250,90.3614,83.7989
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,4,79.7468,96.9231,87.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,5,48.1928,34.1880,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,144,MAD → Robust Mahalanobis,maximum likelihood,7,97.5309,39.1089,55.8304
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,1,47.5309,100.0000,64.4351
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,2,63.1579,73.1707,67.7966
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,3,51.0417,92.4528,65.7718
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,4,81.0127,94.1176,87.0748
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,5,78.3133,24.3446,37.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,145,Robust Mahalanobis → PCA Mahalanobis,maximum likelihood,7,96.2963,52.3490,67.8261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,1,73.1481,90.1141,80.7496
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,2,63.1579,36.3636,46.1538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,3,25.0000,82.7586,38.4000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,4,91.1392,48.6486,63.4361
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,5,19.2771,16.4948,17.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,6,87.6404,100.0000,93.4132
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,146,Robust Mahalanobis → MAD,random forest,7,69.1358,83.5821,75.6757
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,1,46.6049,96.7949,62.9167
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,2,29.4737,80.0000,43.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,3,72.9167,63.6364,67.9612
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,4,81.0127,96.9697,88.2759
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,5,89.1566,30.2041,45.1220
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,147,PCA Mahalanobis → Percentile,maximum likelihood,7,98.7654,49.6894,66.1157
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,1,67.9012,94.8276,79.1367
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,2,43.1579,32.8000,37.2727
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,3,54.1667,91.2281,67.9739
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,4,91.1392,31.5789,46.9055
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,5,18.0723,22.7273,20.1342
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,6,86.5169,93.9024,90.0585
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,148,Robust Mahalanobis → MAD,multi-layer perceptron,7,61.7284,87.7193,72.4638
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,1,32.7160,97.2477,48.9607
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,2,80.0000,53.5211,64.1350
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,3,78.1250,73.5294,75.7576
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,4,81.0127,94.1176,87.0748
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,5,61.4458,30.7229,40.9639
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,149,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",maximum likelihood,7,95.0617,41.3978,57.6779
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,1,40.1235,95.5882,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,2,86.3158,57.3427,68.9076
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,3,59.3750,83.8235,69.5122
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,4,79.7468,95.4545,86.8966
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,5,43.3735,20.3390,27.6923
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,150,Robust Mahalanobis → Percentile,maximum likelihood,7,97.5309,43.1694,59.8485
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,1,35.4938,98.2906,52.1542
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,2,29.4737,80.0000,43.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,3,75.0000,75.7895,75.3927
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,4,82.2785,97.0149,89.0411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,5,87.9518,28.7402,43.3234
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,6,82.0225,100.0000,90.1235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,151,SAM → PCA Mahalanobis,maximum likelihood,7,98.7654,38.8350,55.7491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,1,31.4815,99.0291,47.7752
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,2,82.1053,55.7143,66.3830
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,3,94.7917,45.5000,61.4865
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,4,82.2785,91.5493,86.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,5,44.5783,52.8571,48.3660
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,6,48.3146,100.0000,65.1515
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,152,MAD → Percentile,maximum likelihood,7,95.0617,35.0000,51.1628
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,1,20.0617,100.0000,33.4190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,2,61.0526,75.3247,67.4419
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,3,92.7083,48.3696,63.5714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,4,84.8101,94.3662,89.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,5,85.5422,33.9713,48.6301
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,6,76.4045,100.0000,86.6242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,153,"Ensemble[PCA Mahalanobis, Percentile]",maximum likelihood,7,91.3580,42.7746,58.2677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,1,18.5185,100.0000,31.2500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,2,85.2632,63.7795,72.9730
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,3,94.7917,46.9072,62.7586
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,5,51.8072,46.2366,48.8636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,6,79.7753,100.0000,88.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,154,"Ensemble[Robust Mahalanobis, MAD]",maximum likelihood,7,95.0617,33.0472,49.0446
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,1,20.0617,100.0000,33.4190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,2,50.5263,81.3559,62.3377
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,3,92.7083,50.0000,64.9635
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,5,92.7711,33.3333,49.0446
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,6,75.2809,100.0000,85.8974
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,155,Percentile,maximum likelihood,7,95.0617,43.2584,59.4595
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,1,20.0617,100.0000,33.4190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,2,50.5263,78.6885,61.5385
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,3,91.6667,47.8261,62.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,5,92.7711,31.1741,46.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,6,76.4045,100.0000,86.6242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,156,SAM → Percentile,maximum likelihood,7,92.5926,49.0196,64.1026
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,1,16.6667,100.0000,28.5714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,2,56.8421,72.9730,63.9053
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,3,92.7083,57.0513,70.6349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,4,81.0127,94.1176,87.0748
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,5,95.1807,30.0380,45.6647
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,6,79.7753,100.0000,88.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,157,"Ensemble[Robust Mahalanobis, Percentile]",maximum likelihood,7,91.3580,45.9627,61.1570
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,1,17.5926,100.0000,29.9213
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,2,69.4737,75.8621,72.5275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,3,92.7083,52.3529,66.9173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,5,81.9277,37.3626,51.3208
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,6,69.6629,100.0000,82.1192
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,158,"Ensemble[MAD, Percentile]",maximum likelihood,7,95.0617,35.0000,51.1628
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,1,20.0617,100.0000,33.4190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,2,45.2632,82.6923,58.5034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,3,92.7083,48.9011,64.0288
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,5,92.7711,31.4286,46.9512
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,6,75.2809,100.0000,85.8974
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,159,Percentile → SAM,maximum likelihood,7,96.2963,46.7066,62.9032
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,1,12.9630,100.0000,22.9508
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,2,72.6316,75.0000,73.7968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,3,94.7917,43.3333,59.4771
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,5,80.7229,39.8810,53.3865
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,6,75.2809,100.0000,85.8974
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,160,Poziom bazowy,maximum likelihood,7,93.8272,38.1910,54.2857
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,1,12.6543,100.0000,22.4658
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,2,68.4211,79.2683,73.4463
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,3,93.7500,42.2535,58.2524
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,5,81.9277,39.0805,52.9183
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,6,74.1573,100.0000,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,161,"Ensemble[MAD, SAM]",maximum likelihood,7,95.0617,38.1188,54.4170
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,1,12.9630,100.0000,22.9508
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,2,67.3684,78.0488,72.3164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,3,94.7917,40.0881,56.3467
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,5,81.9277,37.5691,51.5152
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,6,74.1573,100.0000,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,162,SAM,maximum likelihood,7,92.5926,41.6667,57.4713
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,1,12.9630,100.0000,22.9508
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,2,67.3684,78.0488,72.3164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,3,94.7917,40.0881,56.3467
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,5,81.9277,37.5691,51.5152
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,6,74.1573,100.0000,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,163,"Ensemble[PCA Mahalanobis, SAM]",maximum likelihood,7,92.5926,41.6667,57.4713
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,1,12.9630,100.0000,22.9508
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,2,67.3684,78.0488,72.3164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,3,94.7917,40.0881,56.3467
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,5,81.9277,37.5691,51.5152
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,6,74.1573,100.0000,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,164,"Ensemble[Robust Mahalanobis, SAM]",maximum likelihood,7,92.5926,41.6667,57.4713
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,1,12.9630,100.0000,22.9508
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,2,67.3684,77.1084,71.9101
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,3,94.7917,40.0881,56.3467
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,5,81.9277,37.5691,51.5152
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,6,74.1573,100.0000,85.1613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,165,"Ensemble[Percentile, SAM]",maximum likelihood,7,92.5926,41.8994,57.6923
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,1,41.3580,97.1014,58.0087
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,2,22.1053,84.0000,35.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,3,78.1250,33.9367,47.3186
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,4,82.2785,97.0149,89.0411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,5,60.2410,26.0417,36.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,6,47.1910,100.0000,64.1221
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,166,Percentile → PCA Mahalanobis,maximum likelihood,7,98.7654,49.3827,65.8436
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,1,31.7901,70.5479,43.8298
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,2,63.1579,72.2892,67.4157
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,3,87.5000,33.2016,48.1375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,4,82.2785,97.0149,89.0411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,5,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,6,82.0225,100.0000,90.1235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,167,MAD → PCA Mahalanobis,maximum likelihood,7,98.7654,35.5556,52.2876
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,1,49.6914,49.6914,49.6914
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,2,57.8947,59.7826,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,3,57.2917,82.0896,67.4847
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,4,29.1139,95.8333,44.6602
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,5,31.3253,21.6667,25.6158
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,6,83.1461,100.0000,90.7975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,168,Percentile → Robust Mahalanobis,maximum likelihood,7,48.1481,26.7123,34.3612
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,1,23.7654,100.0000,38.4040
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,2,77.8947,64.9123,70.8134
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,3,97.9167,27.8107,43.3180
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,5,38.5542,60.3774,47.0588
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,169,Percentile → MAD,maximum likelihood,7,95.0617,39.6907,56.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,1,21.2963,93.2432,34.6734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,2,78.9474,19.7368,31.5789
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,3,25.0000,85.7143,38.7097
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,4,92.4051,56.1538,69.8565
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,5,54.2169,44.1176,48.6486
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,6,93.2584,96.5116,94.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,170,MAD → PCA Mahalanobis,random forest,7,48.1481,82.9787,60.9375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,1,6.4815,31.8182,10.7692
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,2,60.0000,21.1896,31.3187
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,3,68.7500,91.6667,78.5714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,4,96.2025,79.1667,86.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,5,39.7590,45.8333,42.5806
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,171,Percentile,random forest,7,76.5432,32.8042,45.9259
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,1,7.0988,37.0968,11.9171
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,2,66.3158,22.8261,33.9623
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,3,56.2500,91.5254,69.6774
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,4,94.9367,78.9474,86.2069
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,5,43.3735,51.4286,47.0588
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,6,91.0112,98.7805,94.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,172,"Ensemble[PCA Mahalanobis, MAD]",random forest,7,76.5432,30.5419,43.6620
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,1,6.4815,30.8824,10.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,2,58.9474,28.7179,38.6207
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,3,69.7917,94.3662,80.2395
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,4,93.6709,79.5699,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,5,37.3494,47.6923,41.8919
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,173,"Ensemble[Percentile, SAM]",random forest,7,77.7778,23.1618,35.6941
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,1,7.0988,33.8235,11.7347
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,2,60.0000,21.9231,32.1127
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,4,93.6709,78.7234,85.5491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,5,36.1446,46.1538,40.5405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,6,92.1348,97.6190,94.7977
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,174,Poziom bazowy,random forest,7,76.5432,29.6651,42.7586
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,1,6.4815,30.8824,10.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,2,56.8421,20.4545,30.0836
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,3,69.7917,91.7808,79.2899
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,4,94.9367,78.9474,86.2069
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,5,39.7590,42.8571,41.2500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,6,91.0112,98.7805,94.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,175,SAM → Percentile,random forest,7,76.5432,32.9787,46.0967
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,1,7.0988,33.8235,11.7347
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,2,61.0526,19.9313,30.0518
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,3,67.7083,89.0411,76.9231
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,4,96.2025,76.7677,85.3933
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,5,36.1446,44.7761,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,176,"Ensemble[PCA Mahalanobis, Percentile]",random forest,7,72.8395,35.5422,47.7733
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,1,5.5556,31.0345,9.4241
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,2,69.4737,20.3704,31.5036
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,3,59.3750,89.0625,71.2500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,4,94.9367,78.1250,85.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,5,43.3735,49.3151,46.1538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,6,88.7640,100.0000,94.0476
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,177,MAD,random forest,7,75.3086,39.8693,52.1368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,1,6.4815,32.3077,10.7969
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,2,55.7895,20.6226,30.1136
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,3,70.8333,91.8919,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,4,93.6709,78.7234,85.5491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,5,36.1446,38.4615,37.2671
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,6,93.2584,98.8095,95.9538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,178,"Ensemble[MAD, SAM]",random forest,7,76.5432,31.7949,44.9275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,1,5.8642,29.2308,9.7686
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,2,60.0000,18.6885,28.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,3,65.6250,91.3043,76.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,4,96.2025,79.1667,86.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,5,39.7590,43.4211,41.5094
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,6,91.0112,98.7805,94.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,179,Percentile → SAM,random forest,7,76.5432,40.2597,52.7660
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,1,5.5556,27.6923,9.2545
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,2,57.8947,19.1638,28.7958
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,3,69.7917,91.7808,79.2899
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,4,93.6709,79.5699,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,5,37.3494,45.5882,41.0596
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,180,"Ensemble[MAD, Percentile]",random forest,7,77.7778,35.3933,48.6486
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,1,6.4815,30.8824,10.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,2,55.7895,24.4240,33.9744
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,3,69.7917,91.7808,79.2899
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,4,93.6709,79.5699,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,5,34.9398,30.8511,32.7684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,181,"Ensemble[PCA Mahalanobis, SAM]",random forest,7,77.7778,28.7671,42.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,1,7.0988,33.3333,11.7048
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,2,53.6842,20.8163,30.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,3,67.7083,91.5493,77.8443
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,4,94.9367,78.9474,86.2069
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,5,37.3494,22.4638,28.0543
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,6,92.1348,98.7952,95.3488
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,182,"Ensemble[Robust Mahalanobis, Percentile]",random forest,7,76.5432,42.4658,54.6256
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,1,6.4815,30.0000,10.6599
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,2,53.6842,27.2727,36.1702
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,3,70.8333,95.7746,81.4371
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,4,93.6709,78.7234,85.5491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,5,37.3494,22.7941,28.3105
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,6,91.0112,98.7805,94.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,183,"Ensemble[Robust Mahalanobis, SAM]",random forest,7,76.5432,29.9517,43.0556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,1,6.4815,30.0000,10.6599
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,2,55.7895,22.5532,32.1212
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,3,67.7083,95.5882,79.2683
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,4,93.6709,79.5699,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,5,36.1446,45.4545,40.2685
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,6,91.0112,98.7805,94.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,184,SAM,random forest,7,77.7778,27.0386,40.1274
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,1,5.8642,31.1475,9.8701
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,2,60.0000,22.0930,32.2946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,3,53.1250,92.7273,67.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,4,93.6709,78.7234,85.5491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,5,43.3735,50.0000,46.4516
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,6,93.2584,98.8095,95.9538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,185,"Ensemble[Robust Mahalanobis, MAD]",random forest,7,76.5432,27.8027,40.7895
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,2,52.6316,16.2338,24.8139
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,3,77.0833,92.5000,84.0909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,4,91.1392,77.4194,83.7209
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,5,50.6024,60.0000,54.9020
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,6,88.7640,100.0000,94.0476
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,186,Percentile → MAD,random forest,7,75.3086,28.2407,41.0774
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,2,82.1053,18.0974,29.6578
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,3,33.3333,91.4286,48.8550
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,4,98.7342,63.9344,77.6119
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,5,62.6506,48.1481,54.4503
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,6,96.6292,97.7273,97.1751
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,187,"Ensemble[PCA Mahalanobis, Robust Mahalanobis]",random forest,7,58.0247,77.0492,66.1972
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,1,9.5679,100.0000,17.4648
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,2,48.4211,14.6497,22.4939
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,3,17.7083,53.1250,26.5625
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,4,82.2785,97.0149,89.0411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,5,73.4940,42.3611,53.7445
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,6,80.8989,100.0000,89.4410
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,188,PCA Mahalanobis,maximum likelihood,7,97.5309,42.2460,58.9552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,2,61.0526,17.2619,26.9142
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,3,77.0833,88.0952,82.2222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,4,91.1392,77.4194,83.7209
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,5,27.7108,60.5263,38.0165
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,6,88.7640,100.0000,94.0476
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,189,MAD → Percentile,random forest,7,75.3086,28.2407,41.0774
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,1,96.2963,42.8571,59.3156
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,2,11.5789,30.5556,16.7939
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,3,28.1250,50.0000,36.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,5,18.0723,55.5556,27.2727
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,190,"Ensemble[PCA Mahalanobis, MAD]",maximum likelihood,7,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,1,96.9136,43.0137,59.5825
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,2,11.5789,28.2051,16.4179
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,3,28.1250,45.0000,34.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,5,16.8675,77.7778,27.7228
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,6,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,191,MAD,maximum likelihood,7,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,2,77.8947,17.3302,28.3525
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,3,28.1250,84.3750,42.1875
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,5,66.2651,43.6508,52.6316
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,6,89.8876,97.5610,93.5673
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,192,Robust Mahalanobis → Percentile,random forest,7,66.6667,84.3750,74.4828
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,1,7.4074,92.3077,13.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,2,86.3158,20.8651,33.6066
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,3,28.1250,93.1034,43.2000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,4,91.1392,60.5042,72.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,5,21.6867,14.5161,17.3913
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,193,MAD → Robust Mahalanobis,random forest,7,65.4321,76.8116,70.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,2,78.9474,17.1233,28.1426
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,3,28.1250,90.0000,42.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,4,91.1392,61.5385,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,5,55.4217,41.8182,47.6684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,6,94.3820,97.6744,96.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,194,SAM → Robust Mahalanobis,random forest,7,67.9012,84.6154,75.3425
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,2,53.6842,16.0377,24.6973
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,3,59.3750,91.9355,72.1519
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,4,92.4051,77.6596,84.3931
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,5,44.5783,50.0000,47.1338
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,6,88.7640,100.0000,94.0476
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,195,SAM → MAD,random forest,7,75.3086,27.8539,40.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,2,52.6316,15.7233,24.2131
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,3,59.3750,91.9355,72.1519
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,4,92.4051,76.8421,83.9080
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,5,44.5783,50.0000,47.1338
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,6,89.8876,98.7654,94.1176
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,196,MAD → SAM,random forest,7,75.3086,28.2407,41.0774
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,2,80.0000,17.5520,28.7879
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,3,28.1250,87.0968,42.5197
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,4,91.1392,62.6087,74.2268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,5,54.2169,43.6893,48.3871
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,6,93.2584,97.6471,95.4023
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,197,Robust Mahalanobis,random forest,7,67.9012,69.6203,68.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,2,81.0526,16.9604,28.0510
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,3,26.0417,86.2069,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,4,91.1392,64.2857,75.3927
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,5,54.2169,42.4528,47.6190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,6,93.2584,97.6471,95.4023
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,198,Robust Mahalanobis → SAM,random forest,7,61.7284,83.3333,70.9220
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,2,52.6316,15.5763,24.0385
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,3,42.7083,85.4167,56.9444
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,4,100.0000,52.3179,68.6957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,5,49.3976,44.0860,46.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,6,93.2584,100.0000,96.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,199,Percentile → Robust Mahalanobis,random forest,7,62.9630,34.0000,44.1558
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,2,87.3684,17.9654,29.8025
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,3,41.6667,95.2381,57.9710
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,4,92.4051,55.3030,69.1943
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,5,20.4819,26.1538,22.9730
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,6,94.3820,97.6744,96.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,200,PCA Mahalanobis → SAM,random forest,7,59.2593,82.7586,69.0647
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,2,87.3684,16.9043,28.3276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,3,36.4583,97.2222,53.0303
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,4,89.8734,63.3929,74.3455
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,5,22.8916,33.3333,27.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,6,94.3820,97.6744,96.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,201,PCA Mahalanobis,random forest,7,61.7284,79.3651,69.4444
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,2,85.2632,16.7010,27.9310
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,3,29.1667,84.8485,43.4109
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,4,91.1392,64.2857,75.3927
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,5,20.4819,27.4194,23.4483
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,202,PCA Mahalanobis → Percentile,random forest,7,67.9012,87.3016,76.3889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,2,87.3684,17.7350,29.4849
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,3,28.1250,93.1034,43.2000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,4,92.4051,56.5891,70.1923
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,5,20.4819,24.2857,22.2222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,6,97.7528,95.6044,96.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,203,SAM → PCA Mahalanobis,random forest,7,59.2593,82.7586,69.0647
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,1,0.3086,100.0000,0.6154
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,2,88.4211,16.9697,28.4746
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,3,23.9583,85.1852,37.3984
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,4,91.1392,66.0550,76.5957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,5,21.6867,27.2727,24.1611
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,6,97.7528,95.6044,96.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,204,Robust Mahalanobis → PCA Mahalanobis,random forest,7,60.4938,84.4828,70.5036
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,2,89.4737,18.5996,30.7971
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,3,26.0417,89.2857,40.3226
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,4,91.1392,52.5547,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,5,20.4819,24.2857,22.2222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,6,88.7640,100.0000,94.0476
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,205,PCA Mahalanobis → Robust Mahalanobis,random forest,7,66.6667,72.9730,69.6774
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,2,82.1053,16.1826,27.0364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,3,39.5833,88.3721,54.6763
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,4,96.2025,54.2857,69.4064
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,5,26.5060,37.9310,31.2057
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,6,93.2584,97.6471,95.4023
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,206,Percentile → PCA Mahalanobis,random forest,7,39.5062,86.4865,54.2373
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,1,2.4691,100.0000,4.8193
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,2,54.7368,11.6331,19.1882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,3,7.2917,36.8421,12.1739
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,4,82.2785,97.0149,89.0411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,5,63.8554,47.3214,54.3590
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,6,59.5506,100.0000,74.6479
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,207,PCA Mahalanobis → SAM,maximum likelihood,7,96.2963,55.3191,70.2703
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,1,0.3086,50.0000,0.6135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,2,86.3158,16.4329,27.6094
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,3,28.1250,87.0968,42.5197
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,4,98.7342,52.3490,68.4211
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,5,18.0723,25.8621,21.2766
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,6,86.5169,100.0000,92.7711
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,208,PCA Mahalanobis → MAD,random forest,7,34.5679,90.3226,50.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,1,24.0741,100.0000,38.8060
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,2,4.2105,16.0000,6.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,3,88.5417,17.4897,29.2096
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,4,54.4304,95.5556,69.3548
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,5,4.8193,4.8780,4.8485
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,6,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,209,Robust Mahalanobis → MAD,maximum likelihood,7,96.2963,59.5420,73.5849
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,1,1.8519,100.0000,3.6364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,2,33.6842,59.2593,42.9530
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,3,35.4167,30.0885,32.5359
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,4,82.2785,94.2029,87.8378
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,5,91.5663,17.7986,29.8039
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,6,3.3708,100.0000,6.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,210,SAM → MAD,maximum likelihood,7,92.5926,42.8571,58.5938
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,1,21.2963,100.0000,35.1145
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,2,9.4737,31.0345,14.5161
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,3,63.5417,34.4633,44.6886
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,4,17.7215,93.3333,29.7872
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,5,84.3373,18.5185,30.3688
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,211,MAD → SAM,maximum likelihood,7,72.8395,33.3333,45.7364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,1,20.3704,100.0000,33.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,2,44.2105,66.6667,53.1646
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,3,81.2500,13.2203,22.7405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,5,48.1928,32.0000,38.4615
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,212,SAM → Robust Mahalanobis,maximum likelihood,7,0.0000,0.0000,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,1,20.3704,100.0000,33.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,2,45.2632,66.1538,53.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,3,81.2500,13.2203,22.7405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,5,46.9880,31.7073,37.8641
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,213,Robust Mahalanobis → SAM,maximum likelihood,7,0.0000,0.0000,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,1,20.3704,100.0000,33.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,2,44.2105,65.6250,52.8302
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,3,81.2500,13.2203,22.7405
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,5,46.9880,31.4516,37.6812
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,6,2.2472,100.0000,4.3956
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,214,Robust Mahalanobis,maximum likelihood,7,0.0000,0.0000,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,1,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,2,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,3,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,5,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,6,100.0000,10.5077,19.0171
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,215,PCA Mahalanobis → Robust Mahalanobis,maximum likelihood,7,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,1,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,2,62.1053,8.2287,14.5320
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,3,3.1250,2.3077,2.6549
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,4,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,5,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,6,0.0000,,
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,216,PCA Mahalanobis → MAD,maximum likelihood,7,0.0000,,

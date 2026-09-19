@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,minimum distance,PCA Mahalanobis,79.4569,86.8949,+7.4380,22,85,chi2 (poprawka na ciągłość),2.05036e-09,6.15108e-09,TAK,"C[7,1]: 56->7; C[5,1]: 8->13"
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,maximum likelihood,PCA Mahalanobis,59.7403,70.0118,+10.2715,18,105,chi2 (poprawka na ciągłość),8.87909e-15,4.43955e-14,TAK,"C[7,1]: 117->92; C[5,1]: 73->59; C[3,1]: 92->45"
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,spectral angle mapping,PCA Mahalanobis,80.2834,88.3117,+8.0283,6,74,chi2 (poprawka na ciągłość),6.84406e-14,2.73762e-13,TAK,"C[7,1]: 75->30; C[5,1]: 0->2; C[3,1]: 1->0"
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,random forest,Robust Mahalanobis,50.6494,74.7344,+24.0850,90,294,chi2 (poprawka na ciągłość),3.79729e-25,2.27838e-24,TAK,"C[1,7]: 0->15; C[7,1]: 76->4; C[5,1]: 224->34; C[3,1]: 1->0"
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,support vector machine,PCA Mahalanobis,82.7627,89.3743,+6.6116,33,89,chi2 (poprawka na ciągłość),6.37599e-07,1.2752e-06,TAK,"C[1,7]: 0->2; C[7,1]: 70->6; C[5,1]: 0->4; C[3,1]: 0->2"
+134567_poprawny_L1C_class,134567,poprawny,L1C,class,multi-layer perceptron,Band Z-score,76.5053,78.5124,+2.0071,50,67,chi2 (poprawka na ciągłość),0.139087,0.139087,nie,"C[7,1]: 40->59; C[3,1]: 37->8"

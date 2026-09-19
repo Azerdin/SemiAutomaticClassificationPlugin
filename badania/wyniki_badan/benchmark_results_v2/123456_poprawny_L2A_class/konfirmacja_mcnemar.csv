@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,minimum distance,MAD,80.2834,81.4640,+1.1806,12,22,chi2 (poprawka na ciągłość),0.122713,0.49085,nie,"C[5,1]: 2->0; C[5,2]: 11->4"
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,maximum likelihood,MAD,74.7344,78.0401,+3.3058,15,43,chi2 (poprawka na ciągłość),0.000392206,0.00235323,TAK,"C[5,1]: 69->50; C[5,2]: 26->22; C[3,1]: 32->22"
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,spectral angle mapping,PCA Mahalanobis,81.8182,83.3530,+1.5348,25,38,chi2 (poprawka na ciągłość),0.13057,0.49085,nie,"C[5,2]: 6->4; C[3,1]: 0->3"
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,random forest,SAM,80.4014,81.3459,+0.9445,9,17,chi2 (poprawka na ciągłość),0.169811,0.49085,nie,"C[5,1]: 2->3; C[5,2]: 16->14; C[3,1]: 1->1"
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,support vector machine,Band Z-score,85.2420,85.4782,+0.2361,0,2,dwumianowy,0.5,0.5,nie,"C[5,2]: 5->5"
+123456_poprawny_L2A_class,123456,poprawny,L2A,class,multi-layer perceptron,OneClassSVM,80.0472,82.4085,+2.3613,48,68,chi2 (poprawka na ciągłość),0.0777142,0.388571,nie,"C[5,2]: 1->20; C[3,1]: 0->5"

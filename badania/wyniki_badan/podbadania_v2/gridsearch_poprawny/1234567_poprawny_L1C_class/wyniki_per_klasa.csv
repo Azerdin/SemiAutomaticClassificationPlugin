@@ -1,0 +1,946 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Lp.,Metoda,Algorytm,Klasa,PA_%,UA_%,F1_%
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,1,95.6790,86.5922,90.9091
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,2,60.0000,57.0000,58.4615
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,3,70.8333,100.0000,82.9268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,4,89.8734,89.8734,89.8734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,5,42.1687,61.4035,50.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,1,"GMM(n_components=2,contamination=0.01)",multi-layer perceptron,7,95.0617,77.0000,85.0829
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,1,94.7531,86.2360,90.2941
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,2,82.1053,68.4211,74.6411
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,3,64.5833,96.8750,77.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,4,94.9367,66.9643,78.5340
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,5,30.1205,60.9756,40.3226
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,2,IsolationForest(contamination=0.2),support vector machine,7,72.8395,79.7297,76.1290
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,1,85.4938,89.0675,87.2441
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,2,55.7895,79.1045,65.4321
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,3,81.2500,89.6552,85.2459
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,4,94.9367,76.5306,84.7458
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,5,68.6747,73.0769,70.8075
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,3,EllipticEnvelope(contamination=0.1),multi-layer perceptron,7,82.7160,56.3025,67.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,1,88.2716,93.1596,90.6498
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,2,75.7895,66.0550,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,4,83.5443,68.7500,75.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,5,50.6024,67.7419,57.9310
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,4,IsolationForest(contamination=0.3),spectral angle mapping,7,86.4198,58.3333,69.6517
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,1,87.0370,87.3065,87.1716
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,2,77.8947,69.8113,73.6318
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,5,38.5542,61.5385,47.4074
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,5,IsolationForest(contamination=0.1),support vector machine,7,86.4198,57.3770,68.9655
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,1,94.7531,93.5976,94.1718
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,2,81.0526,56.6176,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,3,68.7500,95.6522,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,4,91.1392,60.0000,72.3618
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,5,19.2771,43.2432,26.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,6,98.8764,94.6237,96.7033
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,6,"Percentile(lower_pct=0.2,upper_pct=0.8)",support vector machine,7,67.9012,85.9375,75.8621
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,1,96.2963,93.9759,95.1220
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,2,64.2105,52.1368,57.5472
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,3,78.1250,98.6842,87.2093
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,4,88.6076,57.8512,70.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,5,32.5301,47.3684,38.5714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,7,"Percentile(lower_pct=0.2,upper_pct=0.8)",spectral angle mapping,7,62.9630,86.4407,72.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,1,86.1111,93.3110,89.5666
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,2,73.6842,70.7071,72.1649
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,4,83.5443,65.3465,73.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,5,59.0361,67.1233,62.8205
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,8,Robust Mahalanobis(alpha=0.01),spectral angle mapping,7,81.4815,53.6585,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,1,83.3333,87.0968,85.1735
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,2,78.9474,71.4286,75.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,4,96.2025,79.1667,86.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,5,49.3976,73.2143,58.9928
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,9,EllipticEnvelope(contamination=0.1),support vector machine,7,86.4198,53.4351,66.0377
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,1,87.9630,89.3417,88.6470
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,2,60.0000,57.0000,58.4615
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,3,77.0833,97.3684,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,4,92.4051,79.3478,85.3801
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,5,36.1446,68.1818,47.2441
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,6,94.3820,84.0000,88.8889
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,10,OneClassSVM(nu=0.2),multi-layer perceptron,7,95.0617,66.3793,78.1726
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,1,88.5802,87.5000,88.0368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,2,66.3158,53.3898,59.1549
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,3,77.0833,97.3684,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,4,92.4051,77.6596,84.3931
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,5,25.3012,72.4138,37.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,6,94.3820,93.3333,93.8547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,11,"GMM(n_components=3,contamination=0.01)",multi-layer perceptron,7,95.0617,68.7500,79.7927
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,1,87.9630,90.7643,89.3417
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,2,73.6842,69.3069,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,4,86.0759,59.6491,70.4663
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,5,50.6024,77.7778,61.3139
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,12,IsolationForest(contamination=0.2),spectral angle mapping,7,66.6667,52.9412,59.0164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,1,86.1111,93.6242,89.7106
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,2,74.7368,65.1376,69.6078
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,4,84.8101,65.6863,74.0331
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,5,50.6024,66.6667,57.5342
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,13,Robust Mahalanobis(alpha=0.1),spectral angle mapping,7,82.7160,54.4715,65.6863
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,1,84.2593,86.9427,85.5799
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,2,76.8421,70.8738,73.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,5,40.9639,62.9630,49.6350
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,14,IsolationForest(contamination=0.05),support vector machine,7,86.4198,52.6316,65.4206
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,1,85.4938,87.6582,86.5625
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,2,77.8947,69.8113,73.6318
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,3,63.5417,100.0000,77.7070
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,4,97.4684,79.3814,87.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,5,38.5542,59.2593,46.7153
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,15,"Percentile(lower_pct=0.02,upper_pct=0.98)",support vector machine,7,83.9506,53.9683,65.7005
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,1,88.2716,89.6552,88.9580
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,2,76.8421,48.9933,59.8361
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,3,77.0833,97.3684,86.0465
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,4,92.4051,81.1111,86.3905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,5,14.4578,80.0000,24.4898
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,6,91.0112,96.4286,93.6416
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,16,"GMM(n_components=2,contamination=0.02)",multi-layer perceptron,7,92.5926,65.7895,76.9231
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,1,97.8395,88.0556,92.6901
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,2,61.0526,46.4000,52.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,3,60.4167,98.3051,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,4,86.0759,75.5556,80.4734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,5,25.3012,46.6667,32.8125
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,6,93.2584,92.2222,92.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,17,IsolationForest(contamination=0.3),multi-layer perceptron,7,85.1852,88.4615,86.7925
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,1,86.1111,93.6242,89.7106
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,2,73.6842,64.8148,68.9655
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,4,83.5443,64.7059,72.9282
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,5,50.6024,65.6250,57.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,18,Robust Mahalanobis(alpha=0.05),spectral angle mapping,7,81.4815,53.6585,64.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,1,86.1111,93.3110,89.5666
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,2,72.6316,66.9903,69.6970
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,3,67.7083,97.0149,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,4,83.5443,64.0777,72.5275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,5,53.0120,64.7059,58.2781
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,19,Robust Mahalanobis(alpha=0.025),spectral angle mapping,7,80.2469,53.2787,64.0394
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,1,90.1235,90.9657,90.5426
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,2,65.2632,56.3636,60.4878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,3,70.8333,100.0000,82.9268
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,4,81.0127,85.3333,83.1169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,5,36.1446,53.5714,43.1655
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,20,"Percentile(lower_pct=0.1,upper_pct=0.9)",spectral angle mapping,7,88.8889,55.3846,68.2464
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,1,80.2469,92.5267,85.9504
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,2,71.5789,74.7253,73.1183
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,3,69.7917,100.0000,82.2086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,4,83.5443,78.5714,80.9816
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,5,66.2651,71.4286,68.7500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,21,EllipticEnvelope(contamination=0.2),spectral angle mapping,7,87.6543,43.8272,58.4362
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,1,81.1728,87.3754,84.1600
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,2,75.7895,71.2871,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,5,48.1928,71.4286,57.5540
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,22,EllipticEnvelope(contamination=0.05),support vector machine,7,86.4198,48.9510,62.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,1,81.7901,87.1711,84.3949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,5,42.1687,64.8148,51.0949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,23,"Percentile(lower_pct=0.01,upper_pct=0.99)",support vector machine,7,87.6543,50.0000,63.6771
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,1,85.1852,87.3418,86.2500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,2,75.7895,67.9245,71.6418
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,3,64.5833,100.0000,78.4810
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,4,97.4684,79.3814,87.5000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,5,36.1446,60.0000,45.1128
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,24,OneClassSVM(nu=0.2),support vector machine,7,83.9506,52.7132,64.7619
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,1,90.7407,83.2861,86.8538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,2,38.9474,80.4348,52.4823
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,3,82.2917,97.5309,89.2655
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,4,92.4051,62.9310,74.8718
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,5,62.6506,69.3333,65.8228
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,6,93.2584,91.2088,92.2222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,25,OneClassSVM(nu=0.1),multi-layer perceptron,7,65.4321,62.3529,63.8554
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,1,88.8889,86.7470,87.8049
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,2,76.8421,65.7658,70.8738
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,3,59.3750,93.4426,72.6115
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,4,98.7342,76.4706,86.1878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,5,25.3012,46.6667,32.8125
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,26,"Percentile(lower_pct=0.05,upper_pct=0.95)",support vector machine,7,82.7160,61.4679,70.5263
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,1,80.2469,92.5267,85.9504
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,2,71.5789,73.1183,72.3404
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,4,82.2785,77.3810,79.7546
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,5,65.0602,71.0526,67.9245
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,27,EllipticEnvelope(contamination=0.3),spectral angle mapping,7,87.6543,43.8272,58.4362
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,1,79.6296,87.4576,83.3603
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,2,77.8947,71.8447,74.7475
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,28,IsolationForest(contamination=0.005),support vector machine,7,86.4198,47.2973,61.1354
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,1,79.9383,87.5000,83.5484
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,2,76.8421,71.5686,74.1117
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,4,98.7342,81.2500,89.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,29,EllipticEnvelope(contamination=0.02),support vector machine,7,86.4198,47.9452,61.6740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,1,80.2469,87.2483,83.6013
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,2,76.8421,71.5686,74.1117
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,5,45.7831,69.0909,55.0725
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,30,IsolationForest(contamination=0.01),support vector machine,7,86.4198,47.9452,61.6740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,1,81.1728,87.0861,84.0256
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,2,75.7895,70.5882,73.0964
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,5,43.3735,67.9245,52.9412
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,31,IsolationForest(contamination=0.02),support vector machine,7,86.4198,48.6111,62.2222
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,1,91.9753,87.6471,89.7590
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,2,60.0000,53.7736,56.7164
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,3,56.2500,100.0000,72.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,4,87.3418,88.4615,87.8981
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,5,37.3494,49.2063,42.4658
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,32,"Percentile(lower_pct=0.02,upper_pct=0.98)",multi-layer perceptron,7,96.2963,65.0000,77.6119
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,1,94.7531,81.2169,87.4644
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,2,50.5263,68.5714,58.1818
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,3,79.1667,92.6829,85.3933
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,4,92.4051,64.6018,76.0417
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,5,28.9157,68.5714,40.6780
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,6,94.3820,84.8485,89.3617
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,33,OneClassSVM(nu=0.02),multi-layer perceptron,7,70.3704,81.4286,75.4967
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,1,79.6296,87.4576,83.3603
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,2,76.8421,71.5686,74.1117
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,34,EllipticEnvelope(contamination=0.01),support vector machine,7,86.4198,47.2973,61.1354
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,1,93.5185,85.8357,89.5126
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,2,63.1579,50.8475,56.3380
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,3,56.2500,98.1818,71.5232
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,4,91.1392,80.0000,85.2071
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,5,30.1205,55.5556,39.0625
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,35,IsolationForest(contamination=0.05),multi-layer perceptron,7,90.1235,72.2772,80.2198
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,1,77.4691,87.1528,82.0261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,2,80.0000,72.3810,76.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,5,46.9880,70.9091,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,36,Poziom bazowy,support vector machine,7,88.8889,46.4516,61.0169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,1,77.7778,87.1972,82.2186
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,4,98.7342,84.7826,91.2281
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,5,46.9880,70.9091,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,37,"GMM(n_components=2,contamination=0.005)",support vector machine,7,88.8889,46.4516,61.0169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,1,78.3951,87.2852,82.6016
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,5,46.9880,70.9091,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,38,"GMM(n_components=3,contamination=0.005)",support vector machine,7,86.4198,46.3576,60.3448
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,1,80.2469,86.9565,83.4671
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,5,43.3735,67.9245,52.9412
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,39,OneClassSVM(nu=0.05),support vector machine,7,86.4198,47.6190,61.4035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,1,81.4815,87.1287,84.2105
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,2,75.7895,69.9029,72.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,4,97.4684,80.2083,88.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,5,40.9639,66.6667,50.7463
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,6,96.6292,98.8506,97.7273
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,40,OneClassSVM(nu=0.1),support vector machine,7,85.1852,48.5915,61.8834
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,1,78.3951,87.2852,82.6016
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,2,76.8421,71.5686,74.1117
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,4,98.7342,83.8710,90.6977
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,41,EllipticEnvelope(contamination=0.005),support vector machine,7,88.8889,46.7532,61.2766
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,1,78.7037,87.3288,82.7922
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,2,77.8947,71.8447,74.7475
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,42,OneClassSVM(nu=0.01),support vector machine,7,86.4198,46.3576,60.3448
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,1,77.7778,87.1972,82.2186
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,2,77.8947,71.8447,74.7475
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,4,98.7342,83.8710,90.6977
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,43,OneClassSVM(nu=0.005),support vector machine,7,88.8889,46.4516,61.0169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,1,78.0864,87.2414,82.4104
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,44,"GMM(n_components=3,contamination=0.01)",support vector machine,7,86.4198,46.0526,60.0858
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,1,78.7037,87.3288,82.7922
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,4,98.7342,82.1053,89.6552
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,5,45.7831,69.0909,55.0725
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,45,OneClassSVM(nu=0.02),support vector machine,7,86.4198,46.6667,60.6061
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,1,79.6296,86.8687,83.0918
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,4,98.7342,80.4124,88.6364
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,5,43.3735,67.9245,52.9412
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,46,"Percentile(lower_pct=0.005,upper_pct=0.995)",support vector machine,7,85.1852,47.5862,61.0619
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,1,77.4691,87.1528,82.0261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,4,98.7342,82.9787,90.1734
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,5,46.9880,70.9091,56.5217
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,47,"GMM(n_components=2,contamination=0.01)",support vector machine,7,86.4198,45.4545,59.5745
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,1,89.8148,86.8657,88.3156
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,2,65.2632,48.4375,55.6054
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,3,70.8333,97.1429,81.9277
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,4,84.8101,72.0430,77.9070
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,5,15.6627,56.5217,24.5283
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,6,93.2584,93.2584,93.2584
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,48,IsolationForest(contamination=0.2),multi-layer perceptron,7,98.7654,73.3945,84.2105
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,1,92.9012,85.7550,89.1852
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,2,49.4737,64.3836,55.9524
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,3,54.1667,98.1132,69.7987
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,4,96.2025,64.4068,77.1574
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,5,56.6265,54.0230,55.2941
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,49,IsolationForest(contamination=0.1),multi-layer perceptron,7,71.6049,74.3590,72.9560
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,1,78.3951,86.9863,82.4675
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,5,45.7831,69.0909,55.0725
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,50,"GMM(n_components=3,contamination=0.05)",support vector machine,7,86.4198,46.3576,60.3448
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,1,95.6790,91.7160,93.6556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,2,77.8947,57.3643,66.0714
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,3,46.8750,90.0000,61.6438
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,4,91.1392,63.1579,74.6114
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,5,25.3012,36.2069,29.7872
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,6,97.7528,96.6667,97.2067
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,51,IsolationForest(contamination=0.3),support vector machine,7,66.6667,79.4118,72.4832
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,1,77.4691,87.1528,82.0261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,2,78.9474,72.1154,75.3769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,5,46.9880,69.6429,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,52,"GMM(n_components=2,contamination=0.02)",support vector machine,7,86.4198,45.4545,59.5745
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,1,78.0864,87.2414,82.4104
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,5,45.7831,69.0909,55.0725
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,53,"GMM(n_components=3,contamination=0.02)",support vector machine,7,86.4198,45.7516,59.8291
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,1,82.4074,92.3875,87.1126
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,2,64.2105,58.6538,61.3065
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,3,81.2500,91.7647,86.1878
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,4,92.4051,67.5926,78.0749
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,5,42.1687,64.8148,51.0949
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,6,92.1348,93.1818,92.6554
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,54,IsolationForest(contamination=0.01),multi-layer perceptron,7,81.4815,55.4622,66.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,1,83.0247,89.0728,85.9425
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,2,61.0526,58.5859,59.7938
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,3,73.9583,100.0000,85.0299
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,4,92.4051,75.2577,82.9545
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,5,44.5783,62.7119,52.1127
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,6,93.2584,94.3182,93.7853
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,55,"GMM(n_components=3,contamination=0.02)",multi-layer perceptron,7,87.6543,54.1985,66.9811
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,1,79.0123,92.0863,85.0498
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,2,72.6316,75.0000,73.7968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,4,86.0759,66.6667,75.1381
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,5,63.8554,77.9412,70.1987
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,56,"Percentile(lower_pct=0.01,upper_pct=0.99)",spectral angle mapping,7,66.6667,37.2414,47.7876
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,1,81.1728,82.9653,82.0593
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,2,75.7895,66.0550,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,3,68.7500,100.0000,81.4815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,4,97.4684,83.6957,90.0585
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,5,30.1205,73.5294,42.7350
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,57,"GMM(n_components=3,contamination=0.3)",support vector machine,7,87.6543,49.6503,63.3929
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,1,88.5802,85.4167,86.9697
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,2,66.3158,51.6393,58.0645
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,3,72.9167,98.5915,83.8323
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,4,91.1392,79.1209,84.7059
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,5,18.0723,65.2174,28.3019
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,6,94.3820,93.3333,93.8547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,58,"GMM(n_components=2,contamination=0.05)",multi-layer perceptron,7,83.9506,59.6491,69.7436
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,1,78.3951,92.0290,84.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,2,72.6316,75.8242,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,5,66.2651,79.7101,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,59,"GMM(n_components=3,contamination=0.05)",spectral angle mapping,7,65.4321,36.3014,46.6960
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,1,79.9383,91.5194,85.3377
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,2,57.8947,63.9535,60.7735
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,3,76.0417,87.9518,81.5642
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,4,92.4051,62.3932,74.4898
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,5,57.8313,60.0000,58.8957
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,6,93.2584,94.3182,93.7853
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,60,"GMM(n_components=3,contamination=0.2)",multi-layer perceptron,7,82.7160,60.9091,70.1571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,1,76.8519,86.7596,81.5057
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,2,77.8947,71.1538,74.3719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,5,45.7831,69.0909,55.0725
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,61,"GMM(n_components=2,contamination=0.05)",support vector machine,7,86.4198,44.8718,59.0717
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,1,84.8765,88.4244,86.6142
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,2,75.7895,56.2500,64.5740
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,3,75.0000,100.0000,85.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,4,91.1392,69.9029,79.1209
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,5,22.8916,70.3704,34.5455
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,6,93.2584,94.3182,93.7853
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,62,"GMM(n_components=2,contamination=0.2)",multi-layer perceptron,7,80.2469,55.0847,65.3266
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,1,78.0864,92.0000,84.4741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,2,72.6316,75.8242,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,5,66.2651,79.7101,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,63,OneClassSVM(nu=0.05),spectral angle mapping,7,65.4321,36.0544,46.4912
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,1,78.0864,91.6667,84.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,2,72.6316,75.8242,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,3,76.0417,100.0000,86.3905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,5,68.6747,80.2817,74.0260
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,64,"GMM(n_components=2,contamination=0.1)",spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,1,78.0864,91.6667,84.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,2,72.6316,75.0000,73.7968
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,5,67.4699,80.0000,73.2026
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,65,"GMM(n_components=3,contamination=0.1)",spectral angle mapping,7,65.4321,36.0544,46.4912
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,1,78.3951,92.0290,84.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,2,71.5789,75.5556,73.5135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,5,65.0602,78.2609,71.0526
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,66,OneClassSVM(nu=0.1),spectral angle mapping,7,66.6667,36.7347,47.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,1,78.3951,92.0290,84.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,2,72.6316,76.6667,74.5946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,5,66.2651,78.5714,71.8954
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,67,IsolationForest(contamination=0.01),spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,1,78.3951,92.0290,84.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,2,71.5789,75.5556,73.5135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,4,86.0759,66.6667,75.1381
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,5,65.0602,77.1429,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,68,"Percentile(lower_pct=0.005,upper_pct=0.995)",spectral angle mapping,7,66.6667,36.7347,47.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,1,88.8889,90.8517,89.8596
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,2,68.4211,51.5873,58.8235
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,3,67.7083,89.0411,76.9231
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,4,89.8734,59.1667,71.3568
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,5,32.5301,51.9231,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,6,94.3820,89.3617,91.8033
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,69,Robust Mahalanobis(alpha=0.1),multi-layer perceptron,7,70.3704,87.6923,78.0822
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,1,93.8272,86.6097,90.0741
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,2,65.2632,60.7843,62.9442
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,3,51.0417,90.7407,65.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,4,89.8734,62.8319,73.9583
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,5,26.5060,34.9206,30.1370
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,6,97.7528,98.8636,98.3051
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,70,"Percentile(lower_pct=0.1,upper_pct=0.9)",support vector machine,7,76.5432,81.5789,78.9809
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,1,76.5432,91.1765,83.2215
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,2,73.6842,75.2688,74.4681
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,3,75.0000,100.0000,85.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,4,87.3418,68.3168,76.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,5,67.4699,81.1594,73.6842
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,71,"GMM(n_components=3,contamination=0.2)",spectral angle mapping,7,69.1358,36.1290,47.4576
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,2,72.6316,76.6667,74.5946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,5,66.2651,78.5714,71.8954
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,72,IsolationForest(contamination=0.02),spectral angle mapping,7,64.1975,35.8621,46.0177
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,1,79.3210,91.4591,84.9587
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,2,71.5789,74.7253,73.1183
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,3,76.0417,100.0000,86.3905
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,5,62.6506,77.6119,69.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,73,IsolationForest(contamination=0.05),spectral angle mapping,7,65.4321,36.8056,47.1111
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,1,80.2469,92.1986,85.8086
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,2,72.6316,70.4082,71.5026
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,5,56.6265,75.8065,64.8276
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,74,"Percentile(lower_pct=0.02,upper_pct=0.98)",spectral angle mapping,7,65.4321,38.1295,48.1818
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,1,87.6543,83.0409,85.2853
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,2,60.0000,59.3750,59.6859
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,3,75.0000,98.6301,85.2071
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,4,92.4051,69.5238,79.3478
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,5,30.1205,65.7895,41.3223
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,75,OneClassSVM(nu=0.01),multi-layer perceptron,7,76.5432,58.4906,66.3102
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,1,77.7778,91.9708,84.2809
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,2,72.6316,76.6667,74.5946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,5,66.2651,78.5714,71.8954
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,76,IsolationForest(contamination=0.005),spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,1,77.7778,91.9708,84.2809
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,2,71.5789,75.5556,73.5135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,5,66.2651,78.5714,71.8954
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,77,OneClassSVM(nu=0.02),spectral angle mapping,7,65.4321,35.8108,46.2882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,1,77.7778,91.6364,84.1402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,2,72.6316,75.8242,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,5,66.2651,79.7101,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,78,"GMM(n_components=2,contamination=0.05)",spectral angle mapping,7,65.4321,35.8108,46.2882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,1,79.6296,92.1429,85.4305
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,2,71.5789,70.1031,70.8333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,4,86.0759,66.0194,74.7253
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,5,57.8313,78.6885,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,79,OneClassSVM(nu=0.2),spectral angle mapping,7,66.6667,37.5000,48.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,1,80.5556,91.9014,85.8553
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,2,73.6842,66.0377,69.6517
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,4,88.6076,67.3077,76.5027
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,5,48.1928,76.9231,59.2593
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,80,"Percentile(lower_pct=0.05,upper_pct=0.95)",spectral angle mapping,7,67.9012,39.5683,50.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,1,77.7778,85.7143,81.5534
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,2,77.8947,69.1589,73.2673
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,3,67.7083,100.0000,80.7453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,5,38.5542,65.3061,48.4848
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,81,"GMM(n_components=3,contamination=0.1)",support vector machine,7,86.4198,45.7516,59.8291
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,1,83.3333,88.2353,85.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,2,65.2632,59.6154,62.3116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,3,62.5000,98.3607,76.4331
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,4,88.6076,82.3529,85.3659
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,5,38.5542,54.2373,45.0704
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,6,93.2584,90.2174,91.7127
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,82,"GMM(n_components=2,contamination=0.3)",multi-layer perceptron,7,96.2963,55.7143,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,1,77.4691,91.9414,84.0871
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,2,72.6316,76.6667,74.5946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,5,66.2651,78.5714,71.8954
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,83,"GMM(n_components=2,contamination=0.02)",spectral angle mapping,7,64.1975,35.1351,45.4148
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,1,77.7778,91.6364,84.1402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,2,72.6316,75.8242,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,5,66.2651,79.7101,72.3684
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,84,"GMM(n_components=3,contamination=0.02)",spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,1,78.3951,91.6968,84.5258
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,5,66.2651,77.4648,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,85,EllipticEnvelope(contamination=0.05),spectral angle mapping,7,64.1975,35.6164,45.8150
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,1,78.7037,91.7266,84.7176
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,2,70.5263,75.2809,72.8261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,4,87.3418,64.4860,74.1935
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,5,65.0602,78.2609,71.0526
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,86,EllipticEnvelope(contamination=0.1),spectral angle mapping,7,61.7284,35.2113,44.8430
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,1,79.6296,91.8149,85.2893
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,2,71.5789,70.8333,71.2042
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,5,57.8313,78.6885,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,87,IsolationForest(contamination=0.1),spectral angle mapping,7,65.4321,37.0629,47.3214
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,1,83.3333,88.2353,85.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,2,76.8421,70.8738,73.7374
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,3,52.0833,92.5926,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,4,91.1392,69.9029,79.1209
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,5,45.7831,54.2857,49.6732
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,88,EllipticEnvelope(contamination=0.2),support vector machine,7,81.4815,52.8000,64.0777
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,1,91.3580,86.8035,89.0226
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,2,65.2632,49.6000,56.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,3,66.6667,98.4615,79.5031
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,4,89.8734,57.7236,70.2970
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,5,16.8675,51.8519,25.4545
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,6,93.2584,89.2473,91.2088
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,89,Robust Mahalanobis(alpha=0.05),multi-layer perceptron,7,79.0123,87.6712,83.1169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,1,93.5185,87.3199,90.3130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,2,62.1053,59.0000,60.5128
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,3,57.2917,100.0000,72.8477
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,4,94.9367,60.9756,74.2574
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,5,42.1687,53.0303,46.9799
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,6,92.1348,86.3158,89.1304
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,90,"GMM(n_components=3,contamination=0.3)",multi-layer perceptron,7,55.5556,73.7705,63.3803
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,1,77.7778,91.6364,84.1402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,2,71.5789,76.4045,73.9130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,5,66.2651,77.4648,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,91,"GMM(n_components=3,contamination=0.005)",spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,1,77.7778,91.6364,84.1402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,2,71.5789,76.4045,73.9130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,5,66.2651,77.4648,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,92,"GMM(n_components=3,contamination=0.01)",spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,1,78.0864,91.6667,84.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,93,EllipticEnvelope(contamination=0.02),spectral angle mapping,7,64.1975,35.6164,45.8150
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,1,77.1605,85.6164,81.1688
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,2,77.8947,69.8113,73.6318
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,3,66.6667,100.0000,80.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,4,97.4684,81.9149,89.0173
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,5,39.7590,64.7059,49.2537
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,94,"GMM(n_components=2,contamination=0.1)",support vector machine,7,86.4198,45.4545,59.5745
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,1,75.9259,91.1111,82.8283
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,2,73.6842,76.0870,74.8663
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,3,73.9583,98.6111,84.5238
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,4,86.0759,67.3267,75.5556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,5,68.6747,80.2817,74.0260
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,95,"GMM(n_components=2,contamination=0.2)",spectral angle mapping,7,67.9012,35.2564,46.4135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,1,77.7778,91.6364,84.1402
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,96,EllipticEnvelope(contamination=0.01),spectral angle mapping,7,64.1975,35.3741,45.6140
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,1,76.2346,91.8216,83.3052
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,2,74.7368,69.6078,72.0812
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,4,88.6076,68.6275,77.3481
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,5,59.0361,80.3279,68.0556
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,97,"GMM(n_components=2,contamination=0.3)",spectral angle mapping,7,69.1358,36.3636,47.6596
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,1,76.5432,91.5129,83.3613
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,4,87.3418,66.9903,75.8242
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,98,Poziom bazowy,spectral angle mapping,7,66.6667,35.5263,46.3519
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,1,76.8519,91.8819,83.6975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,2,71.5789,76.4045,73.9130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,5,66.2651,77.4648,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,99,"GMM(n_components=2,contamination=0.01)",spectral angle mapping,7,64.1975,34.6667,45.0216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,1,77.1605,91.9118,83.8926
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,100,OneClassSVM(nu=0.01),spectral angle mapping,7,64.1975,34.8993,45.2174
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,1,76.2346,90.8088,82.8859
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,2,75.7895,72.0000,73.8462
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,3,75.0000,98.6301,85.2071
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,4,87.3418,68.3168,76.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,5,60.2410,81.9672,69.4444
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,6,95.5056,100.0000,97.7011
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,101,"GMM(n_components=3,contamination=0.3)",spectral angle mapping,7,69.1358,36.1290,47.4576
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,1,76.8519,91.8819,83.6975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,3,77.0833,98.6667,86.5497
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,102,OneClassSVM(nu=0.005),spectral angle mapping,7,64.1975,34.6667,45.0216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,1,76.8519,91.5441,83.5570
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,2,71.5789,76.4045,73.9130
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,5,66.2651,77.4648,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,103,"GMM(n_components=2,contamination=0.005)",spectral angle mapping,7,64.1975,34.6667,45.0216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,1,77.7778,90.9747,83.8602
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,2,70.5263,60.3604,65.0485
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,4,89.8734,79.7753,84.5238
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,5,44.5783,63.7931,52.4823
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,6,94.3820,92.3077,93.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,104,"GMM(n_components=2,contamination=0.1)",multi-layer perceptron,7,93.8272,48.1013,63.5983
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,1,80.5556,90.3114,85.1550
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,2,56.8421,56.8421,56.8421
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,3,86.4583,92.2222,89.2473
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,4,98.7342,48.1481,64.7303
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,5,38.5542,76.1905,51.2000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,6,91.0112,95.2941,93.1034
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,105,"Percentile(lower_pct=0.005,upper_pct=0.995)",multi-layer perceptron,7,75.3086,72.6190,73.9394
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,1,76.8519,91.5441,83.5570
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,2,70.5263,76.1364,73.2240
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,3,76.0417,98.6486,85.8824
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,4,86.0759,65.3846,74.3169
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,5,66.2651,76.3889,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,6,95.5056,97.7011,96.5909
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,106,EllipticEnvelope(contamination=0.005),spectral angle mapping,7,64.1975,34.6667,45.0216
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,1,82.0988,91.0959,86.3636
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,2,70.5263,55.8333,62.3256
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,3,61.4583,96.7213,75.1592
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,4,86.0759,94.4444,90.0662
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,5,37.3494,56.3636,44.9275
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,6,89.8876,93.0233,91.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,107,"Percentile(lower_pct=0.01,upper_pct=0.99)",multi-layer perceptron,7,96.2963,48.4472,64.4628
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,1,83.9506,90.9699,87.3194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,2,70.5263,52.3438,60.0897
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,3,78.1250,98.6842,87.2093
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,4,92.4051,65.7658,76.8421
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,5,27.7108,71.8750,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,108,EllipticEnvelope(contamination=0.01),multi-layer perceptron,7,70.3704,49.5652,58.1633
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,1,89.1975,88.1098,88.6503
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,2,71.5789,51.1278,59.6491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,3,73.9583,97.2603,84.0237
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,4,94.9367,60.4839,73.8916
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,5,10.8434,75.0000,18.9474
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,6,94.3820,95.4545,94.9153
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,109,EllipticEnvelope(contamination=0.005),multi-layer perceptron,7,65.4321,59.5506,62.3529
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,1,93.5185,84.4011,88.7262
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,2,52.6316,51.0204,51.8135
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,4,88.6076,59.8291,71.4286
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,5,32.5301,57.4468,41.5385
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,6,92.1348,94.2529,93.1818
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,110,"Percentile(lower_pct=0.05,upper_pct=0.95)",multi-layer perceptron,7,66.6667,71.0526,68.7898
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,1,84.2593,90.3974,87.2204
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,2,63.1579,51.2821,56.6038
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,3,81.2500,95.1220,87.6404
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,4,93.6709,64.3478,76.2887
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,5,36.1446,69.7674,47.6190
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,6,89.8876,95.2381,92.4855
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,111,EllipticEnvelope(contamination=0.05),multi-layer perceptron,7,65.4321,50.9615,57.2973
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,1,87.3457,89.5570,88.4375
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,2,60.0000,60.6383,60.3175
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,3,62.5000,98.3607,76.4331
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,4,94.9367,59.5238,73.1707
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,5,49.3976,56.1644,52.5641
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,6,94.3820,93.3333,93.8547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,112,"GMM(n_components=3,contamination=0.1)",multi-layer perceptron,7,59.2593,55.1724,57.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,1,98.4568,77.2397,86.5672
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,2,32.6316,35.6322,34.0659
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,3,76.0417,94.8052,84.3931
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,4,74.6835,84.2857,79.1946
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,5,19.2771,48.4848,27.5862
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,6,88.7640,95.1807,91.8605
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,113,"Percentile(lower_pct=0.1,upper_pct=0.9)",multi-layer perceptron,7,87.6543,84.5238,86.0606
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,1,80.8642,92.5795,86.3262
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,2,69.4737,56.8966,62.5592
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,3,72.9167,97.2222,83.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,4,93.6709,54.4118,68.8372
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,5,33.7349,60.8696,43.4109
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,6,94.3820,93.3333,93.8547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,114,EllipticEnvelope(contamination=0.02),multi-layer perceptron,7,77.7778,60.5769,68.1081
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,1,77.4691,83.9465,80.5778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,2,77.8947,67.2727,72.1951
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,3,63.5417,100.0000,77.7070
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,4,97.4684,84.6154,90.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,5,33.7349,59.5745,43.0769
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,115,"GMM(n_components=2,contamination=0.2)",support vector machine,7,87.6543,46.4052,60.6838
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,1,78.0864,83.7748,80.8307
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,2,75.7895,66.0550,70.5882
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,3,65.6250,100.0000,79.2453
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,4,97.4684,82.7957,89.5349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,5,31.3253,61.9048,41.6000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,116,"GMM(n_components=3,contamination=0.2)",support vector machine,7,87.6543,46.7105,60.9442
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,1,78.3951,83.0065,80.6349
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,2,76.8421,67.5926,71.9212
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,3,63.5417,100.0000,77.7070
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,4,97.4684,83.6957,90.0585
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,5,31.3253,59.0909,40.9449
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,117,"GMM(n_components=2,contamination=0.3)",support vector machine,7,87.6543,47.3333,61.4719
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,1,92.9012,84.7887,88.6598
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,2,55.7895,53.0000,54.3590
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,3,52.0833,98.0392,68.0272
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,4,91.1392,61.5385,73.4694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,5,31.3253,45.6140,37.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,6,94.3820,92.3077,93.3333
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,118,EllipticEnvelope(contamination=0.2),multi-layer perceptron,7,74.0741,78.9474,76.4331
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,1,91.0494,92.4765,91.7574
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,2,71.5789,51.1278,59.6491
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,3,86.4583,91.2088,88.7701
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,4,98.7342,47.5610,64.1975
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,5,22.8916,70.3704,34.5455
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,6,94.3820,95.4545,94.9153
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,119,OneClassSVM(nu=0.05),multi-layer perceptron,7,22.2222,72.0000,33.9623
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,1,85.1852,85.7143,85.4489
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,2,67.3684,53.7815,59.8131
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,3,63.5417,100.0000,77.7070
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,4,73.4177,96.6667,83.4532
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,5,27.7108,53.4884,36.5079
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,120,"GMM(n_components=2,contamination=0.005)",multi-layer perceptron,7,97.5309,50.6410,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,1,82.4074,87.2549,84.7619
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,2,78.9474,66.9643,72.4638
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,3,40.6250,90.6977,56.1151
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,4,91.1392,72.7273,80.8989
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,5,39.7590,42.8571,41.2500
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,121,EllipticEnvelope(contamination=0.3),support vector machine,7,82.7160,54.0323,65.3659
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,1,87.9630,86.6261,87.2894
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,2,82.1053,57.7778,67.8261
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,5,36.1446,36.1446,36.1446
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,122,Robust Mahalanobis(alpha=0.01),support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,1,80.8642,92.2535,86.1842
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,2,70.5263,54.4715,61.4679
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,3,78.1250,100.0000,87.7193
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,4,93.6709,56.4885,70.4762
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,5,28.9157,63.1579,39.6694
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,6,93.2584,95.4023,94.3182
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,123,Poziom bazowy,multi-layer perceptron,7,64.1975,47.7064,54.7368
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,1,76.2346,87.9004,81.6529
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,2,57.8947,64.7059,61.1111
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,3,60.4167,98.3051,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,4,84.8101,83.7500,84.2767
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,5,57.8313,62.3377,60.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,124,OneClassSVM(nu=0.005),multi-layer perceptron,7,96.2963,43.5754,60.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,1,87.6543,86.5854,87.1166
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,2,82.1053,56.9343,67.2414
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,5,33.7349,34.1463,33.9394
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,125,Robust Mahalanobis(alpha=0.025),support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,1,87.9630,86.3636,87.1560
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,2,82.1053,56.5217,66.9528
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,5,30.1205,31.6456,30.8642
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,126,Robust Mahalanobis(alpha=0.05),support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,1,86.4198,84.0841,85.2359
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,2,56.8421,53.4653,55.1020
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,3,59.3750,100.0000,74.5098
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,4,87.3418,54.3307,66.9903
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,5,26.5060,51.1628,34.9206
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,6,94.3820,87.5000,90.8108
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,127,EllipticEnvelope(contamination=0.3),multi-layer perceptron,7,82.7160,74.4444,78.3626
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,1,87.3457,86.2805,86.8098
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,2,82.1053,56.1151,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,3,31.2500,90.9091,46.5116
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,4,91.1392,67.2897,77.4194
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,5,30.1205,31.2500,30.6748
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,6,95.5056,98.8372,97.1429
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,128,Robust Mahalanobis(alpha=0.1),support vector machine,7,71.6049,78.3784,74.8387
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,1,85.8025,86.8750,86.3354
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,2,53.6842,62.9630,57.9545
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,3,45.8333,100.0000,62.8571
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,4,91.1392,48.0000,62.8821
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,5,48.1928,46.5116,47.3373
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,6,94.3820,85.7143,89.8396
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,129,Robust Mahalanobis(alpha=0.025),multi-layer perceptron,7,74.0741,88.2353,80.5369
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,1,85.1852,92.6174,88.7460
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,2,78.9474,39.8936,53.0035
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,3,40.6250,100.0000,57.7778
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,4,87.3418,58.9744,70.4082
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,5,14.4578,37.5000,20.8696
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,6,92.1348,93.1818,92.6554
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,130,Robust Mahalanobis(alpha=0.01),multi-layer perceptron,7,87.6543,83.5294,85.5422
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,1,83.3333,90.9091,86.9565
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,2,75.7895,48.6486,59.2593
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,3,71.8750,97.1831,82.6347
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,4,96.2025,49.6732,65.5172
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,5,13.2530,61.1111,21.7822
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,6,91.0112,96.4286,93.6416
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,131,IsolationForest(contamination=0.02),multi-layer perceptron,7,48.1481,51.3158,49.6815
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,1,76.8519,90.8759,83.2776
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,2,64.2105,57.5472,60.6965
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,3,62.5000,100.0000,76.9231
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,4,93.6709,71.1538,80.8743
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,5,37.3494,54.3860,44.2857
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,132,IsolationForest(contamination=0.005),multi-layer perceptron,7,71.6049,36.2500,48.1328
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,1,80.8642,80.8642,80.8642
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,2,11.5789,100.0000,20.7547
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,3,87.5000,81.5534,84.4221
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,4,96.2025,51.0067,66.6667
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,5,46.9880,66.1017,54.9296
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,6,96.6292,67.7165,79.6296
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,133,"GMM(n_components=3,contamination=0.05)",multi-layer perceptron,7,55.5556,60.8108,58.0645
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,1,78.3951,89.4366,83.5526
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,2,80.0000,47.5000,59.6078
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,3,61.4583,100.0000,76.1290
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,4,25.3165,95.2381,40.0000
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,5,8.4337,70.0000,15.0538
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,6,92.1348,95.3488,93.7143
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,134,"GMM(n_components=3,contamination=0.005)",multi-layer perceptron,7,100.0000,35.6828,52.5974
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,1,58.0247,66.4311,61.9440
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,2,17.8947,24.2857,20.6061
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,3,68.7500,73.3333,70.9677
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,4,82.2785,75.5814,78.7879
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,5,16.8675,10.0000,12.5561
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,6,91.0112,72.3214,80.5970
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,135,"Percentile(lower_pct=0.2,upper_pct=0.8)",multi-layer perceptron,7,70.3704,86.3636,77.5510

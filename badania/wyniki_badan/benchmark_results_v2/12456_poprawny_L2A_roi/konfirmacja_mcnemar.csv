@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,minimum distance,Robust Mahalanobis,82.1571,82.6897,+0.5326,1,5,dwumianowy,0.21875,0.71875,nie,"C[5,1]: 2->2; C[5,2]: 11->11"
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,maximum likelihood,Robust Mahalanobis,74.8336,76.2983,+1.4647,58,69,chi2 (poprawka na ciągłość),0.374887,0.71875,nie,"C[5,1]: 87->45; C[5,2]: 28->53"
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,spectral angle mapping,Erosion,82.8229,83.4887,+0.6658,4,9,dwumianowy,0.266846,0.71875,nie,"C[5,2]: 6->6"
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,random forest,LOF,81.8908,82.9561,+1.0652,2,10,dwumianowy,0.0385742,0.231445,nie,"C[5,2]: 16->16"
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,support vector machine,HotellingT2,86.9507,87.6165,+0.6658,2,7,dwumianowy,0.179688,0.71875,nie,"C[5,2]: 5->5"
+12456_poprawny_L2A_roi,12456,poprawny,L2A,roi,multi-layer perceptron,IsolationForest,80.4261,82.5566,+2.1305,19,35,chi2 (poprawka na ciągłość),0.0412268,0.231445,nie,"C[5,2]: 9->7"

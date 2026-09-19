@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,minimum distance,Band Z-score,86.6588,87.6033,+0.9445,1,9,dwumianowy,0.0214844,0.0427171,TAK,"C[5,1]: 9->9; C[3,1]: 2->2"
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,maximum likelihood,HotellingT2,79.4569,83.1169,+3.6600,14,45,chi2 (poprawka na ciągłość),9.39657e-05,0.000469829,TAK,"C[5,1]: 69->65; C[3,1]: 17->10"
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,spectral angle mapping,IQR,86.5407,88.3117,+1.7710,11,26,chi2 (poprawka na ciągłość),0.0213585,0.0427171,TAK,"C[5,1]: 1->1; C[3,1]: 1->1"
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,random forest,IQR,86.3046,89.8465,+3.5419,27,57,chi2 (poprawka na ciągłość),0.00155532,0.00622126,TAK,"C[5,1]: 10->9; C[3,1]: 1->1"
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,support vector machine,IQR,91.8536,93.8607,+2.0071,11,28,chi2 (poprawka na ciągłość),0.0104056,0.0312169,TAK,"C[5,1]: 1->1; C[3,1]: 1->2"
+13456_zbledami_L2A_class,13456,zbledami,L2A,class,multi-layer perceptron,HotellingT2,81.7001,89.9646,+8.2645,32,102,chi2 (poprawka na ciągłość),2.51172e-09,1.50703e-08,TAK,"C[5,1]: 0->1; C[3,1]: 13->1"
