@@ -3920,6 +3920,11 @@ size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../interface/input_interface.py" line="438"/>
+        <source>Remove outliers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../interface/input_interface.py" line="446"/>
         <source>Activate ROI pointer</source>
         <translation type="unfinished"></translation>
@@ -4037,6 +4042,11 @@ size</source>
     <message>
         <location filename="../interface/input_interface.py" line="321"/>
         <source>User manual</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/input_interface.py" line="761"/>
+        <source>SCP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
