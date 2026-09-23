@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,minimum distance,IQR,81.9362,83.3530,+1.4168,12,24,chi2 (poprawka na ciągłość),0.066753,0.267012,nie,"C[5,1]: 5->0; C[5,2]: 15->4; C[3,1]: 0->4"
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,maximum likelihood,HotellingT2,70.1299,73.7898,+3.6600,10,41,chi2 (poprawka na ciągłość),2.65926e-05,0.000159556,TAK,"C[5,1]: 68->72; C[5,2]: 24->23; C[3,1]: 92->73"
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,spectral angle mapping,Band Z-score,85.7143,85.8323,+0.1181,2,3,dwumianowy,1,1,nie,"C[5,2]: 10->8; C[3,1]: 1->1"
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,random forest,Band Z-score,70.1299,73.0815,+2.9516,15,40,chi2 (poprawka na ciągłość),0.0012115,0.00605749,TAK,"C[5,1]: 8->4; C[5,2]: 14->14; C[3,1]: 1->1"
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,support vector machine,GMM,87.7214,87.8394,+0.1181,0,1,dwumianowy,1,1,nie,"C[5,2]: 5->5"
+123456_poprawny_L1C_class,123456,poprawny,L1C,class,multi-layer perceptron,EllipticEnvelope,83.5891,84.8878,+1.2987,36,47,chi2 (poprawka na ciągłość),0.272361,0.817082,nie,"C[5,2]: 26->9; C[3,1]: 1->4"

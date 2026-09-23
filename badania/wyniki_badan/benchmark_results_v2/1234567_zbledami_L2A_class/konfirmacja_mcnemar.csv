@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,minimum distance,PCA Mahalanobis,77.2137,79.5750,+2.3613,13,33,chi2 (poprawka na ciągłość),0.00508819,0.0254409,TAK,"C[7,1]: 55->59; C[5,2]: 19->13; C[3,1]: 2->1"
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,maximum likelihood,HotellingT2,62.4557,65.1712,+2.7155,33,56,chi2 (poprawka na ciągłość),0.0197009,0.0788037,nie,"C[7,1]: 69->49; C[5,1]: 50->80; C[5,2]: 74->69; C[3,1]: 17->16"
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,spectral angle mapping,IQR,74.3802,75.7969,+1.4168,13,25,chi2 (poprawka na ciągłość),0.0743529,0.121507,nie,"C[7,1]: 74->70; C[5,2]: 9->8; C[3,1]: 1->1"
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,random forest,Band Z-score,75.5608,78.0401,+2.4793,38,59,chi2 (poprawka na ciągłość),0.0422862,0.121507,nie,"C[1,7]: 3->0; C[7,1]: 54->61; C[5,1]: 5->3; C[5,2]: 30->30; C[3,1]: 0->3"
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,support vector machine,IQR,81.9362,83.9433,+2.0071,22,39,chi2 (poprawka na ciągłość),0.0405022,0.121507,nie,"C[7,1]: 66->50; C[5,2]: 8->12; C[3,1]: 4->7"
+1234567_zbledami_L2A_class,1234567,zbledami,L2A,class,multi-layer perceptron,Percentile,66.7060,78.8666,+12.1606,35,138,chi2 (poprawka na ciągłość),8.84017e-15,5.3041e-14,TAK,"C[7,1]: 122->26; C[5,1]: 2->0; C[5,2]: 42->20; C[3,1]: 7->7"

@@ -1,0 +1,4 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,spectral angle mapping,IsolationForest(contamination=0.3),76.8595,81.1098,+4.2503,28,64,chi2 (poprawka na ciągłość),0.000263261,0.000526522,TAK,"C[7,1]: 75->35; C[5,2]: 10->4; C[3,1]: 1->0"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,support vector machine,IsolationForest(contamination=0.2),78.7485,81.5821,+2.8335,41,65,chi2 (poprawka na ciągłość),0.0254859,0.0254859,TAK,"C[7,1]: 71->9; C[5,2]: 5->4"
+1234567_poprawny_L1C_class,1234567,poprawny,L1C,class,multi-layer perceptron,"GMM(n_components=2,contamination=0.01)",75.2066,82.5266,+7.3200,25,87,chi2 (poprawka na ciągłość),8.21638e-09,2.46491e-08,TAK,"C[7,1]: 43->13; C[5,2]: 7->9"

@@ -1,0 +1,15 @@
+WARIANT B — korekcja Holma nad pełną rodziną porównań
+======================================================================
+źródło danych: wyniki_badan/benchmark_results_v2
+
+A) WSZYSTKIE PORÓWNANIA (metoda x algorytm)
+   porównań razem:        6528
+   istotnych:             1131
+      w tym poprawy:      500
+      w tym pogorszenia:  631
+
+B) NAJLEPSZA METODA W OBRĘBIE ALGORYTMU (struktura jak w pracy)
+   porównań razem:        384
+   istotnych:             136
+      w tym poprawy:      136
+      w tym pogorszenia:  0

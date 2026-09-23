@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,minimum distance,LOF,85.7523,86.0186,+0.2663,2,4,dwumianowy,0.6875,1,nie,"C[5,2]: 18->17"
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,maximum likelihood,Erosion,61.5180,66.9774,+5.4594,30,71,chi2 (poprawka na ciągłość),6.88722e-05,0.000413233,TAK,"C[5,1]: 118->96; C[5,2]: 68->75"
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,spectral angle mapping,IQR,89.2144,90.1465,+0.9321,14,21,chi2 (poprawka na ciągłość),0.310494,0.931483,nie,"C[5,2]: 12->14"
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,random forest,HotellingT2,63.5153,66.0453,+2.5300,19,38,chi2 (poprawka na ciągłość),0.0171182,0.0855912,nie,"C[5,1]: 160->155; C[5,2]: 35->27"
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,support vector machine,HotellingT2,91.0786,92.1438,+1.0652,2,10,dwumianowy,0.0385742,0.154297,nie,"C[5,2]: 11->8"
+12456_zbledami_L1C_roi,12456,zbledami,L1C,roi,multi-layer perceptron,LOF,89.2144,88.8149,-0.3995,14,11,chi2 (poprawka na ciągłość),0.689157,1,nie,"C[5,2]: 15->10"

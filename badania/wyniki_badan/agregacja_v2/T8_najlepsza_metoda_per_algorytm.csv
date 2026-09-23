@@ -1,0 +1,7 @@
+﻿Algorytm,Metoda,Zwyciestwa,n,sr_delta_pp,wygrane_dodatnie
+maximum likelihood,Robust Mahalanobis,19,64,8.134815789473684,64
+random forest,MAD,8,64,12.194125,63
+multi-layer perceptron,EllipticEnvelope,7,64,3.7069142857142854,60
+support vector machine,IQR,16,64,1.89524375,58
+spectral angle mapping,IQR,17,64,1.0654411764705882,51
+minimum distance,PCA Mahalanobis,19,64,2.9958473684210527,53

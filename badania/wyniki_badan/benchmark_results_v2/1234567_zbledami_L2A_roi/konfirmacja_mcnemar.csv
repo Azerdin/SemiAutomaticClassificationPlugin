@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,minimum distance,LOF,77.2137,77.2137,+0.0000,2,2,dwumianowy,1,1,nie,"C[7,1]: 55->56; C[5,2]: 19->19; C[3,1]: 2->2"
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,maximum likelihood,IsolationForest,62.4557,64.2267,+1.7710,7,22,chi2 (poprawka na ciągłość),0.00932958,0.0466479,TAK,"C[7,1]: 69->57; C[5,1]: 50->53; C[5,2]: 74->72; C[3,1]: 17->21"
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,spectral angle mapping,Mahalanobis,74.3802,74.1440,-0.2361,16,14,chi2 (poprawka na ciągłość),0.855132,1,nie,"C[7,1]: 74->81; C[5,2]: 9->9; C[3,1]: 1->1"
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,random forest,Percentile,75.4427,78.5124,+3.0697,35,61,chi2 (poprawka na ciągłość),0.0107244,0.0466479,TAK,"C[1,7]: 2->2; C[7,1]: 66->46; C[5,1]: 6->4; C[5,2]: 25->29"
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,support vector machine,Percentile,81.9362,82.1724,+0.2361,10,12,dwumianowy,0.831812,1,nie,"C[7,1]: 66->56; C[5,2]: 8->8; C[3,1]: 4->5"
+1234567_zbledami_L2A_roi,1234567,zbledami,L2A,roi,multi-layer perceptron,IsolationForest,58.9138,77.5679,+18.6541,73,231,chi2 (poprawka na ciągłość),2.16517e-19,1.2991e-18,TAK,"C[7,1]: 135->21; C[5,2]: 42->17"

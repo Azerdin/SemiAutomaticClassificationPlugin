@@ -1,0 +1,46 @@
+﻿Konfiguracja,spectral angle mapping,support vector machine,multi-layer perceptron
+IsolationForest(contamination=0.1),79.8111,84.4156,82.8808
+IsolationForest(contamination=0.2),79.8111,84.2975,82.7627
+"Percentile(lower_pct=0.05,upper_pct=0.95)",79.6930,83.7072,82.9988
+IsolationForest(contamination=0.05),80.0472,83.4711,75.6789
+"Percentile(lower_pct=0.1,upper_pct=0.9)",81.4640,83.1169,82.6446
+"Percentile(lower_pct=0.02,upper_pct=0.98)",79.8111,82.9988,82.0543
+EllipticEnvelope(contamination=0.1),78.2763,82.7627,78.7485
+EllipticEnvelope(contamination=0.2),78.6305,82.6446,77.4498
+OneClassSVM(nu=0.02),81.3459,82.0543,82.6446
+"Percentile(lower_pct=0.01,upper_pct=0.99)",80.5195,82.6446,82.0543
+OneClassSVM(nu=0.2),79.9292,82.5266,76.8595
+IsolationForest(contamination=0.3),82.4085,82.4085,81.7001
+OneClassSVM(nu=0.05),80.6375,82.0543,81.9362
+OneClassSVM(nu=0.1),80.0472,82.0543,79.8111
+EllipticEnvelope(contamination=0.01),80.6375,81.4640,81.9362
+IsolationForest(contamination=0.005),81.8182,81.2279,74.2621
+OneClassSVM(nu=0.005),81.8182,81.4640,69.1854
+OneClassSVM(nu=0.01),81.8182,81.4640,77.5679
+Poziom bazowy,81.8182,81.7001,76.3872
+"GMM(n_components=3,contamination=0.02)",81.1098,81.7001,79.6930
+IsolationForest(contamination=0.01),81.7001,81.7001,79.5750
+"Percentile(lower_pct=0.005,upper_pct=0.995)",81.5821,81.7001,80.1653
+EllipticEnvelope(contamination=0.02),78.9847,81.4640,81.3459
+IsolationForest(contamination=0.02),81.2279,81.4640,79.1027
+EllipticEnvelope(contamination=0.005),81.3459,81.2279,76.2692
+EllipticEnvelope(contamination=0.05),78.2763,81.3459,79.2208
+"GMM(n_components=2,contamination=0.02)",80.7556,81.3459,80.5195
+"GMM(n_components=3,contamination=0.1)",78.2763,80.9917,81.3459
+"GMM(n_components=2,contamination=0.005)",80.9917,81.2279,80.4014
+"GMM(n_components=2,contamination=0.01)",81.1098,81.2279,75.5608
+"GMM(n_components=2,contamination=0.05)",78.6305,81.2279,77.8040
+"GMM(n_components=3,contamination=0.005)",80.8737,81.2279,79.4569
+"GMM(n_components=3,contamination=0.01)",80.8737,81.2279,68.1228
+"GMM(n_components=2,contamination=0.3)",77.4498,81.1098,77.6860
+"GMM(n_components=3,contamination=0.3)",79.6930,80.4014,81.1098
+"GMM(n_components=3,contamination=0.2)",77.4498,80.9917,78.5124
+"GMM(n_components=3,contamination=0.05)",79.4569,80.8737,77.9221
+EllipticEnvelope(contamination=0.3),77.9221,80.2834,65.7615
+"GMM(n_components=2,contamination=0.2)",78.1582,80.1653,72.7273
+"GMM(n_components=2,contamination=0.1)",77.3318,79.4569,78.2763
+Robust Mahalanobis(alpha=0.025),77.9221,76.1511,77.0956
+Robust Mahalanobis(alpha=0.05),77.4498,76.2692,77.6860
+Robust Mahalanobis(alpha=0.01),77.5679,75.7969,69.6576
+Robust Mahalanobis(alpha=0.1),77.4498,75.5608,76.9776
+"Percentile(lower_pct=0.2,upper_pct=0.8)",74.9705,69.4215,63.9906

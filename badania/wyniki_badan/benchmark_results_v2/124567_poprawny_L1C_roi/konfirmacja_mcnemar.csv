@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,minimum distance,IQR,76.4314,76.9640,+0.5326,1,5,dwumianowy,0.21875,0.65625,nie,"C[7,1]: 56->54; C[5,1]: 5->6; C[5,2]: 15->12"
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,maximum likelihood,OneClassSVM,56.1917,58.0559,+1.8642,8,22,chi2 (poprawka na ciągłość),0.0176221,0.105733,nie,"C[7,1]: 134->145; C[5,1]: 121->98; C[5,2]: 25->22"
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,spectral angle mapping,IQR,77.0972,77.7630,+0.6658,7,12,dwumianowy,0.359283,0.718567,nie,"C[7,1]: 75->69; C[5,2]: 10->7"
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,random forest,Robust Mahalanobis,45.5393,46.2051,+0.6658,9,14,dwumianowy,0.404873,0.718567,nie,"C[7,1]: 102->110; C[5,1]: 11->7; C[5,2]: 15->12"
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,support vector machine,PCA Reconstruction,79.6272,80.4261,+0.7989,0,6,dwumianowy,0.03125,0.15625,nie,"C[7,1]: 74->69; C[5,2]: 5->5"
+124567_poprawny_L1C_roi,124567,poprawny,L1C,roi,multi-layer perceptron,kNN,78.8282,80.2929,+1.4647,20,31,chi2 (poprawka na ciągłość),0.161429,0.645718,nie,"C[7,1]: 41->25; C[5,2]: 16->5"

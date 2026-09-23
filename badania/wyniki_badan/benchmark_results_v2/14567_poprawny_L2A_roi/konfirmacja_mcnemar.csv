@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,minimum distance,MAD,78.2956,78.6951,+0.3995,0,3,dwumianowy,0.25,0.25,nie,"C[7,1]: 64->63; C[5,1]: 7->6"
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,maximum likelihood,PCA Mahalanobis,63.2490,70.1731,+6.9241,8,60,chi2 (poprawka na ciągłość),6.22371e-10,3.73422e-09,TAK,"C[7,1]: 123->96; C[5,1]: 92->64"
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,spectral angle mapping,IQR,77.0972,78.1625,+1.0652,2,10,dwumianowy,0.0385742,0.0771484,nie,"C[7,1]: 83->83; C[5,1]: 2->1"
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,random forest,OneClassSVM,66.7111,72.5699,+5.8589,7,51,chi2 (poprawka na ciągłość),1.64055e-08,6.56221e-08,TAK,"C[7,1]: 76->77; C[5,1]: 59->16"
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,support vector machine,PCA Mahalanobis,78.5619,81.2250,+2.6631,3,23,chi2 (poprawka na ciągłość),0.000194383,0.000583149,TAK,"C[7,1]: 74->55"
+14567_poprawny_L2A_roi,14567,poprawny,L2A,roi,multi-layer perceptron,OneClassSVM,74.1678,80.4261,+6.2583,9,56,chi2 (poprawka na ciągłość),1.15935e-08,5.79677e-08,TAK,"C[7,1]: 41->49"

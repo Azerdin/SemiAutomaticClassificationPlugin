@@ -1,0 +1,7 @@
+﻿Algorytm,delta_roi_pp,delta_class_pp,istotnych_roi,istotnych_class,istotnych_razem,n_na_zakres
+maximum likelihood,3.534059375,6.964324999999999,18,31,49,32
+random forest,3.5715875,8.305546875000001,18,21,39,32
+multi-layer perceptron,5.616515624999999,5.024274999999999,21,21,42,32
+support vector machine,0.646359375,2.6110375,1,15,16,32
+spectral angle mapping,0.4128625,2.175475,0,14,14,32
+minimum distance,0.21982187500000003,2.9031749999999996,0,16,16,32

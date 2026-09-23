@@ -1,0 +1,19 @@
+﻿Konfiguracja,poprawny,zbledami
+PCA Mahalanobis,60.8028,66.8241
+IQR,64.8170,58.9138
+MAD,59.3861,57.1429
+Robust Mahalanobis,55.1358,57.4970
+Mahalanobis,56.0803,55.1358
+OneClassSVM,55.1358,47.1074
+Band Z-score,55.0177,49.4687
+HotellingT2,55.0177,51.7119
+Percentile,54.0732,50.1771
+kNN,53.9551,47.8158
+IsolationForest,53.4829,49.3506
+Poziom bazowy,53.2468,47.4616
+SAM,53.2468,48.4061
+GMM,52.8926,47.6978
+Erosion,52.7745,51.5939
+PCA Reconstruction,52.6564,47.6978
+LOF,52.4203,47.5797
+EllipticEnvelope,52.1842,48.0519

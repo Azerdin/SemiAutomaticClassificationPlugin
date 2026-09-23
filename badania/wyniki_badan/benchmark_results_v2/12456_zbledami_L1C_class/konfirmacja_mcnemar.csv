@@ -1,0 +1,7 @@
+﻿Run_ID,Wariant,Stan,Raster,Zakres,Algorytm,Najlepsza_konfiguracja,DA_bazowa_%,DA_najlepsza_%,Delta_DA_pp,b,c,test,p,p_Holm_lokalny,Istotne_005_lokalnie,Zmiany_komorek
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,minimum distance,PCA Mahalanobis,85.7523,87.6165,+1.8642,19,33,chi2 (poprawka na ciągłość),0.0714235,0.21427,nie,"C[5,1]: 0->5; C[5,2]: 18->12"
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,maximum likelihood,Robust Mahalanobis,61.5180,76.2983,+14.7803,27,138,chi2 (poprawka na ciągłość),1.09503e-17,6.57017e-17,TAK,"C[5,1]: 118->75; C[5,2]: 68->46"
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,spectral angle mapping,SAM,89.2144,90.0133,+0.7989,0,6,dwumianowy,0.03125,0.125,nie,"C[5,2]: 12->12"
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,random forest,MAD,63.7816,67.9095,+4.1278,12,43,chi2 (poprawka na ciągłość),5.22787e-05,0.000261393,TAK,"C[5,1]: 159->157; C[5,2]: 34->33"
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,support vector machine,PCA Mahalanobis,91.0786,92.4101,+1.3316,10,20,chi2 (poprawka na ciągłość),0.100348,0.21427,nie,"C[5,2]: 11->9"
+12456_zbledami_L1C_class,12456,zbledami,L1C,class,multi-layer perceptron,IsolationForest,85.6192,87.3502,+1.7310,25,38,chi2 (poprawka na ciągłość),0.13057,0.21427,nie,"C[5,1]: 5->0; C[5,2]: 35->16"
