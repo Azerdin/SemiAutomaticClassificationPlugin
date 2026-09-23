@@ -1,5 +1,11 @@
 # Semi-Automatic Classification Plugin
 
+> **This is a modified version of SCP.** It adds an optional tool for removing
+> outliers from training input. See [NOTICE.md](NOTICE.md) for the list of
+> changes and their dates. The original plugin is by Luca Congedo and is
+> available at
+> [semiautomaticgit/SemiAutomaticClassificationPlugin](https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin).
+
 ![SCP](semiautomaticclassificationplugin.png) The Semi-Automatic Classification
 Plugin (SCP) is a free open source plugin for QGIS that allows for the
 supervised classification of remote sensing images, providing tools for the
